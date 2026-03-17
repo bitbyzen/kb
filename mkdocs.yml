@@ -209,6 +209,10 @@ nav_ja: &nav_ja
       - apps/notepad-pp/troubleshooting/protect-yourself.md
     - Outlook:
       - apps/outlook/disable-forwarding.md
+    - Synology:
+      - apps/synology/distionary-web-assistant.md
+      - apps/synology/dictionary-dsm.md
+      - apps/synology/learn-synology.md
   - 開発メモ:
     - Docker:
       - dev/docker/introduce.md
