@@ -10,8 +10,7 @@ Uninstall the older version before installing the latest version to avoid having
 
 3. Click **Uninstall** and complete the removal process.
 
-4. Download the latest version from the official website:
-
+4. Download the latest version from the official website.
 
 5. Run the installer and follow the installation steps.
 
