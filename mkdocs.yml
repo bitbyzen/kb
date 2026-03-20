@@ -202,6 +202,8 @@ nav_ja: &nav_ja
       - apps/claude/login.md
     - ComfyUI:
       - apps/comfyui/install-with-installter.md
+    - Discord:
+      - apps/discord/introduce-discord.md
     - Notepad++:
       - apps/notepad-pp/troubleshooting/protect-yourself.md
     - NVIDIA:
@@ -227,6 +229,8 @@ nav_ja: &nav_ja
       - mobiles/google-maps/explore-on-foot.md
     - Google Pixel:
       - mobiles/google-pixel/change-screenshot-format.md
+    - Simplenote:
+      - mobiles/simplenote/overview.md
     - モバイルICOCA:
       - mobiles/mobile-icoca/overview.md
   - 製品メモ:
