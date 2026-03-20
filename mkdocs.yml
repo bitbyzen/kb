@@ -200,6 +200,8 @@ nav_ja: &nav_ja
       - apps/chatgpt/convert-chat-to-word.md
     - Claude:
       - apps/claude/login.md
+    - ComfyUI:
+      - apps/comfyui/install-with-installter.md
     - Notepad++:
       - apps/notepad-pp/troubleshooting/protect-yourself.md
     - Outlook:
