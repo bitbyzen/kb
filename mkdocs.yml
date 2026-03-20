@@ -204,6 +204,8 @@ nav_ja: &nav_ja
       - apps/comfyui/install-with-installter.md
     - Notepad++:
       - apps/notepad-pp/troubleshooting/protect-yourself.md
+    - NVIDIA:
+      - apps/nvidia/update-driver.md
     - Outlook:
       - apps/outlook/disable-forwarding.md
     - Synology:
