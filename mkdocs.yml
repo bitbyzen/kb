@@ -72,6 +72,11 @@ nav_en: &nav_en
         - apps/perprexity/operations/create-account.md
         - apps/perprexity/operations/log-into-perplexity.md
         - apps/perprexity/operations/install-comet.md
+    - Synology:
+      - Operations:
+        - apps/synology/operations/analyze-storage.md
+        - apps/synology/operations/install-storage-analyzer.md
+        - apps/synology/operations/log-into-dsm.md
     - UniConverter:
       - Operations:
         - apps/uniconverter/operations/download-video.md
@@ -214,6 +219,8 @@ nav_ja: &nav_ja
       - apps/synology/distionary-web-assistant.md
       - apps/synology/dictionary-dsm.md
       - apps/synology/learn-synology.md
+    - Windows:
+      - apps/windows/remove-file.md
   - 開発メモ:
     - Docker:
       - dev/docker/introduce.md
