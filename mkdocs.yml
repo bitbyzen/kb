@@ -214,6 +214,8 @@ nav_ja: &nav_ja
       - apps/comfyui/install-with-installter.md
     - Discord:
       - apps/discord/introduce-discord.md
+    - Genspark:
+      - apps/genspark/overview.md
     - Notepad++:
       - apps/notepad-pp/troubleshooting/protect-yourself.md
     - NVIDIA:
