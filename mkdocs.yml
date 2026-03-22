@@ -204,6 +204,8 @@ nav_ja: &nav_ja
       - apps/acrobat/remove-password.md
     - Amazon:
       - apps/amazon/change-payment.md
+    - Blender:
+      - apps/blender/install-blender.md
     - ChatGPT:
       - apps/chatgpt/convert-chat-to-word.md
     - Claude:
