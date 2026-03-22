@@ -224,6 +224,8 @@ nav_ja: &nav_ja
       - apps/synology/distionary-web-assistant.md
       - apps/synology/dictionary-dsm.md
       - apps/synology/learn-synology.md
+    - Voicebox:
+      - apps/voicebox/overview.md
     - Windows:
       - apps/windows/remove-file.md
   - 開発メモ:
