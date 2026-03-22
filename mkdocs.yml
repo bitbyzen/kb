@@ -200,6 +200,7 @@ nav_ja: &nav_ja
     - Utilities:
       - apps/utilities/split-audio.md
     - Acrobat:
+      - apps/acrobat/insert-page.md
       - apps/acrobat/remove-password.md
     - Amazon:
       - apps/amazon/change-payment.md
