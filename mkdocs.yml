@@ -72,6 +72,9 @@ nav_en: &nav_en
         - apps/perprexity/operations/create-account.md
         - apps/perprexity/operations/log-into-perplexity.md
         - apps/perprexity/operations/install-comet.md
+    - Pinterest:
+      - Operations:
+        - apps/pinterest/operations/stop-using-google-account.md
     - Synology:
       - Operations:
         - apps/synology/operations/analyze-storage.md
