@@ -101,6 +101,11 @@ nav_en: &nav_en
         - apps/unreal-engine/operations/orbit-around-object.md
         - apps/unreal-engine/operations/reset-viewport-view.md
         - apps/unreal-engine/operations/zoom.md
+    - Wan:
+      - Operations:
+        - apps/wan/generate-image.md
+        - apps/wan/generate-character-video.md
+        - apps/wan/generate-video.md
     - Windows:
       - Operations:
         - apps/windows/operations/change-email.md
