@@ -271,7 +271,9 @@ nav_ja: &nav_ja
   - 言語メモ:
     - languages/compared-sentences.md
     - languages/sentences.md
-  - ビジネスメモ:
+  - 業務メモ:
+    - スマホ:
+      - business/change/change-phone.md
     - マイナンバー:
       - business/my-number/use-my-number-health-card.md
     - マイナポータル:
