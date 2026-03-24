@@ -21,10 +21,6 @@ theme:
 nav_en: &nav_en
   - Home: index.md
   - App Notes:
-    - Utilities:
-      - Operations:
-        - apps/utilities/operations/change-file-extensions.md
-        - apps/utilities/operations/create-window-layout.md
     - Bitwarden:
       - Operations:
         - apps/bitwarden/operations/change-master-pw.md
@@ -101,6 +97,12 @@ nav_en: &nav_en
         - apps/unreal-engine/operations/orbit-around-object.md
         - apps/unreal-engine/operations/reset-viewport-view.md
         - apps/unreal-engine/operations/zoom.md
+    - Utilities:
+      - Operations:
+        - apps/utilities/operations/change-file-extensions.md
+        - apps/utilities/operations/create-window-layout.md
+        - apps/utilities/operations/download-site.md
+        - apps/utilities/operations/visualize-disk-usage.md
     - Wan:
       - Operations:
         - apps/wan/generate-image.md
