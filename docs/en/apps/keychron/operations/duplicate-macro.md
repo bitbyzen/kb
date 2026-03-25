@@ -25,13 +25,13 @@ You can work around this by copying the macro code in **Code Input** mode.
 ### Original macro
 
 ```
-{+KC_LCTL}{+KC_LSFT}{-KC_2}{-KC_LSFT}{-KC_LCTL}docker run --rm -it -p 8000:8000 -v $(pwd):/mkdocs my-mkdocs{+KC_ENT}{-KC_ENT}
+{+KC_LCTL}{+KC_LSFT}{+KC_2}{-KC_2}{-KC_LSFT}{-KC_LCTL}docker run --rm -it -p 8000:8000 -v $(pwd):/mkdocs my-mkdocs{+KC_ENT}{-KC_ENT}
 ```
 
 ### Duplicated and modified macro
 
 ```
-{+KC_LCTL}{+KC_LSFT}{-KC_2}{-KC_LSFT}{-KC_LCTL}git add .{+KC_ENT}{-KC_ENT}git commit -m "Update docs"{+KC_ENT}{-KC_ENT}git push{+KC_ENT}{-KC_ENT}
+{+KC_LCTL}{+KC_LSFT}{+KC_2}{-KC_2}{-KC_LSFT}{-KC_LCTL}git add .{+KC_ENT}{-KC_ENT}git commit -m "Update docs"{+KC_ENT}{-KC_ENT}git push{+KC_ENT}{-KC_ENT}
 ```
 
 ---
