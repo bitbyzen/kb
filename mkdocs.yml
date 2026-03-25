@@ -252,6 +252,8 @@ nav_ja: &nav_ja
     - Windows:
       - apps/windows/remove-file.md
   - 開発メモ:
+    - YouTube:
+      - dev/youtube/download-playlist-video.md
     - Docker:
       - dev/docker/introduce.md
       - dev/docker/pricing.md
