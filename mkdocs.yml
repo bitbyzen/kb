@@ -48,6 +48,9 @@ nav_en: &nav_en
         - apps/google-drive/operations/change-folder-access-role.md
         - apps/google-drive/operations/edit-with-notepad-pp.md
         - apps/google-drive/operations/open-google-drive.md
+    - Keychron:
+      - Operations:
+        - apps/keychron/operations/duplicate-macro.md
     - memoQ:
       - Operations:
         - apps/memoq/operations/update-address.md
