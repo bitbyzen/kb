@@ -231,6 +231,7 @@ nav_ja: &nav_ja
       - apps/claude/login.md
     - ComfyUI:
       - apps/comfyui/install-with-installter.md
+      - apps/comfyui/spectrum.md
     - Discord:
       - apps/discord/introduce-discord.md
     - Genspark:
