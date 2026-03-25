@@ -76,6 +76,7 @@ nav_en: &nav_en
       - Operations:
         - apps/synology/operations/analyze-storage.md
         - apps/synology/operations/backup-photos.md
+        - apps/synology/operations/check-ip-address.md
         - apps/synology/operations/empty-recycle-bin-automatically.md
         - apps/synology/operations/empty-recycle-bin-manually.md
         - apps/synology/operations/install-storage-analyzer.md
@@ -104,6 +105,9 @@ nav_en: &nav_en
         - apps/utilities/operations/create-window-layout.md
         - apps/utilities/operations/download-site.md
         - apps/utilities/operations/visualize-disk-usage.md
+    - Voicevox:
+      - Operations:
+        - apps/voicevox/install-voicevox.md
     - Wan:
       - Operations:
         - apps/wan/generate-image.md
