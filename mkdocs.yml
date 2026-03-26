@@ -147,6 +147,7 @@ nav_en: &nav_en
         - dev/docker/operations/disable-scout-notifications.md
         - dev/docker/operations/install-docker.md
         - dev/docker/operations/install-with-pip.md
+        - dev/docker/operations/manage-docker-images.md
       - Troubleshooting:
         - dev/docker/troubleshooting/fix-api-connection.md
         - dev/docker/troubleshooting/fix-wsl-integration-stopped.md
