@@ -145,6 +145,7 @@ nav_en: &nav_en
     - Docker:
       - Operations:
         - dev/docker/operations/disable-scout-notifications.md
+        - dev/docker/operations/install-docker.md
         - dev/docker/operations/install-with-pip.md
       - Troubleshooting:
         - dev/docker/troubleshooting/fix-api-connection.md
