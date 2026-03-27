@@ -25,6 +25,7 @@ nav_en: &nav_en
       - Operations:
         - apps/bitwarden/operations/change-master-pw.md
         - apps/bitwarden/operations/introduce-bitwarden.md
+        - apps/bitwarden/operations/test.md
     - Blender:
       - Operations:
         - apps/blender/operations/render-slideshow.md
