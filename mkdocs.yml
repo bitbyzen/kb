@@ -25,7 +25,6 @@ nav_en: &nav_en
       - Operations:
         - apps/bitwarden/operations/change-master-pw.md
         - apps/bitwarden/operations/introduce-bitwarden.md
-        - apps/bitwarden/operations/test.md
     - Blender:
       - Operations:
         - apps/blender/operations/render-slideshow.md
@@ -161,6 +160,7 @@ nav_en: &nav_en
         - dev/linux/operations/create-open-file-vs-code.md
         - dev/linux/operations/move-file-with-mv.md
         - dev/linux/operations/navigate-to-repo-root.md
+        - dev/linux/operations/run-commands-absolute-path.md
         - dev/linux/operations/open-folder-with-explorer.md
         - dev/linux/operations/open-md-file-with-code.md
         - dev/linux/operations/open-wsl-folder-windows.md
