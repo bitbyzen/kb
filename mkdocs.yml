@@ -144,6 +144,7 @@ nav_en: &nav_en
     - GitHub:
       - Operations:
         - dev/github/operations/change-repo-name.md
+        - dev/linux/operations/opt-outof-ai-training.md
     - Docker:
       - Operations:
         - dev/docker/operations/disable-scout-notifications.md
