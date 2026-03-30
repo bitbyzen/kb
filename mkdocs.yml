@@ -232,39 +232,58 @@ nav_ja: &nav_ja
   - ホーム: index.md
   - アプリメモ:
     - Utilities:
-      - apps/utilities/split-audio.md
+      - Operations:
+        - apps/utilities/operations/split-audio.md
     - Acrobat:
-      - apps/acrobat/insert-page.md
-      - apps/acrobat/remove-password.md
+      - Operations:
+        - apps/acrobat/operations/insert-page.md
+        - apps/acrobat/operations/remove-password.md
     - Amazon:
-      - apps/amazon/change-payment.md
+      - Operations:
+        - apps/amazon/operations/change-payment.md
     - Blender:
-      - apps/blender/install-blender.md
+      - Operations:
+        - apps/blender/operations/install-blender.md
     - ChatGPT:
-      - apps/chatgpt/convert-chat-to-word.md
+      - Operations:
+        - apps/chatgpt/operations/convert-chat-to-word.md
     - Claude:
-      - apps/claude/login.md
+      - Operations:
+        - apps/claude/operations/login.md
     - ComfyUI:
-      - apps/comfyui/install-with-installter.md
-      - apps/comfyui/spectrum.md
+      - Operations:
+        - apps/comfyui/operations/install-with-installter.md
+      - Reference:
+        - apps/comfyui/reference/spectrum.md
     - Discord:
-      - apps/discord/introduce-discord.md
+      - Operations:
+        - apps/discord/operations/introduce-discord.md
     - Genspark:
-      - apps/genspark/overview.md
+      - Reference:
+        - apps/genspark/reference/overview.md
     - Notepad++:
-      - apps/notepad-pp/troubleshooting/protect-yourself.md
+      - Troubleshooting:
+        - apps/notepad-pp/troubleshooting/protect-yourself.md
     - NVIDIA:
-      - apps/nvidia/update-driver.md
+      - Operations:
+        - apps/nvidia/operations/update-driver.md
     - Outlook:
-      - apps/outlook/disable-forwarding.md
+      - Operations:
+        - apps/outlook/operations/disable-forwarding.md
     - Synology:
-      - apps/synology/distionary-web-assistant.md
-      - apps/synology/dictionary-dsm.md
-      - apps/synology/learn-synology.md
+      - Operations:
+        - apps/synology/operations/hide-homes-folder.md
+        - apps/synology/operations/learn-synology.md
+      - Reference:
+        - apps/synology/reference/distionary-web-assistant.md
+        - apps/synology/reference/dictionary-dsm.md
+        - apps/synology/reference/mobilebackup-vs-photolibrary.md
     - Voicebox:
-      - apps/voicebox/overview.md
+      - Reference:
+        - apps/voicebox/reference/overview.md
     - Windows:
-      - apps/windows/remove-file.md
+      - Operations:
+        - apps/windows/operations/remove-file.md
   - 開発メモ:
     - YouTube:
       - dev/youtube/download-playlist-video.md
@@ -284,6 +303,12 @@ nav_ja: &nav_ja
       - mobiles/google-pixel/change-screenshot-format.md
     - Simplenote:
       - mobiles/simplenote/overview.md
+    - Synology:
+      - mobiles/synology-photos/backup-screenshots.md
+      - mobiles/synology-photos/backup-to-photolibrary.md
+      - mobiles/synology-photos/change-ui-language.md
+      - mobiles/synology-photos/delete-images-after-backup.md
+      - mobiles/synology-photos/personal-shared-spaces.md
     - モバイルICOCA:
       - mobiles/mobile-icoca/overview.md
   - 製品メモ:
