@@ -191,6 +191,7 @@ nav_en: &nav_en
       - Reference:
         - dev/mkdocs/reference/docker-run-command.md
         - dev/mkdocs/reference/packages.md
+        - dev/mkdocs/reference/mkdocs-v2-warning.md
     - Notepad++:
       - Operations:
         - dev/notepad-pp/operations/comment-out.md
