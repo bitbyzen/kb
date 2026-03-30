@@ -213,6 +213,9 @@ nav_en: &nav_en
         - dev/vs-code/operations/remove-tab-indentation.md
         - dev/vs-code/operations/replace-image.md
   - Mobile Notes:
+    - Google Pixel:
+      - Operations:
+        - mobiles/google-pixel/operations/install-google-finance.md
     - Google Photos:
       - Operations:
         - mobiles/google-photos/operations/disable-backup.md
