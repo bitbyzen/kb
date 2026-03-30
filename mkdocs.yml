@@ -298,19 +298,25 @@ nav_ja: &nav_ja
       - dev/xserver/manage-service.md
   - モバイルメモ:
     - Google Maps:
-      - mobiles/google-maps/explore-on-foot.md
+      - Reference:
+        - mobiles/google-maps/reference/explore-on-foot.md
     - Google Pixel:
-      - mobiles/google-pixel/change-screenshot-format.md
+      - Operations:
+        - mobiles/google-pixel/operations/change-screenshot-format.md
+    - Mobile ICOCA:
+      - Reference:
+        - mobiles/mobile-icoca/reference/overview.md
     - Simplenote:
-      - mobiles/simplenote/overview.md
+      - Reference:
+        - mobiles/simplenote/reference/overview.md
     - Synology:
-      - mobiles/synology-photos/backup-screenshots.md
-      - mobiles/synology-photos/backup-to-photolibrary.md
-      - mobiles/synology-photos/change-ui-language.md
-      - mobiles/synology-photos/delete-images-after-backup.md
-      - mobiles/synology-photos/personal-shared-spaces.md
-    - モバイルICOCA:
-      - mobiles/mobile-icoca/overview.md
+      - Operations:
+        - mobiles/synology-photos/operations/backup-screenshots.md
+        - mobiles/synology-photos/operations/backup-to-photolibrary.md
+        - mobiles/synology-photos/operations/change-ui-language.md
+        - mobiles/synology-photos/operations/delete-images-after-backup.md
+      - Reference:
+        - mobiles/synology-photos/reference/personal-shared-spaces.md
   - 製品メモ:
     - Sharp:
       - 冷蔵庫SJ-X415H-S:

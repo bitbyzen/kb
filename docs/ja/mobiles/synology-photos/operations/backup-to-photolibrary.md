@@ -1,4 +1,4 @@
-# PhotoLibrary のみにバックアップ（集約）する方法
+# PhotoLibrary のみにバックアップする方法
 
 > 注記: Geminiに聞きながら設定した手順。自動で `MobileBackup` や「年/月」のフォルダを作らせず、すべて `PhotoLibrary` 直下にフラットに保存させるための設定。
 
