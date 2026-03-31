@@ -319,10 +319,10 @@ nav_ja: &nav_ja
         - mobiles/synology-photos/reference/personal-shared-spaces.md
   - 製品メモ:
     - Sharp:
-      - 冷蔵庫SJ-X415H-S:
+      - Refrigerator (SJ-X415H-S):
         - products/sharp/refrigerator/fix-led.md
     - Torras:
-      - モバイルバッテリーPB4A:
+      - Mobile Charger (PB4A):
         - products/torras/turn-on-charger.md
         - products/torras/use-low-current-mode.md
   - 言語メモ:
