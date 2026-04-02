@@ -201,6 +201,8 @@ nav_en: &nav_en
         - dev/notepad-pp/operations/comment-out.md
         - dev/notepad-pp/operations/enable-comment-shortcut-ahk.md
         - dev/notepad-pp/operations/set-default-save-folder.md
+    - Style Guide:
+      - dev/style-guide/style-guide-en.md
     - VS Code:
       - Operations:
         - dev/vs-code/operations/add-image-to-doc.md
