@@ -1,4 +1,4 @@
-# Create a file and open it in VS Code
+# Create a File and Open It in VS Code
 
 Create a file in WSL2 and open it directly in Visual Studio Code.
 

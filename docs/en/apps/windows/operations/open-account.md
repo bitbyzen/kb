@@ -1,4 +1,4 @@
-# Open the Microsoft account website
+# Open the Microsoft Account Website
 1. Click **Your accounts**.
 ![Screenshot 01](open-account-01.webp)
 1. Click **Manage**.

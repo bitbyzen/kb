@@ -1,4 +1,4 @@
-# Fix "GET /ja HTTP/1.1" code 302
+# Fix "GET /ja HTTP/1.1" Code 302
 
 ```bash title="terminal"
 "GET /ja HTTP/1.1" code 302

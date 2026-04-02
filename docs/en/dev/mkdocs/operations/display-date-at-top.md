@@ -1,4 +1,4 @@
-# Display the revision date at the top
+# Display the Revision Date at the Top
 
 Display the Git revision date at the top of each page using Material for MkDocs. Hide the default footer date and exclude the home pages.
 

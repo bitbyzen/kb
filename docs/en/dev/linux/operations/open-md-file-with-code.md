@@ -1,4 +1,4 @@
-# Open a Markdown file using the code command
+# Open a Markdown File Using the Code Command
 
 Open a Markdown file in Visual Studio Code using its full file path.
 

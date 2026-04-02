@@ -1,4 +1,4 @@
-# Navigate to the repository root
+# Navigate to the Repository Root
 
 Use a Git command to move directly to the top-level directory of the current repository, regardless of your current depth.
 

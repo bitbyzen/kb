@@ -1,4 +1,4 @@
-# Change camera speed
+# Change Camera Speed
 
 Adjust the viewport camera movement speed.
 

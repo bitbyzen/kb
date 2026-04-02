@@ -1,4 +1,4 @@
-# Fix "failed to connect to the Docker API" in VS Code
+# Fix "Failed to Connect to the Docker API" in VS Code
 
 ## Environment
 - **OS:** Windows 11

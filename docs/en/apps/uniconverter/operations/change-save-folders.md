@@ -1,4 +1,4 @@
-# Change save folders
+# Change Save Folders
 
 Change the default folders used to save converted and downloaded files.
 

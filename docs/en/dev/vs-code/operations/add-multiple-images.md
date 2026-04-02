@@ -1,4 +1,4 @@
-# Add multiple images to a Markdown file
+# Add Multiple Images to a Markdown File
 
 When you drag multiple images into a Markdown file in VS Code, they are inserted on a single line like this:
 

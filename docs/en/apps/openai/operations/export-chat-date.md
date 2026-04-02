@@ -1,4 +1,4 @@
-# Export chat data from ChatGPT
+# Export Chat Data from ChatGPT
 
 Export chat history to download a local copy of your conversations and account data.
 

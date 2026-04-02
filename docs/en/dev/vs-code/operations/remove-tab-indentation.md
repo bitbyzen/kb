@@ -1,4 +1,4 @@
-# Remove tab indentation from multiple lines
+# Remove Tab Indentation from Multiple Lines
 
 Remove one level of indentation from multiple selected lines.
 

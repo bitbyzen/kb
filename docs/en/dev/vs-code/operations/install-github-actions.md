@@ -1,4 +1,4 @@
-# Install the GitHub Actions extension
+# Install the GitHub Actions Extension
 
 1. Click **Install**.
 

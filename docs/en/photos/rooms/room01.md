@@ -1,4 +1,4 @@
-# Room layout
+# Room Layout
 
 ## Photo 01
 ![Photo](room01-01.jpg)

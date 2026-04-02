@@ -1,4 +1,4 @@
-# Stop using Google account
+# Stop Using Google Account
 
 Disable Google account login and set a password for direct sign-in.
 

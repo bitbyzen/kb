@@ -1,4 +1,4 @@
-# Comment out lines
+# Comment Out Lines
 
 Use the default keyboard shortcuts to comment code.
 

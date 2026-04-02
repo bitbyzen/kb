@@ -1,4 +1,4 @@
-# Accept a ChatGPT Pro free offer
+# Accept a ChatGPT Pro Free Offer
 
 Click **Claim free offer**.
 

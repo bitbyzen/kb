@@ -1,4 +1,4 @@
-# Show whitespace
+# Show Whitespace
 
 Display whitespace characters in Obsidian using the **Show Whitespace** plugin.
 

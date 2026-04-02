@@ -1,4 +1,4 @@
-# Empty recycle bin automatically
+# Empty Recycle Bin Automatically
 
 ## Steps
 

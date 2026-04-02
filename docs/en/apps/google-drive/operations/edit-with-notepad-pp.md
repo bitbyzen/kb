@@ -1,4 +1,4 @@
-# Edit Google Drive stored md files with Notepad++
+# Edit Google Drive Stored MD Files with Notepad++
 
 Install Google Drive for desktop, access Drive files from File Explorer, and edit `.md` files using Notepad++. Changes sync automatically to Google Drive.
 

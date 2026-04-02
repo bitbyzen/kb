@@ -1,4 +1,4 @@
-# Create a new folder
+# Create a New Folder
 
 Create the required directory structure for documentation files.
 

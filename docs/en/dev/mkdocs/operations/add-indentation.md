@@ -1,4 +1,4 @@
-# Add indentation in instruction steps
+# Add Indentation in Instruction Steps
 
 Indent nested content correctly inside numbered steps.
 

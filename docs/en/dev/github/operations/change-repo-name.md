@@ -1,4 +1,4 @@
-# Change a repository name
+# Change a Repository Name
 
 You can rename your repository at any time from the repository settings.
 

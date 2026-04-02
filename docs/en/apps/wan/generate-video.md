@@ -1,4 +1,4 @@
-# Generate a video
+# Generate a Video
 
 ## Steps
 

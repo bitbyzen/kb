@@ -1,4 +1,4 @@
-# Add an image to a folder
+# Add an Image to a Folder
 
 ## Steps
 

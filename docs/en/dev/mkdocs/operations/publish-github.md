@@ -1,4 +1,4 @@
-# Publish a site using GitHub Pages
+# Publish a Site Using GitHub Pages
 
 1. Connect your project to GitHub.
 

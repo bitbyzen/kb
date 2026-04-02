@@ -1,4 +1,4 @@
-# Fix "GET /ja/sitemap.xml HTTP/1.1" code 404
+# Fix "GET /ja/sitemap.xml HTTP/1.1" Code 404
 
 ```bash title="terminal"
 "GET /ja/sitemap.xml HTTP/1.1" code 404

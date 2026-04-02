@@ -1,4 +1,4 @@
-# Create a new file in a specific directory
+# Create a New File in a Specific Directory
 
 Create a new file in a target directory using the terminal in WSL.
 

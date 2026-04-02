@@ -1,4 +1,4 @@
-# Download a YouTube video
+# Download a YouTube Video
 
 1. Click **Start Now**.
    ![Screenshot](download-video-01.webp)

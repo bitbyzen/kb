@@ -1,4 +1,4 @@
-# Check account information
+# Check Account Information
 
 Access the account management page to review your account details.
 

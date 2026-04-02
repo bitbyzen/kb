@@ -1,4 +1,4 @@
-# Docker run command guide (MkDocs example)
+# Docker Run Command Guide (MkDocs Example)
 
 This guide explains the meaning of the following Docker command and how image names like `mkdocs-dev` and `my-mkdocs` affect behavior.
 

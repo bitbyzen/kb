@@ -1,4 +1,4 @@
-# Get started with Simplenote
+# Get Started with Simplenote
 
 ## Reference
 

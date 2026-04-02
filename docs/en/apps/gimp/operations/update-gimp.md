@@ -1,4 +1,4 @@
-# Update GIMP to the latest version
+# Update GIMP to the Latest Version
 
 Uninstall the older version before installing the latest version to avoid having multiple installations.
 

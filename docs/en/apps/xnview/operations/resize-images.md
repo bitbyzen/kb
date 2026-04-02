@@ -1,4 +1,4 @@
-# Resize image height
+# Resize Image Height
 
 Resize multiple images to a fixed height while preserving aspect ratio.
 

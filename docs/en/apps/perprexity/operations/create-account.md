@@ -1,4 +1,4 @@
-# Create a Perplexity account
+# Create a Perplexity Account
 
 1. Close the window.
    ![Screenshot](create-account-01.webp)

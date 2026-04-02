@@ -1,4 +1,4 @@
-# Delete a project
+# Delete a Project
 
 Follow these steps to delete an Unreal Engine project.
 

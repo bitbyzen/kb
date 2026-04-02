@@ -1,4 +1,4 @@
-# Focus on an object
+# Focus on an Object
 
 Move the camera to the selected object.
 

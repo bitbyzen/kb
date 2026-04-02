@@ -1,4 +1,4 @@
-# Generate an image
+# Generate an Image
 
 ## Steps
 

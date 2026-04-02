@@ -1,4 +1,4 @@
-# Change the email address
+# Change the Email Address
 
 1. Click **Add email**.
    ![Screenshot](change-email-01.webp)

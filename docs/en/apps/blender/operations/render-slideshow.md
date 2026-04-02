@@ -1,4 +1,4 @@
-# Render a slideshow
+# Render a Slideshow
 
 1. Open **Video Editing**.
    ![Screenshot](render-slideshow-01.webp)

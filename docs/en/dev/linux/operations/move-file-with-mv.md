@@ -1,4 +1,4 @@
-# Move a file using mv
+# Move a File Using mv
 
 Move a file to another directory using the `mv` command.
 

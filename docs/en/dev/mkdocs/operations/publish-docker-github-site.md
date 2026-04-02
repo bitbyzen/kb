@@ -1,4 +1,4 @@
-# Publish a Docker-based site to GitHub Pages
+# Publish a Docker-Based Site to GitHub Pages
 
 This guide assumes you build and preview MkDocs **inside Docker**, and publish to **GitHub Pages** using **GitHub Actions**.
 

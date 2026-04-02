@@ -1,5 +1,5 @@
 
-# Add a copyright footer in MkDocs Material
+# Add a Copyright Footer in MkDocs Material
 
 Add the copyright text to the YAML file:
 

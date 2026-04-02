@@ -1,4 +1,4 @@
-# Install Python packages with pip in Docker
+# Install Python Packages with pip in Docker
 
 Install MkDocs and related plugins inside a Docker image using `requirements.txt`.
 

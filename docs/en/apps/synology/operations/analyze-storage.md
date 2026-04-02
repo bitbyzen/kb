@@ -1,4 +1,4 @@
-# Analyze storage
+# Analyze Storage
 
 ## Overview
 

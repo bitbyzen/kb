@@ -1,4 +1,4 @@
-# Zoom in and out
+# Zoom In and Out
 
 Zoom the viewport camera in or out.
 

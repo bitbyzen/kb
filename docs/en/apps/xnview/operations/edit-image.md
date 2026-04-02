@@ -1,4 +1,4 @@
-# Edit an image with an external editor
+# Edit an Image with an External Editor
 
 Configure an external image editor in XnView MP.
 
