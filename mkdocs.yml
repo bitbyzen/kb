@@ -136,6 +136,18 @@ nav_en: &nav_en
         - apps/xnview/operations/resize-images.md
         - apps/xnview/operations/update-xnview.md
   - Dev Notes:
+    - Claude Code:
+      - Operations:
+        - dev/claude-code/operations/set-up-claude-code-wsl2.md
+    - Docker:
+      - Operations:
+        - dev/docker/operations/disable-scout-notifications.md
+        - dev/docker/operations/install-docker.md
+        - dev/docker/operations/install-with-pip.md
+        - dev/docker/operations/manage-docker-images.md
+      - Troubleshooting:
+        - dev/docker/troubleshooting/fix-api-connection.md
+        - dev/docker/troubleshooting/fix-wsl-integration-stopped.md
     - Git:
       - Operations:
         - dev/git/operations/restore-files.md
@@ -146,15 +158,6 @@ nav_en: &nav_en
       - Operations:
         - dev/github/operations/change-repo-name.md
         - dev/linux/operations/opt-outof-ai-training.md
-    - Docker:
-      - Operations:
-        - dev/docker/operations/disable-scout-notifications.md
-        - dev/docker/operations/install-docker.md
-        - dev/docker/operations/install-with-pip.md
-        - dev/docker/operations/manage-docker-images.md
-      - Troubleshooting:
-        - dev/docker/troubleshooting/fix-api-connection.md
-        - dev/docker/troubleshooting/fix-wsl-integration-stopped.md
     - Linux:
       - Operations:
         - dev/linux/operations/create-file.md
@@ -198,9 +201,6 @@ nav_en: &nav_en
         - dev/notepad-pp/operations/comment-out.md
         - dev/notepad-pp/operations/enable-comment-shortcut-ahk.md
         - dev/notepad-pp/operations/set-default-save-folder.md
-    - Claude Code:
-      - Operations:
-        - dev/claude-code/operations/set-up-claude-code-wsl2.md
     - VS Code:
       - Operations:
         - dev/vs-code/operations/add-image-to-doc.md

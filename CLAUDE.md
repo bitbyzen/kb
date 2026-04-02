@@ -39,6 +39,15 @@ Content is organised as `docs/<locale>/<section>/<app-or-topic>/<category>/<slug
 2. Add its path to the matching nav anchor in `mkdocs.yml`.
 Both steps are required — pages not listed in the nav produce a warning and are excluded from the built site.
 
+## Docs Folder Structure
+
+The `docs/` folder has three subfolders:
+- `en/` — English pages
+- `ja/` — Japanese pages
+- `stylesheets/` — CSS files
+
+When creating any new English document or article, always place it inside `docs/en/`.
+
 ## Document Authoring Rule
 
 Whenever you create or write any new document or article, always add the following line under the document title before the body text starts:
