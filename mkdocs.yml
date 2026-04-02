@@ -89,6 +89,7 @@ nav_en: &nav_en
         - apps/synology/operations/empty-recycle-bin-manually.md
         - apps/synology/operations/install-storage-analyzer.md
         - apps/synology/operations/log-into-dsm.md
+        - apps/synology/operations/restore-file.md
     - UniConverter:
       - Operations:
         - apps/uniconverter/operations/download-video.md
@@ -197,6 +198,9 @@ nav_en: &nav_en
         - dev/notepad-pp/operations/comment-out.md
         - dev/notepad-pp/operations/enable-comment-shortcut-ahk.md
         - dev/notepad-pp/operations/set-default-save-folder.md
+    - Claude Code:
+      - Operations:
+        - dev/claude-code/operations/set-up-claude-code-wsl2.md
     - VS Code:
       - Operations:
         - dev/vs-code/operations/add-image-to-doc.md
