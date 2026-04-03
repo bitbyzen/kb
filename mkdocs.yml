@@ -100,7 +100,10 @@ nav_en: &nav_en
         - apps/uniconverter/operations/update-uniconverter.md
     - Unreal Engine:
       - Operations:
+        - apps/unreal-engine/operations/add-cinematic-camera.md
+        - apps/unreal-engine/operations/add-fab-asset-to-project.md
         - apps/unreal-engine/operations/change-camera-speed.md
+        - apps/unreal-engine/operations/create-level-sequence.md
         - apps/unreal-engine/operations/create-project.md
         - apps/unreal-engine/operations/create-video-project.md
         - apps/unreal-engine/operations/delete-project.md
@@ -109,6 +112,7 @@ nav_en: &nav_en
         - apps/unreal-engine/operations/move-third-person-actor.md
         - apps/unreal-engine/operations/navigate-viewport.md
         - apps/unreal-engine/operations/orbit-around-object.md
+        - apps/unreal-engine/operations/place-character-blueprint.md
         - apps/unreal-engine/operations/reset-viewport-view.md
         - apps/unreal-engine/operations/zoom.md
     - Utilities:
