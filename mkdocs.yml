@@ -161,6 +161,9 @@ nav_en: &nav_en
       - Operations:
         - dev/github/operations/change-repo-name.md
         - dev/linux/operations/opt-outof-ai-training.md
+    - Inno Setup:
+      - Reference:
+        - dev/inno-setup/reference/overview.md
     - Linux:
       - Operations:
         - dev/linux/operations/create-file.md
