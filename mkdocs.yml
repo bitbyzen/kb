@@ -56,6 +56,9 @@ nav_en: &nav_en
         - apps/keychron/operations/duplicate-macro.md
         - apps/keychron/operations/export-keymap.md
         - apps/keychron/operations/export-macros.md
+    - LINE:
+      - Operations:
+        - apps/line/operations/block-and-delete-friend.md
     - memoQ:
       - Operations:
         - apps/memoq/operations/update-address.md
