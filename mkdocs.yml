@@ -204,6 +204,9 @@ nav_en: &nav_en
         - dev/notepad-pp/operations/comment-out.md
         - dev/notepad-pp/operations/enable-comment-shortcut-ahk.md
         - dev/notepad-pp/operations/set-default-save-folder.md
+    - Python:
+      - Operations:
+        - dev/python/operations/create-installer.md
     - Style Guide:
       - dev/style-guide/style-guide-en.md
     - VS Code:
