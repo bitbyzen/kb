@@ -116,6 +116,7 @@ nav_en: &nav_en
         - apps/utilities/operations/change-file-extensions.md
         - apps/utilities/operations/create-window-layout.md
         - apps/utilities/operations/download-site.md
+        - apps/utilities/operations/protect-email.md
         - apps/utilities/operations/visualize-disk-usage.md
     - Voicevox:
       - Operations:
