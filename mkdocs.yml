@@ -250,6 +250,10 @@ nav_en: &nav_en
     - Simplenote:
       - Operations:
         - mobiles/simplenote/operations/introduce-simplenote.md
+  - Finance Notes:
+    - Coincheck:
+      - Reference:
+        - finance/coincheck/reference/setup-key.md
   - Photo Gallery:
     - Rooms: 
       - Room 01: photos/rooms/room01.md
