@@ -93,6 +93,8 @@ nav_en: &nav_en
         - apps/synology/operations/install-storage-analyzer.md
         - apps/synology/operations/log-into-dsm.md
         - apps/synology/operations/restore-file.md
+      - Reference:
+        - apps/synology/reference/ds720-plus.md
     - UniConverter:
       - Operations:
         - apps/uniconverter/operations/download-video.md
