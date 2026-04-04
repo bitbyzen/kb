@@ -4,7 +4,7 @@ Use Obsidian’s **Importer** plugin to pull your notes straight from **Microsof
 
 Official reference: [https://help.obsidian.md/plugins/importer](https://help.obsidian.md/plugins/importer)
 
-## Steps
+## Step 1: Install the Importer Plugin
 
 1. Open **Settings**.
 
@@ -30,27 +30,31 @@ Official reference: [https://help.obsidian.md/plugins/importer](https://help.obs
 
     ![Screenshot](import-onenote-06.webp)
 
-7. Click **Open Importer**.
+## Step 2: Sign In with Your Microsoft Account
+
+1. Click **Open Importer**.
 
     ![Screenshot](import-onenote-07.webp)
 
-8. Select **Microsoft OneNote**.
+2. Select **Microsoft OneNote**.
 
     ![Screenshot](import-onenote-08.webp)
 
-9. Sign in with your Microsoft account.
+3. Sign in with your Microsoft account.
 
     ![Screenshot](import-onenote-09.webp)
 
-10. Click **Continue**.
+4. Click **Continue**.
 
     ![Screenshot](import-onenote-10.webp)
 
-11. Select notebooks to import, then click **Import**.
+## Step 3: Import OneNote Notebooks
+
+1. Select notebooks to import, then click **Import**.
 
     ![Screenshot](import-onenote-11.webp)
- 
-12. The plugin converts pages to Markdown and saves attachments in your vault.
+
+2. The plugin converts pages to Markdown and saves attachments in your vault.
 
     ![Screenshot](import-onenote-12.webp)
 
