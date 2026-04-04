@@ -62,6 +62,9 @@ nav_en: &nav_en
     - memoQ:
       - Operations:
         - apps/memoq/operations/update-address.md
+    - Nano Banana:
+      - Reference:
+        - apps/nano-banana/reference/prompting-guide.md
     - Obsidian:
       - Operations:
         - apps/obsidian/operations/display-images.md
@@ -254,6 +257,12 @@ nav_en: &nav_en
     - Coincheck:
       - Reference:
         - finance/coincheck/reference/setup-key.md
+    - Mitsubishi UFJ Nicos:
+      - Reference:
+        - finance/mitsubishi-ufj-nicos/reference/compare-card-brands.md
+    - Money Forward:
+      - Reference:
+        - finance/money-forward/reference/service-overview.md
   - Photo Gallery:
     - Rooms: 
       - Room 01: photos/rooms/room01.md
