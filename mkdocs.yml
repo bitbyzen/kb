@@ -95,6 +95,7 @@ nav_en: &nav_en
         - apps/synology/operations/restore-file.md
       - Reference:
         - apps/synology/reference/ds720-plus.md
+        - apps/synology/reference/retire-buffalo-nas.md
     - UniConverter:
       - Operations:
         - apps/uniconverter/operations/download-video.md
