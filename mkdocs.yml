@@ -250,9 +250,9 @@ nav_en: &nav_en
     - Google Photos:
       - Operations:
         - mobiles/google-photos/operations/disable-backup.md
-    - Simplenote:
-      - Operations:
-        - mobiles/simplenote/operations/introduce-simplenote.md
+    - Utilities:
+      - Reference:
+        - mobiles/utilities/reference/compare-markdown-note-apps.md
   - Finance Notes:
     - Coincheck:
       - Reference:
