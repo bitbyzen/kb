@@ -74,6 +74,17 @@ Documents written entirely by a human do not require this note.
 - H3 (`###`) — subsections within a major section
 - Use title case for H2 and H3 as well
 
+### Step Headings
+
+Use a colon (`:`) between the step number and the title:
+
+```markdown
+## Step 1: Install the Application
+## Step 2: Configure the Settings
+```
+
+Do not use an em dash (`—`) or other separators.
+
 ---
 
 ## Tone and Style
