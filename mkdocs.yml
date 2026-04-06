@@ -46,6 +46,8 @@ nav_en: &nav_en
     - Google:
       - Operations:
         - apps/google/operations/run-security-checkup.md
+      - Reference:
+        - apps/google/reference/google-ai-pro.md
     - Google Chrome:
       - Operations:
         - apps/google-chrome/operations/open-new-google-page.md
