@@ -260,6 +260,9 @@ nav_en: &nav_en
       - Reference:
         - mobiles/utilities/reference/compare-markdown-note-apps.md
   - Finance Notes:
+    - Utilities:
+      - Reference:
+        - finance/utilities/reference/compare-buyback-services.md
     - Coincheck:
       - Reference:
         - finance/coincheck/reference/setup-key.md
