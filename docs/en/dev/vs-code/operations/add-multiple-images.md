@@ -20,7 +20,7 @@ You can fix this instantly using **Find and eeplace with regular expressions**.
 
 ## Step-by-step instructions
 
-### 1. Open Find and Replace
+### Step 1: Open Find and Replace
 
 Press:
 
@@ -31,7 +31,7 @@ This opens the Replace panel.
 
 ---
 
-### 2. Enable Regular Expression Mode
+### Step 2: Enable Regular Expression Mode
 
 Click the **`.*` icon** (Use Regular Expression), or press:
 
@@ -41,7 +41,7 @@ Make sure the `.*` icon is highlighted.
 
 ---
 
-### 3. Enter find and replace patterns
+### Step 3: Enter Find and Replace Patterns
 
 **Find:**
 
@@ -57,7 +57,7 @@ Make sure the `.*` icon is highlighted.
 
 ---
 
-### 4. Click Replace All
+### Step 4: Click Replace All
 
 Click:
 

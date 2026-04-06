@@ -3,7 +3,7 @@
 !!! Note
     **Are there any relevant extensions?** — No specific ones.
 
-## Option 1: Best drag-and-drop solution
+## Method 1: Best Drag-and-Drop Solution
 
 1. Create a target folder:
 
@@ -21,13 +21,13 @@
 
 4. Delete the dummy Markdown file.
 
-## Option 2: Best terminal solution
+## Method 2: Best Terminal Solution
 
 ```bash
 cp /mnt/c/Users/YourName/Pictures/*.png docs/images/
 ```
 
-## Option 3: VS Code–native workaround (sometimes helpful)
+## Method 3: VS Code-Native Workaround (Sometimes Helpful)
 
 1. Open the target folder in the VS Code Explorer.
 2. Right-click the folder, then select **Reveal in File Explorer**.

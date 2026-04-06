@@ -6,13 +6,13 @@ Restart WSL integration for your Linux distribution in Docker Desktop.
 
 ## Steps
 
-### Option 1: Restart WSL integration from the prompt
+### Method 1: Restart WSL Integration from the Prompt
 
 1. When the error dialog appears, click **Restart the WSL integration**.
 
 2. Wait for Docker Desktop to restart the integration.
 
-### Option 2: Re-enable WSL integration from settings
+### Method 2: Re-enable WSL Integration from Settings
 
 1. Click **Skip WSL distro integration**.
 

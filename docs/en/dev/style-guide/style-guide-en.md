@@ -85,6 +85,17 @@ Use a colon (`:`) between the step number and the title:
 
 Do not use an em dash (`—`) or other separators.
 
+### Method Headings
+
+When presenting parallel alternatives (not sequential steps), use `Method N:`:
+
+```markdown
+## Method 1: Best Drag-and-Drop Solution
+## Method 2: Best Terminal Solution
+```
+
+Do not use `Option N:` or plain numbers (`1.`, `2.`).
+
 ---
 
 ## Tone and Style

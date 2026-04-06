@@ -17,7 +17,7 @@ You want to:
 
 ## The Two Main Options
 
-### 1. Active Backup for Business
+### Method 1: Active Backup for Business
 
 > Think: "Full backup / disaster recovery"
 
@@ -44,7 +44,7 @@ You cannot choose a specific folder to back up — it is all-or-nothing at the d
 
 ---
 
-### 2. Synology Drive
+### Method 2: Synology Drive
 
 > Think: "Dropbox / Google Drive style sync and backup"
 

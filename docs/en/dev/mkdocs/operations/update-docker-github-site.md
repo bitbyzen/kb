@@ -1,6 +1,6 @@
 # Update the Site
 
-## 1. Create the page file
+## Step 1: Create the Page File
 
 Create the new documentation page inside the `docs/` directory:
 
@@ -12,7 +12,7 @@ MkDocs automatically detects files in `docs/`, but they will not appear in navig
 
 ---
 
-## 2. Add the page to navigation in `mkdocs.yml`
+## Step 2: Add the Page to Navigation in `mkdocs.yml`
 
 MkDocs only shows pages in the left navigation if they are included in the `nav:` section.
 
@@ -28,11 +28,11 @@ If your site is bilingual, make sure to add the page in both language configs if
 
 ---
 
-## 3. Commit and push both the new file and the config change
+## Step 3: Commit and Push Both the New File and the Config Change
 
 Both the page file and the `mkdocs.yml` change must be committed and pushed. Otherwise, the page may exist but will not appear in navigation.
 
-### Option 1 (most common): commit everything
+### Method 1: Commit Everything (Most Common)
 
 ```bash
 git add .
@@ -42,7 +42,7 @@ git push
 
 ---
 
-### Option 2: stage only the files you changed
+### Method 2: Stage Only the Files You Changed
 
 ```bash
 git add docs/outlook.md mkdocs.yml

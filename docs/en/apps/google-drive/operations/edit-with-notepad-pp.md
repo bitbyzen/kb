@@ -6,7 +6,7 @@ Install Google Drive for desktop, access Drive files from File Explorer, and edi
 
 ## Steps
 
-### 1. Install Google Drive for desktop
+### Step 1: Install Google Drive for Desktop
 
 1. Open the Google Drive for desktop download page.
 
@@ -40,7 +40,7 @@ Install Google Drive for desktop, access Drive files from File Explorer, and edi
 
 ---
 
-### 2. Open Google Drive in File Explorer
+### Step 2: Open Google Drive in File Explorer
 
 1. Open **File Explorer**.
 
@@ -54,7 +54,7 @@ Install Google Drive for desktop, access Drive files from File Explorer, and edi
 
 ---
 
-### 3. Open and edit the md file with Notepad++
+### Step 3: Open and Edit the MD File with Notepad++
 
 Option A: From File Explorer
 
@@ -77,7 +77,7 @@ Option B: From Notepad++
 
 ---
 
-### 4. Verify sync status
+### Step 4: Verify Sync Status
 
 1. Click the **Google Drive icon** in the system tray.
 2. Confirm the status shows:

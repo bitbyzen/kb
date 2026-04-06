@@ -8,7 +8,7 @@ Getting a second phone number is much easier than it used to be. Depending on yo
 
 ## The 3 Main Ways to Get a Second Number
 
-### 1. The Super Cheap Route: povo2.0
+### Method 1: The Super Cheap Route — povo2.0
 
 This is the most popular method for people who just want a backup number or a spare number for receiving SMS verification codes.
 
@@ -16,7 +16,7 @@ This is the most popular method for people who just want a backup number or a sp
 - **How it works:** You get a real 070/080/090 number for free. You only pay when you want to buy high-speed data or call packages (called "toppings").
 - **The catch:** You must buy at least one cheap topping (a few hundred yen) once every 180 days to prevent auto-cancellation.
 
-### 2. The Easy Route: Add a Line to Rakuten Mobile
+### Method 2: The Easy Route — Add a Line to Rakuten Mobile
 
 If you already use Rakuten Mobile, this is the most seamless option.
 
@@ -24,7 +24,7 @@ If you already use Rakuten Mobile, this is the most seamless option.
 - **How it works:** Apply for a second line under your existing account. Since they already verified your ID for your first line, setup is fast.
 - **Perk:** Unlimited free domestic calls on that second number via the Rakuten Link app.
 
-### 3. The Digital Route: 050 Apps
+### Method 3: The Digital Route — 050 Apps
 
 If you don't need a traditional mobile number and just need to make or receive voice calls over the internet.
 
