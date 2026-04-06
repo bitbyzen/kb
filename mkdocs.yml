@@ -28,6 +28,9 @@ nav_en: &nav_en
     - Blender:
       - Operations:
         - apps/blender/operations/render-slideshow.md
+    - Claude.ai:
+      - Operations:
+        - apps/claude-ai/operations/manage-memory.md
     - ComfyUI:
       - Operations:
         - apps/comfyui/operations/run-flux.md
