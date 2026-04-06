@@ -104,6 +104,7 @@ nav_en: &nav_en
         - apps/synology/operations/log-into-dsm.md
         - apps/synology/operations/restore-file.md
       - Reference:
+        - apps/synology/reference/compare-backup-tools-windows.md
         - apps/synology/reference/ds720-plus.md
         - apps/synology/reference/retire-buffalo-nas.md
     - UniConverter:
