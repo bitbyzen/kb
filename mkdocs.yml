@@ -255,6 +255,8 @@ nav_en: &nav_en
       - Operations:
         - mobiles/google-photos/operations/disable-backup.md
     - Utilities:
+      - Operations:
+        - mobiles/utilities/operations/get-second-phone-number.md
       - Reference:
         - mobiles/utilities/reference/compare-markdown-note-apps.md
   - Finance Notes:
