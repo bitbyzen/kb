@@ -31,6 +31,8 @@ nav_en: &nav_en
     - Claude.ai:
       - Operations:
         - apps/claude-ai/operations/manage-memory.md
+      - Reference:
+        - apps/claude-ai/reference/cowork-dispatch.md
     - ComfyUI:
       - Operations:
         - apps/comfyui/operations/run-flux.md
