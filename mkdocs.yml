@@ -52,7 +52,9 @@ nav_en: &nav_en
         - apps/google/reference/google-ai-pro.md
     - Google Chrome:
       - Operations:
+        - apps/google-chrome/operations/chat-with-gemini-from-address-bar.md
         - apps/google-chrome/operations/open-new-google-page.md
+        - apps/google-chrome/operations/pin-tools.md
     - Google Drive:
       - Operations:
         - apps/google-drive/operations/change-folder-access-role.md
