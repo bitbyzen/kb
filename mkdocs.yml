@@ -87,32 +87,33 @@ nav_en: &nav_en
     - Perplexity:
       - Operations:
         - apps/perprexity/operations/create-account.md
-        - apps/perprexity/operations/log-into-perplexity.md
         - apps/perprexity/operations/install-comet.md
+        - apps/perprexity/operations/log-into-perplexity.md
     - Pinterest:
       - Operations:
         - apps/pinterest/operations/install-pinterest.md
         - apps/pinterest/operations/stop-using-google-account.md
     - Synology:
       - Operations:
-        - apps/synology/operations/back-up-obsidian-vault-synology-drive.md
-        - apps/synology/operations/set-up-active-backup-for-business.md
         - apps/synology/operations/analyze-storage.md
+        - apps/synology/operations/back-up-obsidian-vault-synology-drive.md
         - apps/synology/operations/backup-photos.md
         - apps/synology/operations/check-ip-address.md
+        - apps/synology/operations/check-storage.md
         - apps/synology/operations/empty-recycle-bin-automatically.md
         - apps/synology/operations/empty-recycle-bin-manually.md
         - apps/synology/operations/install-storage-analyzer.md
         - apps/synology/operations/log-into-dsm.md
         - apps/synology/operations/restore-file.md
+        - apps/synology/operations/set-up-active-backup-for-business.md
       - Reference:
         - apps/synology/reference/compare-backup-tools-windows.md
         - apps/synology/reference/ds720-plus.md
         - apps/synology/reference/retire-buffalo-nas.md
     - UniConverter:
       - Operations:
-        - apps/uniconverter/operations/download-video.md
         - apps/uniconverter/operations/change-save-folders.md
+        - apps/uniconverter/operations/download-video.md
         - apps/uniconverter/operations/update-uniconverter.md
     - Unreal Engine:
       - Operations:
@@ -143,8 +144,8 @@ nav_en: &nav_en
         - apps/voicevox/install-voicevox.md
     - Wan:
       - Operations:
-        - apps/wan/generate-image.md
         - apps/wan/generate-character-video.md
+        - apps/wan/generate-image.md
         - apps/wan/generate-video.md
     - Windows:
       - Operations:
@@ -177,8 +178,8 @@ nav_en: &nav_en
       - Operations:
         - dev/git/operations/restore-files.md
       - Troubleshooting:
-        - dev/git/troubleshooting/fix-default-blanch-name.md
         - dev/git/troubleshooting/fix-author-unknown.md
+        - dev/git/troubleshooting/fix-default-blanch-name.md
     - GitHub:
       - Operations:
         - dev/github/operations/change-repo-name.md
@@ -193,11 +194,11 @@ nav_en: &nav_en
         - dev/linux/operations/create-open-file-vs-code.md
         - dev/linux/operations/move-file-with-mv.md
         - dev/linux/operations/navigate-to-repo-root.md
-        - dev/linux/operations/run-commands-absolute-path.md
         - dev/linux/operations/open-folder-with-explorer.md
         - dev/linux/operations/open-md-file-with-code.md
         - dev/linux/operations/open-wsl-folder-windows.md
         - dev/linux/operations/prevent-zone-identifier.md
+        - dev/linux/operations/run-commands-absolute-path.md
         - dev/linux/operations/use-nano-editor.md
     - MkDocs:
       - Operations:
@@ -207,12 +208,12 @@ nav_en: &nav_en
         - dev/mkdocs/operations/confirm-css.md
         - dev/mkdocs/operations/create-bilingual-site.md
         - dev/mkdocs/operations/create-link-open-in-new-tab.md
-        - dev/mkdocs/operations/gh-deploy.md
         - dev/mkdocs/operations/display-date-at-bottom.md
         - dev/mkdocs/operations/display-date-at-top.md
+        - dev/mkdocs/operations/gh-deploy.md
         - dev/mkdocs/operations/migrate-from-docker-to-venv.md
-        - dev/mkdocs/operations/publish-github.md
         - dev/mkdocs/operations/publish-docker-github-site.md
+        - dev/mkdocs/operations/publish-github.md
         - dev/mkdocs/operations/rebuid-mkdocs-docker-image.md
         - dev/mkdocs/operations/update-docker-github-site.md
         - dev/mkdocs/operations/view-deploy-error.md
@@ -222,8 +223,8 @@ nav_en: &nav_en
         - dev/mkdocs/troubleshooting/not-included-in-nav.md
       - Reference:
         - dev/mkdocs/reference/docker-run-command.md
-        - dev/mkdocs/reference/packages.md
         - dev/mkdocs/reference/mkdocs-v2-warning.md
+        - dev/mkdocs/reference/packages.md
     - Notepad++:
       - Operations:
         - dev/notepad-pp/operations/comment-out.md
@@ -247,8 +248,8 @@ nav_en: &nav_en
         - dev/vs-code/operations/connect-to-github.md
         - dev/vs-code/operations/connect-to-wsl.md
         - dev/vs-code/operations/copy-win-to-linux.md
-        - dev/vs-code/operations/move-files-linux.md
         - dev/vs-code/operations/install-github-actions.md
+        - dev/vs-code/operations/move-files-linux.md
         - dev/vs-code/operations/open-linux-folder.md
         - dev/vs-code/operations/open-ubuntu.md
         - dev/vs-code/operations/preview-markdown.md
