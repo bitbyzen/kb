@@ -11,8 +11,8 @@ Applies to: Roborock S6 MaxV Robot Vacuum Cleaner.
 3. The blue indicator light will begin blinking slowly.
 4. Open the Roborock app on your phone.
 5. Tap the **+** (Add) button to register the device.
-6. Your vacuum cleaner will appear at the top of the screen.
-7. Tap the cleaner to navigate to the next screen.
+6. Your device will appear at the top of the screen.
+7. Tap the device to navigate to the next screen.
 8. Select your Wi-Fi network.
 
     > **Note:** This product only supports the 2.4 GHz band. However, if only your 5 GHz network is listed on the screen, follow the steps below.

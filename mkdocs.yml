@@ -271,6 +271,10 @@ nav_en: &nav_en
         - mobiles/utilities/operations/get-second-phone-number.md
       - Reference:
         - mobiles/utilities/reference/compare-markdown-note-apps.md
+  - Product Notes:
+    - Roborock:
+      - Operations:
+        - products/roborock/operations/register-second-vacuum.md
   - Finance Notes:
     - Utilities:
       - Reference:
@@ -284,10 +288,6 @@ nav_en: &nav_en
     - Money Forward:
       - Reference:
         - finance/money-forward/reference/service-overview.md
-  - Product Notes:
-    - Roborock:
-      - Operations:
-        - products/roborock/operations/register-second-vacuum.md
   - Photo Gallery:
     - Rooms:
       - Room 01: photos/rooms/room01.md
