@@ -284,8 +284,12 @@ nav_en: &nav_en
     - Money Forward:
       - Reference:
         - finance/money-forward/reference/service-overview.md
+  - Product Notes:
+    - Roborock:
+      - Operations:
+        - products/roborock/operations/register-second-vacuum.md
   - Photo Gallery:
-    - Rooms: 
+    - Rooms:
       - Room 01: photos/rooms/room01.md
 
 # Japanese Navigation
