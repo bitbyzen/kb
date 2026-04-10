@@ -53,6 +53,7 @@ nav_en: &nav_en
     - Google Chrome:
       - Operations:
         - apps/google-chrome/operations/chat-with-gemini-from-address-bar.md
+        - apps/google-chrome/operations/enable-vertical-tabs.md
         - apps/google-chrome/operations/open-new-google-page.md
         - apps/google-chrome/operations/pin-tools.md
     - Google Drive:
