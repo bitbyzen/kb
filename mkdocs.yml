@@ -165,6 +165,10 @@ nav_en: &nav_en
     - YMM4:
       - Operations:
         - apps/ymm4/operations/install-ymm4.md
+        - apps/ymm4/operations/import-voice-lines-via-scenario-file.md
+        - apps/ymm4/operations/use-free-coefont-voices.md
+      - Reference:
+        - apps/ymm4/reference/playback-shortcuts.md
     - XnView:
       - Operations:
         - apps/xnview/operations/convert-png-to-webp.md
