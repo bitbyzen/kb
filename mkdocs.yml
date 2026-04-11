@@ -105,7 +105,9 @@ nav_en: &nav_en
         - apps/synology/operations/check-storage.md
         - apps/synology/operations/empty-recycle-bin-automatically.md
         - apps/synology/operations/empty-recycle-bin-manually.md
+        - apps/synology/operations/hide-homes-folder.md
         - apps/synology/operations/install-storage-analyzer.md
+        - apps/synology/operations/learn-synology.md
         - apps/synology/operations/log-into-dsm.md
         - apps/synology/operations/restore-file.md
         - apps/synology/operations/set-up-active-backup-for-business.md
@@ -339,9 +341,6 @@ nav_ja: &nav_ja
       - Operations:
         - apps/outlook/operations/disable-forwarding.md
     - Synology:
-      - Operations:
-        - apps/synology/operations/hide-homes-folder.md
-        - apps/synology/operations/learn-synology.md
       - Reference:
         - apps/synology/reference/distionary-web-assistant.md
         - apps/synology/reference/dictionary-dsm.md
