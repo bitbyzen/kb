@@ -145,6 +145,18 @@ Use the following admonition styles for callouts:
 
 ---
 
+## Punctuation
+
+- Use standard English quotation marks (`"..."`) for quoted text, button labels, and UI strings
+- Do not use Japanese corner brackets (`「...」`) in English documents, even when quoting Japanese UI text
+
+**Example:**
+
+- Click **"詳細情報"** → **"実行"** ✓
+- Click **「詳細情報」** → **「実行」** ✗
+
+---
+
 ## Tables
 
 Use tables for comparisons, options, or structured reference data. Always include a header row.

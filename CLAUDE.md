@@ -62,3 +62,5 @@ The full style guide is at `docs/en/dev/style-guide/style-guide-en.md`. Key rule
 **Callouts:** Use `> **Note:**` for tips and `> **Warning:**` for irreversible or harmful actions.
 
 **Lists:** Bullets for unordered items, numbered lists for sequential steps. Keep items parallel in structure.
+
+**Punctuation:** Use standard English quotation marks (`"..."`) in English documents. Do not use Japanese corner brackets (`「...」`), even when quoting Japanese UI text.

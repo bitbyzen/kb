@@ -160,6 +160,9 @@ nav_en: &nav_en
         - apps/windows/operations/remove-linked-pc.md
         - apps/windows/operations/take-screenshot.md
         - apps/windows/operations/use-narrator.md
+    - YMM4:
+      - Operations:
+        - apps/ymm4/operations/install-ymm4.md
     - XnView:
       - Operations:
         - apps/xnview/operations/convert-png-to-webp.md
