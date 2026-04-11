@@ -272,6 +272,9 @@ nav_en: &nav_en
       - Reference:
         - mobiles/utilities/reference/compare-markdown-note-apps.md
   - Product Notes:
+    - LEC:
+      - Reference:
+        - products/lec/reference/bath-boot-w316.md
     - Roborock:
       - Operations:
         - products/roborock/operations/register-second-vacuum.md
