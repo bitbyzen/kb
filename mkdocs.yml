@@ -256,7 +256,10 @@ nav_en: &nav_en
       - Operations:
         - dev/python/operations/create-executable.md
         - dev/python/operations/create-installer.md
-    - Style Guide:
+    - Style-Bert-VITS2:
+      - Operations:
+        - dev/style-bert-vits2/operations/set-up-style-bert-vits2-webui.md
+    - Utilities:
       - dev/style-guide/style-guide-en.md
     - VS Code:
       - Operations:
