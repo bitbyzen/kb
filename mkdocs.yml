@@ -274,6 +274,8 @@ nav_en: &nav_en
         - dev/vs-code/operations/preview-markdown.md
         - dev/vs-code/operations/remove-tab-indentation.md
         - dev/vs-code/operations/replace-image.md
+      - Troubleshooting:
+        - dev/vs-code/troubleshooting/fix-python-interpreter-path-not-found.md
   - Mobile Notes:
     - Google Pixel:
       - Operations:
