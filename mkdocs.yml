@@ -115,6 +115,7 @@ nav_en: &nav_en
         - apps/synology/operations/log-into-dsm.md
         - apps/synology/operations/restore-file.md
         - apps/synology/operations/set-up-active-backup-for-business.md
+        - apps/synology/operations/set-up-nas-for-claude-code.md
       - Reference:
         - apps/synology/reference/compare-backup-tools-windows.md
         - apps/synology/reference/compare-photos-vs-drive.md
