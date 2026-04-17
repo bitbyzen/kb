@@ -1,8 +1,5 @@
 # マイナ保険証を使用する方法
 
-![Image](use-my-number-health-card-01.webp)
-※[『今から使おう！マイナ保険証』](https://ssl.kenpo-net.jp/myna_lp/)より抜粋。  
-
 ## 参考サイト
 
 - 『今から使おう！マイナ保険証』: https://ssl.kenpo-net.jp/myna_lp/
