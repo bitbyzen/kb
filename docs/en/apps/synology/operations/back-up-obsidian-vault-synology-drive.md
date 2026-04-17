@@ -61,7 +61,7 @@ Set the local and remote folders:
 **Local folder (on your PC):**
 
 ```
-C:\Users\black\Documents\Obsidian Vault
+C:\Users\<username>\Documents\Obsidian Vault
 ```
 
 **Remote folder (on your NAS):**

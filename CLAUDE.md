@@ -64,3 +64,14 @@ The full style guide is at `docs/en/dev/style-guide/style-guide-en.md`. Key rule
 **Lists:** Bullets for unordered items, numbered lists for sequential steps. Keep items parallel in structure.
 
 **Punctuation:** Use standard English quotation marks (`"..."`) in English documents. Do not use Japanese corner brackets (`「...」`), even when quoting Japanese UI text.
+
+**Privacy:** Never include real personal or device-specific information in any document. Always replace with generic placeholders:
+
+| Type | Placeholder |
+|------|-------------|
+| Local IP address | `192.168.x.x` |
+| Windows username | `<username>` |
+| PC name | `<YOUR-PC>` |
+| NAS QuickConnect ID | `<YOUR-QUICKCONNECT-ID>` |
+| Passwords / tokens | `<YOUR-PASSWORD>` |
+| Any other personal ID | `<YOUR-VALUE>` |

@@ -11,7 +11,7 @@ A practical overview of the two main Synology tools and what they are best at.
 You want to:
 
 - Automatically back up files from Windows 11 to a Synology NAS
-- Possibly target a specific folder like `C:\Users\black\Documents\Obsidian Vault`
+- Possibly target a specific folder like `C:\Users\<username>\Documents\Obsidian Vault`
 
 ---
 
@@ -62,7 +62,7 @@ Runs continuously or on a schedule.
 You can select exactly the folder you want:
 
 ```
-C:\Users\black\Documents\Obsidian Vault
+C:\Users\<username>\Documents\Obsidian Vault
 ```
 
 #### Limitation
