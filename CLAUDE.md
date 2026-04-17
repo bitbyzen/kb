@@ -41,7 +41,7 @@ Both steps are required — pages not listed in the nav produce a warning and ar
 
 ## Writing Standards
 
-The full style guide is at `docs/en/dev/style-guide/style-guide-en.md`. Key rules to follow automatically:
+The full style guide is at `style-guide-en.md` (project root — not published to the site). Key rules to follow automatically:
 
 **File naming:** Use kebab-case. Start the filename with a verb (`install-docker.md`, `set-up-claude-code-wsl2.md`).
 
@@ -74,4 +74,7 @@ The full style guide is at `docs/en/dev/style-guide/style-guide-en.md`. Key rule
 | PC name | `<YOUR-PC>` |
 | NAS QuickConnect ID | `<YOUR-QUICKCONNECT-ID>` |
 | Passwords / tokens | `<YOUR-PASSWORD>` |
+| Folder or directory names | `<YOUR-FOLDER>` or omit |
 | Any other personal ID | `<YOUR-VALUE>` |
+
+**Folder structure:** Never disclose real folder or directory names in any document. If a path is essential to the explanation, replace every folder name with a generic placeholder (e.g. `<YOUR-FOLDER>\<YOUR-PROJECT>`). If the structure is not essential, omit it entirely.

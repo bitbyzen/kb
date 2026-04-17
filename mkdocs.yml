@@ -260,8 +260,6 @@ nav_en: &nav_en
     - Style-Bert-VITS2:
       - Operations:
         - dev/style-bert-vits2/operations/set-up-style-bert-vits2-webui.md
-    - Utilities:
-      - dev/style-guide/style-guide-en.md
     - VS Code:
       - Operations:
         - dev/vs-code/operations/add-image-to-doc.md

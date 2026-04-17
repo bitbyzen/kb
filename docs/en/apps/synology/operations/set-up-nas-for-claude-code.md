@@ -13,16 +13,12 @@ This guide documents the complete workflow for using Synology NAS as a central f
 ```
 Windows PC (<YOUR-PC>)
 └── Claude Code
-    └── D:\02-assistant\          ← local working folder
-        └── projects\creator\bxz\
-            └── project-video\    ← active workspace
+    └── <YOUR-FOLDER>\          ← local working folder
                 │
                 │  Synology Drive (Two-way sync)
                 ▼
 Synology DS720 NAS
-└── office\02-assistant\          ← NAS mirror
-    └── projects\creator\bxz\
-        └── project-video\
+└── <NAS-FOLDER>\               ← NAS mirror
                 │
                 │  Synology Drive app (read/write)
                 ▼
@@ -37,7 +33,7 @@ Google Pixel
 
 ### On Windows PC
 
-1. Use **Claude Code** to create and edit files in `D:\02-assistant\projects\creator\bxz\project-video`.
+1. Use **Claude Code** to create and edit files in your local working folder.
 2. **Synology Drive** automatically syncs all changes to the NAS in the background.
 3. No manual steps needed — files are always up to date on NAS.
 
@@ -56,7 +52,7 @@ Google Pixel
 | Tool | Platform | Purpose | Official |
 |------|----------|---------|---------|
 | Claude Code | Windows PC | File creation and editing | ✅ Anthropic |
-| Synology Drive Client | Windows PC | Auto-sync `D:\02-assistant` to NAS | ✅ Synology |
+| Synology Drive Client | Windows PC | Auto-sync local folder to NAS | ✅ Synology |
 | Synology Drive app | Google Pixel | Access NAS files on mobile | ✅ Synology |
 | Claude app | Google Pixel | AI generation using uploaded files | ✅ Anthropic |
 
@@ -77,39 +73,19 @@ When an official MCP connector becomes available from Synology or Anthropic, thi
 
 ---
 
-## Folder Structure
-
-```
-D:\02-assistant\                   (synced to office\02-assistant on NAS)
-└── projects\
-    ├── creator\
-    │   └── bxz\                   ← Bitbyzen (BXZ) brand folder
-    │       └── project-video\     ← video scripts, SRT files, YMM4 assets
-    └── developer\
-        └── python\
-```
-
-### Naming Conventions
-
-- `bxz` — brand abbreviation for Bitbyzen
-- `project-` prefix — used for project subfolders, allowing future expansion (e.g. `project-music`, `project-blog`)
-- `project-video` — all files related to video production, not just scripts
-
----
-
 ## Sync Configuration
 
 | Local Path | NAS Path | Mode |
 |-----------|---------|------|
-| `D:\02-assistant` | `office\02-assistant` | Two-way sync |
-| `C:\Users\<username>\Documents\Obsidian Vault` | `office\01-administrator\obsidian-synced` | Two-way sync |
+| `<YOUR-FOLDER>` | `<NAS-FOLDER>` | Two-way sync |
+| `C:\Users\<username>\Documents\<YOUR-VAULT>` | `<NAS-FOLDER-2>` | Two-way sync |
 
 ### Backup vs Sync
 
 | Folder | Method | Reason |
 |--------|--------|--------|
-| `D:\01-administrator` | Backup task | Important files, needs recovery protection |
-| `D:\02-assistant` | Sync task | AI workspace — cross-device access is the priority |
+| `<YOUR-FOLDER-2>` | Backup task | Important files, needs recovery protection |
+| `<YOUR-FOLDER>` | Sync task | AI workspace — cross-device access is the priority |
 
 ---
 
