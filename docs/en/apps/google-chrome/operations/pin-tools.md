@@ -5,5 +5,5 @@
 Work faster by pinning your favorite tools — like bookmarks and reading mode — to the toolbar.
 
 1. Open the **Chrome menu** (three dots, top-right corner).
-2. Select **More Tools** > **Customize Chrome**.
+2. Select **More Tools** → **Customize Chrome**.
 3. Choose the toolbar buttons you want to pin.

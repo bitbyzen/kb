@@ -26,7 +26,7 @@
         - GitHub Pages serves it automatically
 
 3. Enable GitHub Pages in your GitHub repository:  
-    Go to **Settings** > **Pages**, then set:
+    Go to **Settings** → **Pages**, then set:
 
     * **Source:** Deploy from a branch
     * **Branch:** `gh-pages` / `root`

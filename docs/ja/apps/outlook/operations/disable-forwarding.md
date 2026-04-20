@@ -1,6 +1,6 @@
 # 自動転送をオフにする方法
 
-1. **File** > **Settings**をクリックする。
+1. **File** → **Settings**をクリックする。
 
     ![Screenshot](disable-forwarding-01.webp)
 

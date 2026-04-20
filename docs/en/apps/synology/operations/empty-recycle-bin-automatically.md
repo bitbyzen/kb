@@ -7,7 +7,7 @@
 1. Log in to Synology DiskStation Manager.
 2. Open **Control Panel**.
 3. Under **Services**, open **Task Scheduler**.
-4. Click **Create** > **Scheduled Task** > **Recycle Bin**.
+4. Click **Create** → **Scheduled Task** → **Recycle Bin**.
 
 ### Configure the Task
 

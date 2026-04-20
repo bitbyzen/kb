@@ -17,9 +17,9 @@ Vertical tabs display your open tabs along the side panel instead of the top bar
 After restarting, use either method:
 
 - Right-click an empty area of the tab bar and select **Move tabs to side**.
-- Go to **Settings** > **Design** > **Tab bar position** and set it to **Side**.
+- Go to **Settings** → **Design** → **Tab bar position** and set it to **Side**.
 
 ## Revert to Horizontal Tabs
 
 - Right-click the tab bar and select **Move tabs to top**.
-- Or go to **Settings** > **Design** > **Tab bar position** and set it back to **Top**.
+- Or go to **Settings** → **Design** → **Tab bar position** and set it back to **Top**.

@@ -273,6 +273,7 @@ nav_en: &nav_en
         - dev/vs-code/operations/copy-win-to-linux.md
         - dev/vs-code/operations/install-github-actions.md
         - dev/vs-code/operations/move-files-linux.md
+        - dev/vs-code/operations/open-linux-and-windows-folders-wsl.md
         - dev/vs-code/operations/open-linux-folder.md
         - dev/vs-code/operations/open-ubuntu.md
         - dev/vs-code/operations/preview-markdown.md

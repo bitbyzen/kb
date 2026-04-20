@@ -14,7 +14,7 @@
 ただし、ファイルの中身を確認したいだけなら、画像PDFを作成すれば、毎回パスワードを入力する手間は省ける。
 
 ## 手順
-1. **Menu** > **Print**をクリックする。
+1. **Menu** → **Print**をクリックする。
 ![Screenshot](remove-password-01.webp)
 
 1. **Microsoft Print to PDF**を選択し、**Print**をクリックする。

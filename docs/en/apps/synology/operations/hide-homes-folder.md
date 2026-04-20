@@ -11,7 +11,7 @@ The `homes` shared folder appears alongside `home` when you connect as an admini
 ## Step 1: Hide the Folder via Network Preview
 
 1. Log into DSM.
-2. Go to **Control Panel** > **Shared Folder**.
+2. Go to **Control Panel** → **Shared Folder**.
 3. Select **homes** from the list and click **Edit**.
 4. On the **General** tab, check **Hide this shared folder in "Network"**.
 5. Click **Save**.

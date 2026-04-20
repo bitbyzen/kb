@@ -19,7 +19,7 @@ The fastest way to see a high-level summary of your total, used, and available s
 
 If you are using the **Btrfs** file system (standard for the DS720+), you can see exactly which services (like Synology Drive or Snapshots) are consuming space.
 
-1. Go to **Storage Manager** > **Storage**.
+1. Go to **Storage Manager** → **Storage**.
 2. Click the **three dots (...)** icon on the specific volume.
 3. Select **Usage Details**.
 4. A categorized list appears showing space taken by:
@@ -55,5 +55,5 @@ To find specific large files, duplicates, or space-hogging file types, use the *
 If the used space is significantly higher than your actual file size, check the following:
 
 - **Drive Versioning:** Synology Drive keeps versions of files. Check the Admin Console in Drive to limit versions.
-- **Recycle Bins:** Empty them via **Control Panel** > **Shared Folder** > **Action** > **Empty all Recycle Bins**.
+- **Recycle Bins:** Empty them via **Control Panel** → **Shared Folder** → **Action** → **Empty all Recycle Bins**.
 - **Snapshots:** If using Snapshot Replication, old snapshots can occupy significant space until they rotate out.
