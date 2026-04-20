@@ -184,6 +184,8 @@ nav_en: &nav_en
     - Claude Code:
       - Operations:
         - dev/claude-code/operations/set-up-claude-code-wsl2.md
+      - Troubleshooting:
+        - dev/claude-code/troubleshooting/migrate-from-npm-to-native-installer.md
     - Docker:
       - Operations:
         - dev/docker/operations/disable-scout-notifications.md
