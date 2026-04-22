@@ -65,6 +65,8 @@ The full style guide is at `style-guide-en.md` (project root — not published t
 
 **Punctuation:** Use standard English quotation marks (`"..."`) in English documents. Do not use Japanese corner brackets (`「...」`), even when quoting Japanese UI text.
 
+**UI navigation:** Use `→` (not `>`) to separate menu steps. Bold each item: **Settings** → **Pages**.
+
 **Privacy:** Never include real personal or device-specific information in any document. Always replace with generic placeholders:
 
 | Type | Placeholder |

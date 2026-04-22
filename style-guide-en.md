@@ -155,6 +155,17 @@ Use the following admonition styles for callouts:
 
 ---
 
+## UI Navigation
+
+Use `→` (not `>`) to separate menu or navigation steps. Bold each item.
+
+**Examples:**
+
+- Go to **Settings** → **Pages**
+- Click **Create** → **Scheduled Task** → **Recycle Bin**
+
+---
+
 ## Privacy
 
 Never include real personal or device-specific information in any document. Always replace with generic placeholders:

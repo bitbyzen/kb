@@ -149,6 +149,9 @@ nav_en: &nav_en
         - apps/utilities/operations/create-window-layout.md
         - apps/utilities/operations/download-site.md
         - apps/utilities/operations/protect-email.md
+        - apps/utilities/operations/recover-data-with-disk-drill.md
+        - apps/utilities/operations/use-flux.md
+        - apps/utilities/operations/use-monitorian.md
         - apps/utilities/operations/visualize-disk-usage.md
     - Voicevox:
       - Operations:
