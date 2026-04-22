@@ -291,6 +291,9 @@ nav_en: &nav_en
     - Google Photos:
       - Operations:
         - mobiles/google-photos/operations/disable-backup.md
+    - Google Sheets:
+      - Operations:
+        - mobiles/google-sheets/operations/convert-to-excel-on-android.md
     - Utilities:
       - Operations:
         - mobiles/utilities/operations/get-second-phone-number.md
