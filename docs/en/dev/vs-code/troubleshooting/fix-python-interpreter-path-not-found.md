@@ -15,10 +15,11 @@ Common causes:
 ## Fix: Select a New Interpreter
 
 1. Open the Command Palette:
-   - **Windows/Linux:** `Ctrl+Shift+P`
-   - **Mac:** `Cmd+Shift+P`
 
-   If the shortcut doesn't work, go to **Help → Show All Commands** in the menu bar.
+      - **Windows/Linux:** `Ctrl+Shift+P`
+      - **Mac:** `Cmd+Shift+P`
+
+      If the shortcut doesn't work, go to **Help → Show All Commands** in the menu bar.
 
 2. Type **`Python: Select Interpreter`** and press Enter.
 
