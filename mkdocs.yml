@@ -78,6 +78,10 @@ nav_en: &nav_en
     - memoQ:
       - Operations:
         - apps/memoq/operations/update-address.md
+    - Meta Quest:
+      - Operations:
+        - apps/meta-quest/operations/add-profile.md
+        - apps/meta-quest/operations/display-windows-screen.md
     - Nano Banana:
       - Reference:
         - apps/nano-banana/reference/prompting-guide.md
