@@ -39,6 +39,9 @@ nav_en: &nav_en
     - ComfyUI:
       - Operations:
         - apps/comfyui/operations/run-flux.md
+    - DeepL:
+      - Operations:
+        - apps/deepl/operations/update-payment-method.md
     - Eijiro:
       - Operations:
         - apps/eijiro/operations/check-accout-info.md
