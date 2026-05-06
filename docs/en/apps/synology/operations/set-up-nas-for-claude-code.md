@@ -89,7 +89,3 @@ When an official MCP connector becomes available from Synology or Anthropic, thi
 
 ---
 
-## Related Guides
-
-- [NAS Initial Setup — SSH & User Configuration](nas-claude-setup.md)
-- [Synology Drive Sync Setup](nas-synology-drive-sync.md)

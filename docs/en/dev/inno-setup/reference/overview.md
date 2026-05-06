@@ -21,4 +21,4 @@ A common workflow for distributing Python desktop apps to Windows users is:
 1. Use **PyInstaller** to convert a Python script into a standalone `.exe` with all its dependencies.
 2. Use **Inno Setup** to package the PyInstaller output folder into a polished Windows installer with install/uninstall support.
 
-See [Create an Installer for a Python App](../../operations/create-installer.md) for the full workflow.
+See [Create an Installer for a Python App](../../python/operations/create-installer.md) for the full workflow.
