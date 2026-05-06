@@ -9,3 +9,15 @@
 .md-source-file {
   display: none;
 }
+
+/* Bold section headers (app/tool names) in the left nav */
+.md-nav__item--section > .md-nav__link {
+  font-weight: 700;
+  color: var(--md-default-fg-color);
+}
+
+/* Indent page links within each section */
+.md-nav__item--section > .md-nav > .md-nav__item > .md-nav__link {
+  padding-left: 1.2rem;
+  border-left: 2px solid var(--md-default-fg-color--lightest);
+}
