@@ -1,5 +1,6 @@
 site_name: Bitbyzen
 site_url: https://bitbyzen.github.io/kb/
+docs_dir: docs/en
 
 copyright: © 2026 Bitbyzen. All rights reserved.
 
@@ -13,32 +14,45 @@ theme:
     - navigation.sections
     - navigation.indexes
 
-# ==========================================
-# Navigation Structure (defined first)
-# ==========================================
-
-# English Navigation
-nav_en: &nav_en
+nav:
   - Home: index.md
   - App Notes:
+    - Acrobat:
+      - Operations:
+        - apps/acrobat/operations/insert-page.md
+        - apps/acrobat/operations/remove-password.md
+    - Amazon:
+      - Operations:
+        - apps/amazon/operations/change-payment.md
     - Bitwarden:
       - Operations:
         - apps/bitwarden/operations/change-master-pw.md
         - apps/bitwarden/operations/introduce-bitwarden.md
     - Blender:
       - Operations:
+        - apps/blender/operations/install-blender.md
         - apps/blender/operations/render-slideshow.md
+    - ChatGPT:
+      - Operations:
+        - apps/chatgpt/operations/convert-chat-to-word.md
     - CoeiroInk:
       - Operations:
         - apps/coeiroink/operations/add-mycoeiroink-voice.md
     - Claude.ai:
       - Operations:
+        - apps/claude-ai/operations/log-in-to-claude.md
         - apps/claude-ai/operations/manage-memory.md
       - Reference:
         - apps/claude-ai/reference/cowork-dispatch.md
     - ComfyUI:
       - Operations:
+        - apps/comfyui/operations/install-with-installer.md
         - apps/comfyui/operations/run-flux.md
+      - Reference:
+        - apps/comfyui/reference/spectrum.md
+    - Discord:
+      - Operations:
+        - apps/discord/operations/set-up-discord.md
     - DeepL:
       - Operations:
         - apps/deepl/operations/update-payment-method.md
@@ -46,6 +60,9 @@ nav_en: &nav_en
       - Operations:
         - apps/eijiro/operations/check-accout-info.md
         - apps/eijiro/operations/delete-account.md
+    - Genspark:
+      - Reference:
+        - apps/genspark/reference/overview.md
     - GIMP:
       - Operations:
         - apps/gimp/operations/convert-crw-to-png.md
@@ -67,21 +84,45 @@ nav_en: &nav_en
         - apps/google-drive/operations/change-folder-access-role.md
         - apps/google-drive/operations/edit-with-notepad-pp.md
         - apps/google-drive/operations/open-google-drive.md
+    - Iztope RX8:
+      - Operations:
+        - apps/iztope-rx8/operations/convert-female-voices-to-male-voices.md
+        - apps/iztope-rx8/operations/remove-bgm.md
+        - apps/iztope-rx8/operations/remove-vocals.md
+        - apps/iztope-rx8/operations/stop-loading-previous-sessions.md
+      - Reference:
+        - apps/iztope-rx8/reference/basic-features.md
+        - apps/iztope-rx8/reference/overview.md
+    - Kensington:
+      - Troubleshooting:
+        - apps/kensington/troubleshooting/settings-not-applied.md
+        - apps/kensington/troubleshooting/trackball-not-recognized.md
     - Keychron:
       - Operations:
         - apps/keychron/operations/duplicate-macro.md
+        - apps/keychron/operations/enter-quotation-marks.md
         - apps/keychron/operations/export-keymap.md
         - apps/keychron/operations/export-macros.md
+        - apps/keychron/operations/switch-languages-windows.md
+        - apps/keychron/operations/type-a-tilde-or-backquote-sign.md
+      - Reference:
+        - apps/keychron/reference/cautions.md
     - LINE:
       - Operations:
         - apps/line/operations/block-and-delete-friend.md
     - memoQ:
       - Operations:
         - apps/memoq/operations/update-address.md
+    - Meta:
+      - Operations:
+        - apps/meta/operations/remove-meta-quest-3-face-cover.md
     - Meta Quest:
       - Operations:
         - apps/meta-quest/operations/add-profile.md
         - apps/meta-quest/operations/display-windows-screen.md
+    - NVIDIA:
+      - Operations:
+        - apps/nvidia/operations/update-driver.md
     - Nano Banana:
       - Reference:
         - apps/nano-banana/reference/prompting-guide.md
@@ -91,6 +132,9 @@ nav_en: &nav_en
         - apps/obsidian/operations/import-onenote.md
         - apps/obsidian/operations/open-vault-folder.md
         - apps/obsidian/operations/show-whitespace.md
+    - Outlook:
+      - Operations:
+        - apps/outlook/operations/disable-forwarding.md
     - OpenAI:
       - Operations:
         - apps/openai/operations/accept-free-offer.md
@@ -127,8 +171,11 @@ nav_en: &nav_en
       - Reference:
         - apps/synology/reference/compare-backup-tools-windows.md
         - apps/synology/reference/compare-photos-vs-drive.md
+        - apps/synology/reference/dictionary-dsm.md
         - apps/synology/reference/ds720-plus.md
+        - apps/synology/reference/mobilebackup-vs-photolibrary.md
         - apps/synology/reference/retire-buffalo-nas.md
+        - apps/synology/reference/web-assistant.md
     - UniConverter:
       - Operations:
         - apps/uniconverter/operations/change-save-folders.md
@@ -154,6 +201,7 @@ nav_en: &nav_en
     - Utilities:
       - Operations:
         - apps/utilities/operations/change-file-extensions.md
+        - apps/utilities/operations/split-audio.md
         - apps/utilities/operations/create-window-layout.md
         - apps/utilities/operations/download-site.md
         - apps/utilities/operations/protect-email.md
@@ -161,6 +209,9 @@ nav_en: &nav_en
         - apps/utilities/operations/use-flux.md
         - apps/utilities/operations/use-monitorian.md
         - apps/utilities/operations/visualize-disk-usage.md
+    - Voicebox:
+      - Reference:
+        - apps/voicebox/reference/overview.md
     - Voicevox:
       - Operations:
         - apps/voicevox/install-voicevox.md
@@ -172,6 +223,8 @@ nav_en: &nav_en
     - Windows:
       - Operations:
         - apps/windows/operations/change-email.md
+        - apps/windows/operations/disable-unknown-usb-device.md
+        - apps/windows/operations/remove-file.md
         - apps/windows/operations/lock-drive.md
         - apps/windows/operations/open-account.md
         - apps/windows/operations/remove-linked-pc.md
@@ -203,9 +256,13 @@ nav_en: &nav_en
         - dev/docker/operations/install-docker.md
         - dev/docker/operations/install-with-pip.md
         - dev/docker/operations/manage-docker-images.md
+        - dev/docker/operations/sign-in-to-docker.md
       - Troubleshooting:
         - dev/docker/troubleshooting/fix-api-connection.md
         - dev/docker/troubleshooting/fix-wsl-integration-stopped.md
+      - Reference:
+        - dev/docker/reference/introduce-docker.md
+        - dev/docker/reference/pricing.md
     - Git:
       - Operations:
         - dev/git/operations/restore-files.md
@@ -228,10 +285,13 @@ nav_en: &nav_en
         - dev/linux/operations/navigate-to-repo-root.md
         - dev/linux/operations/open-folder-with-explorer.md
         - dev/linux/operations/open-md-file-with-code.md
+        - dev/linux/operations/open-ubuntu.md
         - dev/linux/operations/open-wsl-folder-windows.md
         - dev/linux/operations/prevent-zone-identifier.md
         - dev/linux/operations/run-commands-absolute-path.md
         - dev/linux/operations/use-nano-editor.md
+      - Troubleshooting:
+        - dev/linux/troubleshooting/fix-exec-format-error.md
     - MkDocs:
       - Operations:
         - dev/mkdocs/operations/add-copyright-footer.md
@@ -263,6 +323,8 @@ nav_en: &nav_en
         - dev/notepad-pp/operations/enable-comment-shortcut-ahk.md
         - dev/notepad-pp/operations/set-default-save-folder.md
         - dev/notepad-pp/operations/update-notepad-pp.md
+      - Troubleshooting:
+        - dev/notepad-pp/troubleshooting/protect-yourself.md
     - Nuitka:
       - Operations:
         - dev/nuitka/operations/convert-to-exe-with-nuitka.md
@@ -292,126 +354,34 @@ nav_en: &nav_en
         - dev/vs-code/operations/replace-image.md
       - Troubleshooting:
         - dev/vs-code/troubleshooting/fix-python-interpreter-path-not-found.md
-  - Mobile Notes:
-    - Google Pixel:
-      - Operations:
-        - mobiles/google-pixel/operations/install-google-finance.md
-        - mobiles/google-pixel/operations/access-flashcard-deluxe-exports.md
-    - Google Photos:
-      - Operations:
-        - mobiles/google-photos/operations/disable-backup.md
-    - Google Sheets:
-      - Operations:
-        - mobiles/google-sheets/operations/convert-to-excel-on-android.md
-    - Utilities:
-      - Operations:
-        - mobiles/utilities/operations/get-second-phone-number.md
-      - Reference:
-        - mobiles/utilities/reference/compare-markdown-note-apps.md
-  - Product Notes:
-    - LEC:
-      - Reference:
-        - products/lec/reference/bath-boot-w316.md
-    - Roborock:
-      - Operations:
-        - products/roborock/operations/register-second-vacuum.md
-  - Finance Notes:
-    - Utilities:
-      - Reference:
-        - finance/utilities/reference/compare-buyback-services.md
-    - Coincheck:
-      - Reference:
-        - finance/coincheck/reference/setup-key.md
-    - Mitsubishi UFJ Nicos:
-      - Reference:
-        - finance/mitsubishi-ufj-nicos/reference/compare-card-brands.md
-    - Money Forward:
-      - Reference:
-        - finance/money-forward/reference/service-overview.md
-  - Photo Gallery:
-    - Rooms:
-      - Room 01: photos/rooms/room01.md
-
-# Japanese Navigation
-nav_ja: &nav_ja
-  - ホーム: index.md
-  - アプリメモ:
-    - Utilities:
-      - Operations:
-        - apps/utilities/operations/split-audio.md
-    - Acrobat:
-      - Operations:
-        - apps/acrobat/operations/insert-page.md
-        - apps/acrobat/operations/remove-password.md
-    - Amazon:
-      - Operations:
-        - apps/amazon/operations/change-payment.md
-    - Blender:
-      - Operations:
-        - apps/blender/operations/install-blender.md
-    - ChatGPT:
-      - Operations:
-        - apps/chatgpt/operations/convert-chat-to-word.md
-    - Claude:
-      - Operations:
-        - apps/claude/operations/login.md
-    - ComfyUI:
-      - Operations:
-        - apps/comfyui/operations/install-with-installter.md
-      - Reference:
-        - apps/comfyui/reference/spectrum.md
-    - Discord:
-      - Operations:
-        - apps/discord/operations/introduce-discord.md
-    - Genspark:
-      - Reference:
-        - apps/genspark/reference/overview.md
-    - Notepad++:
-      - Troubleshooting:
-        - apps/notepad-pp/troubleshooting/protect-yourself.md
-    - NVIDIA:
-      - Operations:
-        - apps/nvidia/operations/update-driver.md
-    - Outlook:
-      - Operations:
-        - apps/outlook/operations/disable-forwarding.md
-    - Synology:
-      - Reference:
-        - apps/synology/reference/distionary-web-assistant.md
-        - apps/synology/reference/dictionary-dsm.md
-        - apps/synology/reference/mobilebackup-vs-photolibrary.md
-    - Voicebox:
-      - Reference:
-        - apps/voicebox/reference/overview.md
-    - Windows:
-      - Operations:
-        - apps/windows/operations/remove-file.md
-  - 開発メモ:
-    - YouTube:
-      - dev/youtube/download-playlist-video.md
-    - Docker:
-      - dev/docker/introduce.md
-      - dev/docker/pricing.md
-      - dev/docker/signin.md
-    - Linux:
-      - dev/linux/fix-exec-format-error.md
-      - dev/linux/open-ubuntu.md
     - Xserver:
-      - dev/xserver/manage-service.md
-  - モバイルメモ:
+      - Operations:
+        - dev/xserver/operations/manage-service.md
+    - YouTube:
+      - Operations:
+        - dev/youtube/operations/download-playlist-video.md
+  - Mobile Notes:
     - Google Maps:
       - Reference:
         - mobiles/google-maps/reference/explore-on-foot.md
+    - Google Photos:
+      - Operations:
+        - mobiles/google-photos/operations/disable-backup.md
     - Google Pixel:
       - Operations:
+        - mobiles/google-pixel/operations/access-flashcard-deluxe-exports.md
         - mobiles/google-pixel/operations/change-screenshot-format.md
-    - Mobile ICOCA:
-      - Reference:
-        - mobiles/mobile-icoca/reference/overview.md
+        - mobiles/google-pixel/operations/install-google-finance.md
+    - Google Sheets:
+      - Operations:
+        - mobiles/google-sheets/operations/convert-to-excel-on-android.md
+    - Roborock:
+      - Operations:
+        - products/roborock/operations/register-second-vacuum.md
     - Simplenote:
       - Reference:
         - mobiles/simplenote/reference/overview.md
-    - Synology:
+    - Synology Photos:
       - Operations:
         - mobiles/synology-photos/operations/backup-screenshots.md
         - mobiles/synology-photos/operations/backup-to-photolibrary.md
@@ -419,44 +389,16 @@ nav_ja: &nav_ja
         - mobiles/synology-photos/operations/delete-images-after-backup.md
       - Reference:
         - mobiles/synology-photos/reference/personal-shared-spaces.md
-  - 製品メモ:
-    - Sharp:
-      - Refrigerator (SJ-X415H-S):
-        - products/sharp/refrigerator/fix-led.md
-    - Torras:
-      - Mobile Charger (PB4A):
-        - products/torras/turn-on-charger.md
-        - products/torras/use-low-current-mode.md
-  - 言語メモ:
-    - languages/compared-sentences.md
-    - languages/sentences.md
-  - 業務メモ:
-    - スマホ:
-      - business/change/change-phone.md
-    - マイナンバー:
-      - business/my-number/use-my-number-health-card.md
-    - マイナポータル:
-      - business/myna-portal/download-doc.md
-      - business/myna-portal/log-in-with-pc.md
+    - Utilities:
+      - Operations:
+        - mobiles/utilities/operations/get-second-phone-number.md
+      - Reference:
+        - mobiles/utilities/reference/compare-markdown-note-apps.md
+  - Photo Gallery:
+    - Rooms:
+      - Room 01: photos/rooms/room01.md
 
 plugins:
-  - i18n:
-      docs_structure: folder
-      fallback_to_default: false
-      reconfigure_material: false
-      languages:
-        - locale: en
-          default: true
-          name: EN
-          build: true
-          nav: *nav_en
-        - locale: ja
-          name: JA
-          build: true
-          theme:
-            language: ja
-          nav: *nav_ja
-
   - git-revision-date-localized:
       type: date
       timezone: Asia/Tokyo
@@ -468,13 +410,6 @@ plugins:
 
 extra:
   generator: false
-  alternate:
-    - name: EN
-      link: /kb/
-      lang: en
-    - name: JA
-      link: /kb/ja/
-      lang: ja
 
 extra_css:
   - stylesheets/extra.css

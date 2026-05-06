@@ -1,0 +1,11 @@
+.page-date {
+  font-size: 0.8rem;       /* smaller than body text */
+  color: #888;             /* softer gray */
+  margin-bottom: 0.5rem;   /* tighter spacing */
+  font-weight: 400;        /* ensure not bold */
+}
+
+/* Hide entire source file footer block */
+.md-source-file {
+  display: none;
+}
