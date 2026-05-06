@@ -20,23 +20,27 @@ mkdocs gh-deploy
 
 ## Architecture
 
-This is a bilingual (EN/JA) MkDocs static knowledge base deployed to GitHub Pages at `https://bitbyzen.github.io/kb/`.
+This is an English-only MkDocs static knowledge base deployed to GitHub Pages at `https://bitbyzen.github.io/kb/`.
 
 **Key files:**
-- `mkdocs.yml` — single source of truth for the entire site: theme, plugins, and both language navs
+- `mkdocs.yml` — single source of truth for the entire site: theme, plugins, and nav
+- `docs_dir: docs/en` — all content lives under `docs/en/`
 - `requirements.txt` — pin-free dependencies; `mkdocs<2` keeps the site on MkDocs v1
 - `overrides/main.html` — injects a "Last updated" date above page content (suppressed on index pages)
 - `.github/workflows/deploy.yml` — builds and deploys on every push to `main`
 
-**Bilingual nav pattern:**
-`mkdocs.yml` defines two YAML anchors (`nav_en` / `nav_ja`) and passes them to the `mkdocs-static-i18n` plugin. English docs live under `docs/en/`, Japanese under `docs/ja/`. The two trees are independent — a page does not need a counterpart in the other language.
+**Nav structure:**
+`mkdocs.yml` defines a single `nav:` block. The top level uses `navigation.tabs` (Home, App Notes, Dev Notes, Mobile Notes, Photo Gallery). Each tab has a section index page (`index.md`) so clicking the tab lands on the index rather than the first child page. App and tool names sit directly below the tab level, with pages listed flat under each — no Operations/Reference/Troubleshooting sub-categories. Sections collapse and expand on click (`navigation.sections` is not enabled).
 
 **Doc folder conventions:**
-Content is organised as `docs/<locale>/<section>/<app-or-topic>/<category>/<slug>.md`, where `<category>` is typically `operations`, `troubleshooting`, or `reference`.
+Content is organised as `docs/en/<section>/<app-or-topic>/<category>/<slug>.md`, where `<category>` is typically `operations`, `troubleshooting`, or `reference`. The category is part of the file path but is **not** shown in the nav.
+
+**Section index pages:**
+Each top-level section has an `index.md` at its root (e.g. `docs/en/apps/index.md`, `docs/en/dev/index.md`). These must be the first entry under their section in `mkdocs.yml`.
 
 **Adding a new page:**
-1. Create the Markdown file in the appropriate folder under `docs/en/` or `docs/ja/`.
-2. Add its path to the matching nav anchor in `mkdocs.yml`.
+1. Create the Markdown file in the appropriate folder under `docs/en/`.
+2. Add its path directly under the relevant app/tool name in `mkdocs.yml` — no category grouping needed.
 Both steps are required — pages not listed in the nav produce a warning and are excluded from the built site.
 
 ## Writing Standards
@@ -45,7 +49,7 @@ The full style guide is at `style-guide-en.md` (project root — not published t
 
 **File naming:** Use kebab-case. Start the filename with a verb (`install-docker.md`, `set-up-claude-code-wsl2.md`).
 
-**Folder structure:** The `docs/` folder has `en/`, `ja/`, and `stylesheets/`. Always place new English documents inside `docs/en/`. Organise by `apps/`, `dev/`, or `mobiles/`, then by `operations/`, `troubleshooting/`, or `reference/`.
+**Folder structure:** The `docs/en/` folder contains `apps/`, `dev/`, `mobiles/`, and `stylesheets/`. Always place new documents inside `docs/en/`. The `stylesheets/extra.css` file lives at `docs/en/stylesheets/extra.css`.
 
 **Document title (H1):** Title case, starting with an imperative verb. Minor words lowercase: a, an, the, in, of, to, with, for, and, or, but. Example: `# Set Up Claude Code in WSL2`.
 
@@ -63,7 +67,7 @@ The full style guide is at `style-guide-en.md` (project root — not published t
 
 **Lists:** Bullets for unordered items, numbered lists for sequential steps. Keep items parallel in structure.
 
-**Punctuation:** Use standard English quotation marks (`"..."`) in English documents. Do not use Japanese corner brackets (`「...」`), even when quoting Japanese UI text.
+**Punctuation:** Use standard English quotation marks (`"..."`) in English documents.
 
 **UI navigation:** Use `→` (not `>`) to separate menu steps. Bold each item: **Settings** → **Pages**.
 
