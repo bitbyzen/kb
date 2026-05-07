@@ -33,7 +33,7 @@ This is an English-only MkDocs static knowledge base deployed to GitHub Pages at
 `mkdocs.yml` defines a single `nav:` block. The top level uses `navigation.tabs` (Home, App Notes, Dev Notes, Mobile Notes, Photo Gallery). Each tab has a section index page (`index.md`) so clicking the tab lands on the index rather than the first child page. App and tool names sit directly below the tab level, with pages listed flat under each — no Operations/Reference/Troubleshooting sub-categories. Sections collapse and expand on click (`navigation.sections` is not enabled).
 
 **Doc folder conventions:**
-Content is organised as `docs/en/<section>/<app-or-topic>/<category>/<slug>.md`, where `<category>` is typically `operations`, `troubleshooting`, or `reference`. The category is part of the file path but is **not** shown in the nav.
+Content is organised as `docs/en/<section>/<app-or-topic>/<slug>.md`. There are no category subfolders (`operations`, `reference`, `troubleshooting` — these have been removed). Each app/topic folder has an `img/` subfolder for all image files. Reference images in Markdown as `img/<filename>` (relative path).
 
 **Section index pages:**
 Each top-level section has an `index.md` at its root (e.g. `docs/en/apps/index.md`, `docs/en/dev/index.md`). These must be the first entry under their section in `mkdocs.yml`.
@@ -47,9 +47,9 @@ Both steps are required — pages not listed in the nav produce a warning and ar
 
 The full style guide is at `style-guide-en.md` (project root — not published to the site). Key rules to follow automatically:
 
-**File naming:** Use kebab-case. Start the filename with a verb (`install-docker.md`, `set-up-claude-code-wsl2.md`).
+**File naming:** Use kebab-case derived from the H1 title. Start the filename with a verb. Always omit articles (a, an, the) and possessives (your). Keep it to 40 characters or fewer (excluding `.md`); drop other filler words (in, on, to, for, etc.) if still over the limit. The filename must also match the base name of any linked images in the `img/` folder (e.g. images named `install-gimp-01.webp` → file is `install-gimp.md`). Example: `# Install GIMP on Windows` → `install-gimp.md`.
 
-**Folder structure:** The `docs/en/` folder contains `apps/`, `dev/`, `mobiles/`, and `stylesheets/`. Always place new documents inside `docs/en/`. The `stylesheets/extra.css` file lives at `docs/en/stylesheets/extra.css`.
+**Folder structure:** The `docs/en/` folder contains `apps/`, `dev/`, `mobiles/`, `photos/`, and `stylesheets/`. Always place new documents inside `docs/en/`. The `stylesheets/extra.css` file lives at `docs/en/stylesheets/extra.css`. Notable folder names: miscellaneous tools use `misc/` (not `utilities/`), Unreal Engine uses `ue/` (not `unreal-engine/`).
 
 **Document title (H1):** Title case, starting with an imperative verb. Minor words lowercase: a, an, the, in, of, to, with, for, and, or, but. Example: `# Set Up Claude Code in WSL2`.
 

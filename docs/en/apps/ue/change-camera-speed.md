@@ -1,0 +1,12 @@
+# Change Camera Speed
+
+Adjust the viewport camera movement speed.
+
+## Steps
+
+1. In the viewport toolbar, click **Camera Speed**.
+
+    ![Change camera speed](img/change-camera-speed-01.webp)
+
+2. Drag the slider to set the desired speed.
+
