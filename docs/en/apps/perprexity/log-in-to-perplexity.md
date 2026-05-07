@@ -1,4 +1,4 @@
-# Log in to Perplexity
+# Log In to Perplexity
 
 ## Steps
 

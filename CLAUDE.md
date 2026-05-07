@@ -47,11 +47,11 @@ Both steps are required — pages not listed in the nav produce a warning and ar
 
 The full style guide is at `style-guide-en.md` (project root — not published to the site). Key rules to follow automatically:
 
-**File naming:** Use kebab-case derived from the H1 title. Start the filename with a verb. Always omit articles (a, an, the) and possessives (your). Keep it to 40 characters or fewer (excluding `.md`); drop other filler words (in, on, to, for, etc.) if still over the limit. The filename must also match the base name of any linked images in the `img/` folder (e.g. images named `install-gimp-01.webp` → file is `install-gimp.md`). Example: `# Install GIMP on Windows` → `install-gimp.md`.
+**File naming:** Use kebab-case derived from the H1 title. Start the filename with a verb. Always omit articles (a, an, the) and possessives (your). Keep it to 40 characters or fewer (excluding `.md`); drop other filler words (in, on, to, for, etc.) if still over the limit. Images in the `img/` folder must be named after the MD file (e.g. `install-gimp.md` → images named `install-gimp-01.webp`, `install-gimp-02.webp`). Example: `# Install GIMP on Windows` → `install-gimp.md`.
 
 **Folder structure:** The `docs/en/` folder contains `apps/`, `dev/`, `mobiles/`, `photos/`, and `stylesheets/`. Always place new documents inside `docs/en/`. The `stylesheets/extra.css` file lives at `docs/en/stylesheets/extra.css`. Notable folder names: miscellaneous tools use `misc/` (not `utilities/`), Unreal Engine uses `ue/` (not `unreal-engine/`).
 
-**Document title (H1):** Title case, starting with an imperative verb. Minor words lowercase: a, an, the, in, of, to, with, for, and, or, but. Example: `# Set Up Claude Code in WSL2`.
+**Document title (H1):** Title case, starting with an imperative verb. Minor words lowercase: a, an, the, in, of, to, with, for, and, or, but. Exception: particles in phrasal verbs are capitalized — **Log In**, **Sign In**, **Set Up**, **Zoom In** (e.g. `# Log In to DSM`). Only "in" as a standalone preposition stays lowercase (e.g. `# Enable Vertical Tabs in Chrome`). Example: `# Set Up Claude Code in WSL2`.
 
 **Headings:** One H1 per document (title only). Use H2 for major sections, H3 for subsections. Title case for H2 and H3 as well. For sequential steps, use `## Step 1: Install the Application` (colon, not em dash). For parallel alternatives, use `## Method 1: Best Terminal Solution` (not `Option N:` or plain `1.`).
 

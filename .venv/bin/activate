@@ -38,7 +38,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV=/home/kuroraiun/projects/02-assistant/python/mkdocs/.venv
+VIRTUAL_ENV=/home/kuroraiun/projects/02-assistant/python/mkdocs/mkdocs-public/.venv
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
