@@ -30,20 +30,20 @@ nav:
       - apps/blender/render-slideshow.md
     - ChatGPT:
       - apps/chatgpt/convert-chatgpt-chat-to-word-document.md
-    - CoeiroInk:
-      - apps/coeiroink/add-mycoeiroink-voice-to-coeiroink.md
     - Claude.ai:
       - apps/claude-ai/log-in-to-claude.md
       - apps/claude-ai/manage-claude-ai-memory.md
       - apps/claude-ai/understand-cowork-and-dispatch.md
+    - CoeiroInk:
+      - apps/coeiroink/add-mycoeiroink-voice-to-coeiroink.md
     - ComfyUI:
       - apps/comfyui/install-comfyui-with-desktop-installer.md
       - apps/comfyui/run-flux-locally-with-comfyui.md
       - apps/comfyui/understand-spectrum-in-comfyui.md
-    - Discord:
-      - apps/discord/set-up-discord-and-follow-server.md
     - DeepL:
       - apps/deepl/update-payment-method.md
+    - Discord:
+      - apps/discord/set-up-discord-and-follow-server.md
     - Eijiro:
       - apps/eijiro/check-account-information.md
       - apps/eijiro/delete-account.md
@@ -59,8 +59,8 @@ nav:
     - Google Chrome:
       - apps/google-chrome/chat-with-gemini-from-address-bar.md
       - apps/google-chrome/enable-vertical-tabs-in-chrome.md
-      - apps/google-chrome/show-google-menu-on-new-tab.md
       - apps/google-chrome/pin-tools-to-chrome-toolbar.md
+      - apps/google-chrome/show-google-menu-on-new-tab.md
     - Google Drive:
       - apps/google-drive/change-folder-access-role-google-drive.md
       - apps/google-drive/edit-google-drive-stored-md-files.md
@@ -70,19 +70,19 @@ nav:
       - apps/iztope-rx8/remove-bgm-from-audio.md
       - apps/iztope-rx8/remove-vocals-from-audio.md
       - apps/iztope-rx8/stop-loading-previous-sessions-startup.md
-      - apps/iztope-rx8/understand-time-pitch-module.md
       - apps/iztope-rx8/understand-izotope-rx8.md
+      - apps/iztope-rx8/understand-time-pitch-module.md
     - Kensington:
-      - apps/kensington/fix-settings-changes-not-applied.md
       - apps/kensington/fix-trackball-not-recognized.md
+      - apps/kensington/fix-settings-changes-not-applied.md
     - Keychron:
       - apps/keychron/duplicate-macro-in-keychron-launcher.md
       - apps/keychron/enter-quotation-marks-keychron-keyboard.md
       - apps/keychron/export-keymap.md
       - apps/keychron/export-macros-as-backup.md
+      - apps/keychron/review-keychron-keyboard-cautions.md
       - apps/keychron/set-up-language-switching-shortcuts.md
       - apps/keychron/type-tilde-or-backquote-on-keychron-q11.md
-      - apps/keychron/review-keychron-keyboard-cautions.md
     - LINE:
       - apps/line/block-and-delete-friend-on-line.md
     - memoQ:
@@ -91,22 +91,22 @@ nav:
       - apps/meta-quest/add-new-profile-on-meta-quest-3.md
       - apps/meta-quest/display-windows-screen-on-meta-quest-3.md
       - apps/meta-quest/remove-meta-quest-3-face-cover.md
-    - NVIDIA:
-      - apps/nvidia/update-nvidia-gpu-driver.md
     - Nano Banana:
       - apps/nano-banana/apply-nano-banana-prompting-best.md
+    - NVIDIA:
+      - apps/nvidia/update-nvidia-gpu-driver.md
     - Obsidian:
       - apps/obsidian/display-linked-images.md
       - apps/obsidian/import-onenote-pages-into-obsidian.md
       - apps/obsidian/open-vault-folder.md
       - apps/obsidian/show-whitespace.md
-    - Outlook:
-      - apps/outlook/disable-email-forwarding-in-outlook.md
     - OpenAI:
       - apps/openai/accept-chatgpt-pro-free-offer.md
       - apps/openai/cancel-chatgpt-subscription.md
       - apps/openai/export-chat-data-from-chatgpt.md
       - apps/openai/update-chatgpt-billing-address.md
+    - Outlook:
+      - apps/outlook/disable-email-forwarding-in-outlook.md
     - Perplexity:
       - apps/perprexity/create-perplexity-account.md
       - apps/perprexity/install-comet.md
@@ -117,28 +117,28 @@ nav:
     - Synology:
       - apps/synology/analyze-storage.md
       - apps/synology/back-up-documents-android-synology-nas.md
-      - apps/synology/back-up-obsidian-vault-synology-drive.md
       - apps/synology/back-up-smartphone-photos-synology.md
-      - apps/synology/check-ip-address-of-synology-nas.md
+      - apps/synology/back-up-obsidian-vault-synology-drive.md
       - apps/synology/check-storage-on-synology-ds720.md
+      - apps/synology/check-ip-address-of-synology-nas.md
+      - apps/synology/compare-mobilebackup-photolibrary.md
+      - apps/synology/compare-synology-backup-tools-windows-11.md
+      - apps/synology/compare-synology-photos-synology-drive.md
       - apps/synology/empty-recycle-bin-automatically.md
       - apps/synology/empty-recycle-bin-manually.md
       - apps/synology/hide-homes-folder-in-synology-dsm.md
       - apps/synology/host-mkdocs-site-synology-nas.md
       - apps/synology/install-storage-analyzer-in-dsm.md
-      - apps/synology/research-synology-products.md
       - apps/synology/log-in-to-dsm.md
+      - apps/synology/research-synology-products.md
       - apps/synology/restore-deleted-file.md
+      - apps/synology/review-reasons-for-retiring-buffalo-nas.md
+      - apps/synology/review-ds720-hardware-layout.md
       - apps/synology/run-claude-synology-nas-docker-api.md
       - apps/synology/set-up-active-backup-business-d-drive.md
-      - apps/synology/use-synology-nas-as-claude-workflow-hub.md
-      - apps/synology/compare-synology-backup-tools-windows-11.md
-      - apps/synology/compare-synology-photos-synology-drive.md
       - apps/synology/understand-dsm.md
-      - apps/synology/review-ds720-hardware-layout.md
-      - apps/synology/compare-mobilebackup-photolibrary.md
-      - apps/synology/review-reasons-for-retiring-buffalo-nas.md
       - apps/synology/understand-web-assistant.md
+      - apps/synology/use-synology-nas-as-claude-workflow-hub.md
     - UniConverter:
       - apps/uniconverter/change-save-folders.md
       - apps/uniconverter/download-youtube-video.md
@@ -164,10 +164,11 @@ nav:
     - Voicevox:
       - apps/voicevox/install-voicevox.md
     - Wan:
+      - apps/wan/generate-video.md
       - apps/wan/generate-video-with-original-character.md
       - apps/wan/generate-image.md
-      - apps/wan/generate-video.md
     - Windows:
+      - apps/windows/avoid-ctrl-f-key-conflicts-windows.md
       - apps/windows/change-email-address.md
       - apps/windows/disable-unknown-usb-device-error.md
       - apps/windows/fix-file-that-cannot-be-deleted.md
@@ -176,93 +177,94 @@ nav:
       - apps/windows/remove-pc-from-microsoft-account.md
       - apps/windows/take-screenshot.md
       - apps/windows/use-narrator-in-windows-11.md
-    - YMM4:
-      - apps/ymm4/install-yukkurimoviemaker4.md
-      - apps/ymm4/import-voice-lines-scenario-file-ymm4.md
-      - apps/ymm4/use-free-coefont-voices-allial-millial.md
-      - apps/ymm4/add-coeiroink-voices-to-ymm4.md
-      - apps/ymm4/use-ymm4-playback-shortcuts.md
     - XnView:
       - apps/xnview/convert-png-to-webp.md
       - apps/xnview/edit-image-with-external-editor.md
       - apps/xnview/resize-image-height.md
       - apps/xnview/update-xnview-mp.md
+    - YMM4:
+      - apps/ymm4/add-coeiroink-voices-to-ymm4.md
+      - apps/ymm4/import-voice-lines-scenario-file-ymm4.md
+      - apps/ymm4/install-yukkurimoviemaker4.md
+      - apps/ymm4/use-free-coefont-voices-allial-millial.md
+      - apps/ymm4/use-ymm4-playback-shortcuts.md
     - Misc:
+      - apps/misc/adjust-monitor-brightness-monitorian.md
       - apps/misc/change-file-extension.md
-      - apps/misc/split-audio-with-go-splitter.md
       - apps/misc/create-window-layout-using-fancyzones.md
       - apps/misc/download-website.md
+      - apps/misc/filter-blue-light-with-f-lux.md
       - apps/misc/protect-email-when-trying-unknown.md
       - apps/misc/recover-data-with-disk-drill.md
-      - apps/misc/filter-blue-light-with-f-lux.md
-      - apps/misc/adjust-monitor-brightness-monitorian.md
+      - apps/misc/split-audio-with-go-splitter.md
       - apps/misc/visualize-disk-usage-on-windows.md
+
   - Dev Notes:
     - dev/index.md
     - Claude Code:
-      - dev/claude-code/set-up-claude-code-in-wsl2.md
       - dev/claude-code/migrate-claude-code-npm-native-installer.md
+      - dev/claude-code/set-up-claude-code-in-wsl2.md
     - Docker:
       - dev/docker/disable-scout-os-notifications.md
+      - dev/docker/fix-failed-connect-docker-api-vs-code.md
+      - dev/docker/fix-wsl-integration-unexpectedly-stopped.md
       - dev/docker/install-docker-on-windows.md
       - dev/docker/install-python-packages-pip-docker.md
       - dev/docker/manage-docker-images.md
       - dev/docker/sign-docker-desktop-personal-user.md
-      - dev/docker/fix-failed-connect-docker-api-vs-code.md
-      - dev/docker/fix-wsl-integration-unexpectedly-stopped.md
       - dev/docker/understand-docker.md
       - dev/docker/understand-docker-pricing.md
     - Git:
-      - dev/git/restore-deleted-files-using-git.md
       - dev/git/fix-author-identity-unknown.md
       - dev/git/fix-using-master-name-initial-branch.md
+      - dev/git/restore-deleted-files-using-git.md
     - GitHub:
       - dev/github/change-repository-name.md
       - dev/linux/opt-out-of-github-copilot-ai-training.md
     - Inno Setup:
       - dev/inno-setup/understand-inno-setup.md
     - Linux:
+      - dev/linux/create-file-and-open-it-in-vs-code.md
       - dev/linux/create-new-file-in-specific-directory.md
       - dev/linux/create-new-folder.md
-      - dev/linux/create-file-and-open-it-in-vs-code.md
+      - dev/linux/fix-exec-format-error-in-wsl2.md
       - dev/linux/move-file-using-mv.md
       - dev/linux/navigate-to-repository-root.md
       - dev/linux/open-folder-using-explorer-exe.md
       - dev/linux/open-markdown-file-using-code-command.md
-      - dev/linux/open-ubuntu-terminal.md
       - dev/linux/open-wsl-folder-from-windows.md
+      - dev/linux/open-ubuntu-terminal.md
       - dev/linux/prevent-zone-identifier-files-in-linux.md
       - dev/linux/run-commands-using-absolute-path.md
       - dev/linux/use-nano-editor.md
-      - dev/linux/fix-exec-format-error-in-wsl2.md
     - MkDocs:
       - dev/mkdocs/add-copyright-footer-in-mkdocs-material.md
-      - dev/mkdocs/add-indentation-in-instruction-steps.md
       - dev/mkdocs/add-table.md
+      - dev/mkdocs/add-indentation-in-instruction-steps.md
       - dev/mkdocs/confirm-css-file-is-loaded.md
       - dev/mkdocs/create-bilingual-site.md
       - dev/mkdocs/create-links-that-open-in-new-tab.md
+      - dev/mkdocs/deploy-with-gh-deploy.md
       - dev/mkdocs/display-revision-date-at-bottom.md
       - dev/mkdocs/display-revision-date-at-top.md
-      - dev/mkdocs/deploy-with-gh-deploy.md
+      - dev/mkdocs/fix-get-ja-http-1-1-code-302.md
+      - dev/mkdocs/fix-get-ja-sitemap-xml-http-1-1-code-404.md
+      - dev/mkdocs/fix-following-pages-exist-docs-directory.md
       - dev/mkdocs/migrate-mkdocs-from-docker-to-venv.md
       - dev/mkdocs/publish-docker-based-site-github-pages.md
       - dev/mkdocs/publish-site-using-github-pages.md
       - dev/mkdocs/rebuild-mkdocs-docker-image-only-when.md
-      - dev/mkdocs/update-site.md
-      - dev/mkdocs/view-deployment-errors.md
-      - dev/mkdocs/fix-get-ja-http-1-1-code-302.md
-      - dev/mkdocs/fix-get-ja-sitemap-xml-http-1-1-code-404.md
-      - dev/mkdocs/fix-following-pages-exist-docs-directory.md
+      - dev/mkdocs/understand-mkdocs-packages.md
       - dev/mkdocs/understand-docker-run-command.md
       - dev/mkdocs/understand-mkdocs-2-0-warning.md
-      - dev/mkdocs/understand-mkdocs-packages.md
+      - dev/mkdocs/update-site.md
+      - dev/mkdocs/view-deployment-errors.md
     - Notepad++:
       - dev/notepad-pp/comment-out-lines.md
       - dev/notepad-pp/enable-comment-shortcut-for-autohotkey.md
+      - dev/notepad-pp/respond-notepad-updater-hijack-incident.md
       - dev/notepad-pp/set-default-save-folder.md
       - dev/notepad-pp/update-notepad-without-using-updater.md
-      - dev/notepad-pp/respond-notepad-updater-hijack-incident.md
     - Nuitka:
       - dev/nuitka/convert-python-script-to-executable.md
     - Python:
@@ -278,19 +280,20 @@ nav:
       - dev/vs-code/connect-to-github.md
       - dev/vs-code/connect-to-wsl.md
       - dev/vs-code/copy-image-file-from-windows-to-linux.md
+      - dev/vs-code/fix-python-interpreter-path-not-found-vs.md
       - dev/vs-code/install-github-actions-extension.md
       - dev/vs-code/move-files-safely-linux-wsl-using-vs.md
-      - dev/vs-code/open-linux-windows-folders-vs-code-wsl.md
       - dev/vs-code/open-linux-folder-in-vs-code.md
+      - dev/vs-code/open-linux-windows-folders-vs-code-wsl.md
       - dev/vs-code/open-ubuntu-terminal.md
       - dev/vs-code/preview-markdown-side-by-side.md
       - dev/vs-code/remove-tab-indentation-multiple-lines.md
       - dev/vs-code/replace-imported-image.md
-      - dev/vs-code/fix-python-interpreter-path-not-found-vs.md
     - Xserver:
       - dev/xserver/manage-xserver-services.md
     - YouTube:
       - dev/youtube/download-playlist-videos-automatically.md
+
   - Mobile Notes:
     - mobiles/index.md
     - Google Maps:
@@ -308,14 +311,16 @@ nav:
     - Simplenote:
       - mobiles/simplenote/understand-simplenote.md
     - Synology Photos:
-      - mobiles/synology-photos/back-up-screenshots-automatically.md
       - mobiles/synology-photos/back-up-photos-to-photolibrary-only.md
+      - mobiles/synology-photos/back-up-screenshots-automatically.md
       - mobiles/synology-photos/change-ui-language-of-synology-photos.md
       - mobiles/synology-photos/delete-images-after-backup-synology.md
       - mobiles/synology-photos/understand-personal-space-folder.md
     - Misc:
-      - mobiles/misc/get-second-phone-number.md
       - mobiles/misc/compare-markdown-note-apps.md
+      - mobiles/misc/get-second-phone-number.md
+      - mobiles/misc/review-usable-smartphone-apps.md
+
   - Photo Gallery:
     - photos/index.md
     - Rooms:

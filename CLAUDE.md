@@ -30,7 +30,7 @@ This is an English-only MkDocs static knowledge base deployed to GitHub Pages at
 - `.github/workflows/deploy.yml` — builds and deploys on every push to `main`
 
 **Nav structure:**
-`mkdocs.yml` defines a single `nav:` block. The top level uses `navigation.tabs` (Home, App Notes, Dev Notes, Mobile Notes, Photo Gallery). Each tab has a section index page (`index.md`) so clicking the tab lands on the index rather than the first child page. App and tool names sit directly below the tab level, with pages listed flat under each — no Operations/Reference/Troubleshooting sub-categories. Sections collapse and expand on click (`navigation.sections` is not enabled).
+`mkdocs.yml` defines a single `nav:` block. The top level uses `navigation.tabs` (Home, App Notes, Dev Notes, Mobile Notes, Photo Gallery). Each tab has a section index page (`index.md`) so clicking the tab lands on the index rather than the first child page. App and tool names sit directly below the tab level, with pages listed flat under each — no Operations/Reference/Troubleshooting sub-categories. Sections collapse and expand on click (`navigation.sections` is not enabled). App/section names within each tab are sorted alphabetically. Pages within each app/section are also sorted alphabetically by their H1 title.
 
 **Doc folder conventions:**
 Content is organised as `docs/en/<section>/<app-or-topic>/<slug>.md`. There are no category subfolders (`operations`, `reference`, `troubleshooting` — these have been removed). Each app/topic folder has an `img/` subfolder for all image files. Reference images in Markdown as `img/<filename>` (relative path).
@@ -41,7 +41,8 @@ Each top-level section has an `index.md` at its root (e.g. `docs/en/apps/index.m
 **Adding a new page:**
 1. Create the Markdown file in the appropriate folder under `docs/en/`.
 2. Add its path directly under the relevant app/tool name in `mkdocs.yml` — no category grouping needed.
-Both steps are required — pages not listed in the nav produce a warning and are excluded from the built site.
+3. Insert at the correct alphabetical position by H1 title, both within the app/section and among app/section names.
+All steps are required — pages not listed in the nav produce a warning and are excluded from the built site.
 
 ## Writing Standards
 
