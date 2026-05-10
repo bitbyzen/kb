@@ -83,8 +83,6 @@ nav:
       - apps/keychron/review-keychron-keyboard-cautions.md
       - apps/keychron/set-up-language-switching-shortcuts.md
       - apps/keychron/type-tilde-or-backquote-on-keychron-q11.md
-    - LINE:
-      - apps/line/block-and-delete-friend-on-line.md
     - memoQ:
       - apps/memoq/update-address.md
     - Meta Quest:
@@ -306,6 +304,8 @@ nav:
       - mobiles/google-pixel/install-google-finance-on-google-pixel.md
     - Google Sheets:
       - mobiles/google-sheets/convert-google-sheets-excel-android.md
+    - LINE:
+      - mobiles/line/block-and-delete-friend-on-line.md
     - Roborock:
       - mobiles/roborock/register-second-vacuum-cleaner.md
     - Simplenote:
