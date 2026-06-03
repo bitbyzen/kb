@@ -65,6 +65,8 @@ nav:
       - apps/google-drive/change-folder-access-role-google-drive.md
       - apps/google-drive/edit-google-drive-stored-md-files.md
       - apps/google-drive/open-google-drive-folder-in-windows.md
+    - Google Sites:
+      - apps/google-sites/share-published-google-site.md
     - Iztope RX8:
       - apps/iztope-rx8/convert-female-voices-to-male-voices.md
       - apps/iztope-rx8/remove-bgm-from-audio.md
@@ -173,9 +175,11 @@ nav:
       - apps/windows/lock-drive-using-bitlocker.md
       - apps/windows/open-microsoft-account-website.md
       - apps/windows/remove-pc-from-microsoft-account.md
+      - apps/windows/set-default-view-extra-large-icons.md
       - apps/windows/take-screenshot.md
       - apps/windows/use-narrator-in-windows-11.md
     - XnView:
+      - apps/xnview/batch-rename-photos.md
       - apps/xnview/convert-png-to-webp.md
       - apps/xnview/edit-image-with-external-editor.md
       - apps/xnview/resize-image-height.md
@@ -294,6 +298,8 @@ nav:
 
   - Mobile Notes:
     - mobiles/index.md
+    - Google Drive:
+      - mobiles/google-drive/download-google-sheet-excel-android.md
     - Google Maps:
       - mobiles/google-maps/configure-google-maps-walking.md
     - Google Photos:
@@ -304,18 +310,34 @@ nav:
       - mobiles/google-pixel/install-google-finance-on-google-pixel.md
     - Google Sheets:
       - mobiles/google-sheets/convert-google-sheets-excel-android.md
+      - mobiles/google-sheets/save-new-google-sheets-as-excel.md
     - LINE:
       - mobiles/line/block-and-delete-friend-on-line.md
+      - mobiles/line/create-album-in-line.md
     - Roborock:
       - mobiles/roborock/register-second-vacuum-cleaner.md
     - Simplenote:
       - mobiles/simplenote/understand-simplenote.md
+    - SpaceDesk:
+      - mobiles/spacedesk/connect-disconnect-spacedesk.md
+      - mobiles/spacedesk/understand-why-spacedesk-is-free.md
     - Synology Photos:
       - mobiles/synology-photos/back-up-photos-to-photolibrary-only.md
       - mobiles/synology-photos/back-up-screenshots-automatically.md
       - mobiles/synology-photos/change-ui-language-of-synology-photos.md
       - mobiles/synology-photos/delete-images-after-backup-synology.md
       - mobiles/synology-photos/understand-personal-space-folder.md
+    - XPPen Magic Drawing Pad:
+      - mobiles/xppen-magic-drawing-pad/access-official-manual.md
+      - mobiles/xppen-magic-drawing-pad/charge-and-reverse-charge.md
+      - mobiles/xppen-magic-drawing-pad/compare-pen-display-apps.md
+      - mobiles/xppen-magic-drawing-pad/power-on-off-restart.md
+      - mobiles/xppen-magic-drawing-pad/prevent-finger-false-touch.md
+      - mobiles/xppen-magic-drawing-pad/redeem-ibis-paint-x-membership.md
+      - mobiles/xppen-magic-drawing-pad/transfer-files-to-pc.md
+      - mobiles/xppen-magic-drawing-pad/understand-home-screen.md
+      - mobiles/xppen-magic-drawing-pad/use-magic-drawing-pad-pen-display.md
+      - mobiles/xppen-magic-drawing-pad/use-stylus.md
     - Misc:
       - mobiles/misc/compare-markdown-note-apps.md
       - mobiles/misc/get-second-phone-number.md
