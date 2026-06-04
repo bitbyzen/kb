@@ -136,6 +136,7 @@ nav:
       - apps/synology/review-ds720-hardware-layout.md
       - apps/synology/run-claude-synology-nas-docker-api.md
       - apps/synology/set-up-active-backup-business-d-drive.md
+      - apps/synology/sync-google-drive-synology-nas.md
       - apps/synology/understand-dsm.md
       - apps/synology/understand-web-assistant.md
       - apps/synology/use-synology-nas-as-claude-workflow-hub.md
