@@ -13,6 +13,7 @@ These apps add the tablet as an extra Windows monitor. The stylus works as pen i
 | SpaceDesk | Free | Broad device support | Pen experience varies; may need tweaking |
 | SuperDisplay | Paid | Polished pen experience for artists | Focused on drawing; less general-purpose |
 | Duet Display | Paid | Reliable, low latency | Subscription-based |
+| Weylus | Free & open source | Full stylus and pressure sensitivity via browser; no account required | Requires vJoy driver setup; browser-based interface |
 
 ## Remote Desktop Apps
 
@@ -24,6 +25,14 @@ These apps stream the entire Windows desktop to the tablet as a video feed. The 
 | Microsoft Remote Desktop | Same limitation; designed for remote access, not display extension |
 
 Blender relies on pressure-sensitive stylus input for sculpting and texture painting. Remote desktop apps do not pass stylus pressure data through, making them unsuitable for this workflow.
+
+## Set Up Weylus
+
+1. Download Weylus for Windows from GitHub.
+2. Install a virtual stylus driver: the setup wizard guides you through installing vJoy or the Weylus driver to enable pressure sensitivity in Windows.
+3. Run Weylus on your PC. It displays a local URL such as `192.168.x.x:8001` and a QR code.
+4. Open a web browser on your tablet, enter the URL, and your PC screen appears.
+5. In the Weylus browser interface on your tablet, check **Capture Stylus** and **Pressure Sensitivity**.
 
 ## Why SpaceDesk
 
