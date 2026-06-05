@@ -314,6 +314,8 @@ nav:
       - mobiles/google-sheets/save-new-google-sheets-as-excel.md
     - Insta360 GO Ultra:
       - mobiles/insta360-go-ultra/access-official-resources.md
+      - mobiles/insta360-go-ultra/attach-microsd-card.md
+      - mobiles/insta360-go-ultra/update-firmware.md
     - LINE:
       - mobiles/line/block-and-delete-friend-on-line.md
       - mobiles/line/create-album-in-line.md
