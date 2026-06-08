@@ -274,6 +274,7 @@ nav:
       - dev/python/create-executable-from-python-script.md
       - dev/python/create-installer-for-python-app.md
     - Style-Bert-VITS2:
+      - dev/style-bert-vits2/check-pinokio-support-style-bert-vits2.md
       - dev/style-bert-vits2/set-up-style-bert-vits2-webui.md
     - VS Code:
       - dev/vs-code/add-image-to-document-in-editor.md
