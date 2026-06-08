@@ -59,12 +59,22 @@ Open a browser and go to `http://192.168.x.x/kb/`. The site should load.
 
 ## Updating the Site
 
-Each time you update content, run:
+Each time you update content, run the following steps:
 
-```bash
-sudo mount -t cifs //192.168.x.x/web /mnt/nas-web -o username=<YOUR-VALUE>,uid=1000,gid=1000
-.venv/bin/mkdocs build
-rsync -av --delete site/ /mnt/nas-web/kb/
-```
+1. Mount the NAS web folder (skip this step if WSL2 has not been restarted since the last sync):
 
-Skip the `mount` command if WSL2 has not been restarted since the last sync.
+   ```bash
+   sudo mount -t cifs //192.168.x.x/web /mnt/nas-web -o username=<YOUR-VALUE>,uid=1000,gid=1000
+   ```
+
+2. Build the site:
+
+   ```bash
+   .venv/bin/mkdocs build
+   ```
+
+3. Sync the build output to the NAS:
+
+   ```bash
+   rsync -av --delete site/ /mnt/nas-web/kb/
+   ```

@@ -6,5 +6,6 @@ hide:
 
 *Learn and build, bit by bit.*
 
-Bitbyzen brings together digital creation, careful craftsmanship, and simple design.  
-It’s a place for applications, notes, and educational videos—shared with a focus on clarity and calm.
+A personal space for applications, notes, and videos—built around clarity and calm.
+
+Run by a freelance programmer. The pages here are working notes, not finished guides—explore freely and follow your curiosity.

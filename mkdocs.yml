@@ -127,7 +127,6 @@ nav:
       - apps/synology/empty-recycle-bin-automatically.md
       - apps/synology/empty-recycle-bin-manually.md
       - apps/synology/hide-homes-folder-in-synology-dsm.md
-      - apps/synology/host-mkdocs-site-synology-nas.md
       - apps/synology/install-storage-analyzer-in-dsm.md
       - apps/synology/log-in-to-dsm.md
       - apps/synology/research-synology-products.md
@@ -253,6 +252,7 @@ nav:
       - dev/mkdocs/fix-get-ja-http-1-1-code-302.md
       - dev/mkdocs/fix-get-ja-sitemap-xml-http-1-1-code-404.md
       - dev/mkdocs/fix-following-pages-exist-docs-directory.md
+      - dev/mkdocs/host-mkdocs-site-synology-nas.md
       - dev/mkdocs/migrate-mkdocs-from-docker-to-venv.md
       - dev/mkdocs/publish-docker-based-site-github-pages.md
       - dev/mkdocs/publish-site-using-github-pages.md

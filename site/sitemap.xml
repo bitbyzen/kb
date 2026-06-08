@@ -365,10 +365,6 @@
          <lastmod>2026-06-08</lastmod>
     </url>
     <url>
-         <loc>https://bitbyzen.github.io/kb/apps/synology/host-mkdocs-site-synology-nas/</loc>
-         <lastmod>2026-06-08</lastmod>
-    </url>
-    <url>
          <loc>https://bitbyzen.github.io/kb/apps/synology/install-storage-analyzer-in-dsm/</loc>
          <lastmod>2026-06-08</lastmod>
     </url>
@@ -758,6 +754,10 @@
     </url>
     <url>
          <loc>https://bitbyzen.github.io/kb/dev/mkdocs/fix-get-ja-sitemap-xml-http-1-1-code-404/</loc>
+         <lastmod>2026-06-08</lastmod>
+    </url>
+    <url>
+         <loc>https://bitbyzen.github.io/kb/dev/mkdocs/host-mkdocs-site-synology-nas/</loc>
          <lastmod>2026-06-08</lastmod>
     </url>
     <url>
