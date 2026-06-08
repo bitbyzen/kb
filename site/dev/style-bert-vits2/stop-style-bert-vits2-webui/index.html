@@ -5,13 +5,13 @@
       
       
       
-        <link rel="canonical" href="https://bitbyzen.github.io/kb/dev/nuitka/convert-python-script-to-executable/">
+        <link rel="canonical" href="https://bitbyzen.github.io/kb/dev/style-bert-vits2/stop-style-bert-vits2-webui/">
       
       
-        <link rel="prev" href="../../notepad-pp/update-notepad-without-using-updater/">
+        <link rel="prev" href="../set-up-style-bert-vits2-webui/">
       
       
-        <link rel="next" href="../../python/create-executable-from-python-script/">
+        <link rel="next" href="../../vs-code/add-image-to-document-in-editor/">
       
       
         
@@ -22,7 +22,7 @@
     
     
       
-        <title>Convert a Python Script to an Executable - Bitbyzen</title>
+        <title>Stop Style-Bert-VITS2 WebUI - Bitbyzen</title>
       
     
     
@@ -75,7 +75,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#convert-a-python-script-to-an-executable" class="md-skip">
+        <a href="#stop-style-bert-vits2-webui" class="md-skip">
           Skip to content
         </a>
       
@@ -111,7 +111,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Convert a Python Script to an Executable
+              Stop Style-Bert-VITS2 WebUI
             
           </span>
         </div>
@@ -9449,8 +9449,6 @@
                 
   
   
-    
-  
   
   
     
@@ -9465,11 +9463,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_10" checked="">
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_10">
         
           
           <label class="md-nav__link" for="__nav_3_10" id="__nav_3_10_label" tabindex="0">
@@ -9490,7 +9488,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_10_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_10_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3_10">
             <span class="md-nav__icon md-icon"></span>
             
@@ -9505,37 +9503,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Convert a Python Script to an Executable
-  
-
-    
-  </span>
-  
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../nuitka/convert-python-script-to-executable/" class="md-nav__link">
         
   
   
@@ -9551,181 +9522,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
-      
-        <li class="md-nav__item">
-  <a href="#prerequisites" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Prerequisites
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#set-up-a-clean-virtual-environment" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Set Up a Clean Virtual Environment
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#install-nuitka" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Install Nuitka
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#build-the-executable" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Build the Executable
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#understand-the-build-flags" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Understand the Build Flags
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#reduce-false-positives" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Reduce False Positives
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Reduce False Positives">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#strategy-1-fill-in-executable-metadata" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Strategy 1 — Fill in Executable Metadata
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#strategy-2-switch-compilers" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Strategy 2 — Switch Compilers
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#strategy-3-use-an-older-nuitka-version" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Strategy 3 — Use an Older Nuitka Version
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#sign-the-executable" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Sign the Executable
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Sign the Executable">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#tools-needed" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Tools Needed
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#sign-the-executable_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Sign the Executable
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#known-limitations" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Known Limitations
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -9863,8 +9659,10 @@
                 
   
   
+    
   
   
+  
     
     
       
@@ -9881,11 +9679,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_12">
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_12" checked="">
         
           
           <label class="md-nav__link" for="__nav_3_12" id="__nav_3_12_label" tabindex="0">
@@ -9906,7 +9704,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_12_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_12_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3_12">
             <span class="md-nav__icon md-icon"></span>
             
@@ -9924,7 +9722,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../style-bert-vits2/check-pinokio-support-style-bert-vits2/" class="md-nav__link">
+      <a href="../check-pinokio-support-style-bert-vits2/" class="md-nav__link">
         
   
   
@@ -9952,7 +9750,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../style-bert-vits2/set-up-style-bert-vits2-webui/" class="md-nav__link">
+      <a href="../set-up-style-bert-vits2-webui/" class="md-nav__link">
         
   
   
@@ -9977,10 +9775,37 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../style-bert-vits2/stop-style-bert-vits2-webui/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Stop Style-Bert-VITS2 WebUI
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -9996,6 +9821,48 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+      
+        <li class="md-nav__item">
+  <a href="#step-1-stop-the-server" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 1: Stop the Server
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-2-exit-the-virtual-environment" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 2: Exit the Virtual Environment
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -12915,10 +12782,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
       
         <li class="md-nav__item">
-  <a href="#prerequisites" class="md-nav__link">
+  <a href="#step-1-stop-the-server" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Prerequisites
+        Step 1: Stop the Server
       
     </span>
   </a>
@@ -12926,143 +12793,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#set-up-a-clean-virtual-environment" class="md-nav__link">
+  <a href="#step-2-exit-the-virtual-environment" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Set Up a Clean Virtual Environment
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#install-nuitka" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Install Nuitka
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#build-the-executable" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Build the Executable
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#understand-the-build-flags" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Understand the Build Flags
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#reduce-false-positives" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Reduce False Positives
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Reduce False Positives">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#strategy-1-fill-in-executable-metadata" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Strategy 1 — Fill in Executable Metadata
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#strategy-2-switch-compilers" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Strategy 2 — Switch Compilers
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#strategy-3-use-an-older-nuitka-version" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Strategy 3 — Use an Older Nuitka Version
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#sign-the-executable" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Sign the Executable
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Sign the Executable">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#tools-needed" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Tools Needed
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#sign-the-executable_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Sign the Executable
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#known-limitations" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Known Limitations
+        Step 2: Exit the Virtual Environment
       
     </span>
   </a>
@@ -13088,7 +12822,7 @@
   
     <div class="page-date">
       
-        Last updated: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="April 3, 2026 19:48:25 JST">April 3, 2026</span>
+        Last updated: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="June 8, 2026 11:25:36 JST">June 8, 2026</span>
       
     </div>
   
@@ -13098,184 +12832,20 @@
 
 
 
-<h1 id="convert-a-python-script-to-an-executable">Convert a Python Script to an Executable</h1>
+<h1 id="stop-style-bert-vits2-webui">Stop Style-Bert-VITS2 WebUI</h1>
 <blockquote>
 <p><strong>Note:</strong> This document was generated by Claude Code and has not been reviewed by a human. Please use it as a reference only.</p>
 </blockquote>
-<p>A guide to packaging <code>.py</code> files into a standalone Windows <code>.exe</code> using Nuitka — with steps to eliminate antivirus false positives.</p>
-<blockquote>
-<p><strong>Note:</strong> PyInstaller is popular, but executables it produces are frequently flagged as malware by antivirus engines on VirusTotal. Nuitka compiles Python directly and, with the right configuration, produces clean binaries.</p>
-</blockquote>
-<h2 id="prerequisites">Prerequisites</h2>
-<ul>
-<li>Python 3.9 (via Conda recommended)</li>
-<li><a href="https://visualstudio.microsoft.com/visual-cpp-build-tools/">Visual Studio Build Tools</a> with the <strong>MSVC v14.2</strong> component installed</li>
-<li>Conda or pip for environment management</li>
-<li><em>(Optional)</em> <code>osslsigncode</code> for digital signing</li>
-</ul>
-<h2 id="set-up-a-clean-virtual-environment">Set Up a Clean Virtual Environment</h2>
-<p>Nuitka compiles everything in your Python environment into the binary. A bloated environment means a bloated <code>.exe</code>. Start fresh.</p>
-<div class="highlight"><pre><span></span><code>conda<span class="w"> </span>create<span class="w"> </span>-n<span class="w"> </span>nuitka<span class="w"> </span><span class="nv">python</span><span class="o">=</span><span class="m">3</span>.9
-conda<span class="w"> </span>activate<span class="w"> </span>nuitka
-</code></pre></div>
-<p>Then install only the packages your script actually needs:</p>
-<div class="highlight"><pre><span></span><code>pip<span class="w"> </span>install<span class="w"> </span>&lt;your-dependencies&gt;
+<p>Follow these steps to shut down the Style-Bert-VITS2 WebUI server cleanly. See <a href="../set-up-style-bert-vits2-webui/">Set Up Style-Bert-VITS2 WebUI</a> for how to launch it.</p>
+<h2 id="step-1-stop-the-server">Step 1: Stop the Server</h2>
+<p>In the terminal running the server, press <strong>Ctrl + C</strong> to stop <code>app.py</code>.</p>
+<h2 id="step-2-exit-the-virtual-environment">Step 2: Exit the Virtual Environment</h2>
+<p>Run the following command to deactivate the venv:</p>
+<div class="highlight"><pre><span></span><code>deactivate
 </code></pre></div>
 <blockquote>
-<p><strong>Note:</strong> Run your script in this minimal environment first to confirm it works before compiling.</p>
+<p><strong>Note:</strong> Closing the terminal window also stops the server, but running <code>deactivate</code> first leaves your shell in a clean state for the next session.</p>
 </blockquote>
-<h2 id="install-nuitka">Install Nuitka</h2>
-<div class="highlight"><pre><span></span><code>pip<span class="w"> </span>install<span class="w"> </span>nuitka
-</code></pre></div>
-<blockquote>
-<p><strong>Note:</strong> If false positives become an issue after a Nuitka version becomes widely adopted, try pinning to a slightly older version:
-</p><div class="highlight"><pre><span></span><code>pip<span class="w"> </span>install<span class="w"> </span><span class="nv">nuitka</span><span class="o">==</span>&lt;older-version&gt;
-</code></pre></div><p></p>
-</blockquote>
-<h2 id="build-the-executable">Build the Executable</h2>
-<p>Run the following command from your project directory, replacing <code>your_script.py</code> with your script name:</p>
-<div class="highlight"><pre><span></span><code>python<span class="w"> </span>-m<span class="w"> </span>nuitka<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--msvc<span class="o">=</span><span class="m">14</span>.2<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--lto<span class="o">=</span>no<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--standalone<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--onefile<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--onefile-tempdir-spec<span class="o">=</span>my_app_tempdir<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--plugin-enable<span class="o">=</span>pylint-warnings<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--plugin-enable<span class="o">=</span>tk-inter<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--windows-disable-console<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--windows-product-name<span class="o">=</span><span class="s2">"MyApp"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--windows-file-description<span class="o">=</span><span class="s2">"My Application"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--windows-product-version<span class="o">=</span><span class="m">1</span>.0.0.0<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--windows-company-name<span class="o">=</span><span class="s2">"YourCompany"</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--windows-icon-from-ico<span class="o">=</span>C:<span class="se">\p</span>ath<span class="se">\t</span>o<span class="se">\i</span>con.ico<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>your_script.py
-</code></pre></div>
-<h2 id="understand-the-build-flags">Understand the Build Flags</h2>
-<table>
-<thead>
-<tr>
-<th>Flag</th>
-<th>Purpose</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>--msvc=14.2</code></td>
-<td>Use the MSVC compiler. Less common than MinGW64, which reduces false positive rates. Alternatives: <code>--clang</code>, <code>--mingw</code>.</td>
-</tr>
-<tr>
-<td><code>--lto=no</code></td>
-<td>Disables Link Time Optimization. Speeds up the build.</td>
-</tr>
-<tr>
-<td><code>--standalone</code></td>
-<td>Bundles all dependencies into a <code>dist/</code> folder.</td>
-</tr>
-<tr>
-<td><code>--onefile</code></td>
-<td>Compresses the <code>dist/</code> folder into a single <code>.exe</code>.</td>
-</tr>
-<tr>
-<td><code>--onefile-tempdir-spec=&lt;name&gt;</code></td>
-<td>Sets where the <code>.exe</code> extracts itself at runtime. Without this, it extracts to <code>%TEMP%</code>. The folder is deleted automatically on exit.</td>
-</tr>
-<tr>
-<td><code>--plugin-enable=tk-inter</code></td>
-<td>Required if your script uses <code>tkinter</code>.</td>
-</tr>
-<tr>
-<td><code>--windows-disable-console</code></td>
-<td>Suppresses the console window at runtime. Note: <code>print()</code> statements will cause issues — comment them out before building.</td>
-</tr>
-<tr>
-<td><code>--windows-product-name</code></td>
-<td>Sets the product name in the executable's metadata.</td>
-</tr>
-<tr>
-<td><code>--windows-file-description</code></td>
-<td>Sets the file description in metadata.</td>
-</tr>
-<tr>
-<td><code>--windows-product-version</code></td>
-<td>Sets the version string (format: <code>0.0.0.0</code>).</td>
-</tr>
-<tr>
-<td><code>--windows-company-name</code></td>
-<td>Sets the company name in metadata.</td>
-</tr>
-<tr>
-<td><code>--windows-icon-from-ico</code></td>
-<td>Assigns a custom icon to the executable.</td>
-</tr>
-</tbody>
-</table>
-<blockquote>
-<p><strong>Note:</strong> MSVC and Clang require installation via <strong>Visual Studio Installer → Modify → Individual Components</strong>. If you still get false positives, try recompiling with each of the four compilers (<code>msvc</code>, <code>clang</code>, <code>mingw64</code>, <code>mingw</code>) to find the cleanest result.</p>
-</blockquote>
-<h2 id="reduce-false-positives">Reduce False Positives</h2>
-<p>Even a well-built Nuitka binary can trigger antivirus warnings. Check your result on <a href="https://www.virustotal.com">VirusTotal</a> and use the following strategies if needed.</p>
-<h3 id="strategy-1-fill-in-executable-metadata">Strategy 1 — Fill in Executable Metadata</h3>
-<p>Antivirus engines treat anonymous binaries with more suspicion. Always set:</p>
-<div class="highlight"><pre><span></span><code>--windows-product-name
---windows-file-description
---windows-product-version
---windows-company-name
-</code></pre></div>
-<h3 id="strategy-2-switch-compilers">Strategy 2 — Switch Compilers</h3>
-<p>Recompile using a different compiler. Each one produces a slightly different binary signature:</p>
-<div class="highlight"><pre><span></span><code>--msvc=14.2
---clang
---mingw64
---mingw
-</code></pre></div>
-<h3 id="strategy-3-use-an-older-nuitka-version">Strategy 3 — Use an Older Nuitka Version</h3>
-<p>As a Nuitka version becomes more commonly used (including by malware authors), detection rates rise. Pinning to an older version can help:</p>
-<div class="highlight"><pre><span></span><code>pip<span class="w"> </span>install<span class="w"> </span><span class="nv">nuitka</span><span class="o">==</span><span class="m">1</span>.x.x
-</code></pre></div>
-<h2 id="sign-the-executable">Sign the Executable</h2>
-<p>Digital signing is the most effective solution. In testing, signing reduced a VirusTotal result from 13 detections to 0.</p>
-<h3 id="tools-needed">Tools Needed</h3>
-<ul>
-<li>A certificate (<code>.crt</code> / <code>.key</code>), either self-signed or from a CA</li>
-<li><a href="https://github.com/mtrojnar/osslsigncode"><code>osslsigncode</code></a> — an open-source cross-platform signing tool</li>
-</ul>
-<h3 id="sign-the-executable_1">Sign the Executable</h3>
-<div class="highlight"><pre><span></span><code>osslsigncode<span class="w"> </span>sign<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-certs<span class="w"> </span>your_cert.crt<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-key<span class="w"> </span>your_key.key<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-in<span class="w"> </span>your_app.exe<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-out<span class="w"> </span>your_app_signed.exe
-</code></pre></div>
-<blockquote>
-<p><strong>Note:</strong> You can also use <code>signtool.exe</code> (from the Windows SDK) with a <code>.pfx</code> certificate as an alternative.</p>
-</blockquote>
-<h2 id="known-limitations">Known Limitations</h2>
-<table>
-<thead>
-<tr>
-<th>Issue</th>
-<th>Detail</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Japanese (multibyte) folder names</strong></td>
-<td>Signed onefile <code>.exe</code> files fail to extract if there are Japanese or other multibyte characters in the folder path. Unsigned executables are unaffected.</td>
-</tr>
-<tr>
-<td><strong>Workaround for path issue</strong></td>
-<td>Use the unsigned <code>dist/</code> folder directly instead of the onefile <code>.exe</code>, or ensure the extraction path contains only ASCII characters.</td>
-</tr>
-<tr>
-<td><code>print()</code> with <code>--windows-disable-console</code></td>
-<td>Console output has no target, which can cause crashes. Comment out all <code>print()</code> calls before building.</td>
-</tr>
-<tr>
-<td><strong>Persistent false positives</strong></td>
-<td>Occasionally one detection may remain even after signing. No known complete fix; rotating compilers and Nuitka versions is the best mitigation.</td>
-</tr>
-</tbody>
-</table>
 
 
 
@@ -13296,7 +12866,7 @@ conda<span class="w"> </span>activate<span class="w"> </span>nuitka
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"></path></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="April 3, 2026 19:48:25 JST">April 3, 2026</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="June 8, 2026 11:25:36 JST">June 8, 2026</span>
   </span>
 
     

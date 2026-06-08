@@ -276,6 +276,7 @@ nav:
     - Style-Bert-VITS2:
       - dev/style-bert-vits2/check-pinokio-support-style-bert-vits2.md
       - dev/style-bert-vits2/set-up-style-bert-vits2-webui.md
+      - dev/style-bert-vits2/stop-style-bert-vits2-webui.md
     - VS Code:
       - dev/vs-code/add-image-to-document-in-editor.md
       - dev/vs-code/add-image-to-folder.md
