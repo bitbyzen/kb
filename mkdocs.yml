@@ -203,6 +203,7 @@ nav:
       - apps/misc/protect-email-when-trying-unknown.md
       - apps/misc/recover-data-with-disk-drill.md
       - apps/misc/split-audio-with-go-splitter.md
+      - apps/misc/understand-state-ai-3d-2026.md
       - apps/misc/visualize-disk-usage-on-windows.md
 
   - Dev Notes:

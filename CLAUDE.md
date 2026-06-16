@@ -52,7 +52,7 @@ The full style guide is at `style-guide-en.md` (project root — not published t
 
 **Folder structure:** The `docs/en/` folder contains `apps/`, `dev/`, `mobiles/`, `photos/`, and `stylesheets/`. Always place new documents inside `docs/en/`. The `stylesheets/extra.css` file lives at `docs/en/stylesheets/extra.css`. Notable folder names: miscellaneous tools use `misc/` (not `utilities/`), Unreal Engine uses `ue/` (not `unreal-engine/`).
 
-**Document title (H1):** Title case, starting with an imperative verb. Minor words lowercase: a, an, the, in, of, to, with, for, and, or, but. Exception: particles in phrasal verbs are capitalized — **Log In**, **Sign In**, **Set Up**, **Zoom In** (e.g. `# Log In to DSM`). Only "in" as a standalone preposition stays lowercase (e.g. `# Enable Vertical Tabs in Chrome`). Example: `# Set Up Claude Code in WSL2`.
+**Document title (H1):** Title case, starting with an imperative verb. Minor words lowercase: a, an, the, in, of, to, with, for, and, or, but. Exception: particles in phrasal verbs are capitalized — **Log In**, **Sign In**, **Set Up**, **Zoom In** (e.g. `# Log In to DSM`). Only "in" as a standalone preposition stays lowercase (e.g. `# Enable Vertical Tabs in Chrome`). Example: `# Set Up Claude Code in WSL2`. Omit the app or section name from the title — readers already know the context from the nav. Write `# Edit Face Texture`, not `# Edit Face Texture in VRoid Studio`.
 
 **Headings:** One H1 per document (title only). Use H2 for major sections, H3 for subsections. Title case for H2 and H3 as well. For sequential steps, use `## Step 1: Install the Application` (colon, not em dash). For parallel alternatives, use `## Method 1: Best Terminal Solution` (not `Option N:` or plain `1.`).
 
