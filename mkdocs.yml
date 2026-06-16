@@ -163,6 +163,8 @@ nav:
       - apps/voicebox/understand-voicebox.md
     - Voicevox:
       - apps/voicevox/install-voicevox.md
+    - VRoid Studio:
+      - apps/vroid-studio/edit-hair-texture.md
     - Wan:
       - apps/wan/generate-video.md
       - apps/wan/generate-video-with-original-character.md
