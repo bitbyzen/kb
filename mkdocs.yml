@@ -164,6 +164,7 @@ nav:
     - Voicevox:
       - apps/voicevox/install-voicevox.md
     - VRoid Studio:
+      - apps/vroid-studio/edit-face-texture.md
       - apps/vroid-studio/edit-hair-texture.md
     - Wan:
       - apps/wan/generate-video.md
