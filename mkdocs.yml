@@ -169,6 +169,7 @@ nav:
       - apps/vroid-studio/edit-face-texture.md
       - apps/vroid-studio/edit-hair-texture.md
       - apps/vroid-studio/recolor-hair-with-shader-color.md
+      - apps/vroid-studio/resize-hair.md
     - Wan:
       - apps/wan/generate-video.md
       - apps/wan/generate-video-with-original-character.md

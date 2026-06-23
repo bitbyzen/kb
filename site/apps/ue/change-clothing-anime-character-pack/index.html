@@ -6081,6 +6081,8 @@
       
         
       
+        
+      
     
     
     
@@ -6223,6 +6225,34 @@
     
   
     Recolor Hair Using Shader Color
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../vroid-studio/resize-hair/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Resize Hair
   
 
     
@@ -13196,7 +13226,7 @@
   
     <div class="page-date">
       
-        Last updated: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="June 21, 2026 20:07:51 JST">June 21, 2026</span>
+        Last updated: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="June 21, 2026 20:22:47 JST">June 21, 2026</span>
       
     </div>
   
@@ -13243,14 +13273,9 @@
 <p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../img/change-clothing-anime-character-pack-01.webp" data-desc-position="bottom"><img alt="The three top clothing assets in the Content Browser" src="../img/change-clothing-anime-character-pack-01.webp"></a></p>
 <h2 id="why-not-edit-the-component-directly">Why Not Edit the Component Directly?</h2>
 <p>The Blueprint's <strong>Construction Script</strong> sets the character's mesh components programmatically at runtime using variables from the <strong>Appearance</strong> category. If you change the Skeletal Mesh on the <code>Top</code> component directly — either in the Blueprint editor or as a level instance override — the Construction Script will override it back to the variable value. You must change the variable, not the component.</p>
-<p>The screenshots below show what happens when you try the direct approach — the change does not stick.</p>
-<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../img/change-clothing-anime-character-pack-02.webp" data-desc-position="bottom"><img alt="Trying to change the Top component mesh directly on the instance" src="../img/change-clothing-anime-character-pack-02.webp"></a></p>
-<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../img/change-clothing-anime-character-pack-03.webp" data-desc-position="bottom"><img alt="The t-shirt asset info — the mesh exists, but assigning it directly does not work" src="../img/change-clothing-anime-character-pack-03.webp"></a></p>
-<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../img/change-clothing-anime-character-pack-04.webp" data-desc-position="bottom"><img alt="Editing the Top component Skeletal Mesh in the Details panel — reverts on compile" src="../img/change-clothing-anime-character-pack-04.webp"></a></p>
-<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../img/change-clothing-anime-character-pack-05.webp" data-desc-position="bottom"><img alt="Looking for Appearance variables on the actor instance — they are not exposed" src="../img/change-clothing-anime-character-pack-05.webp"></a></p>
 <h2 id="step-1-open-the-character-blueprint">Step 1: Open the Character Blueprint</h2>
 <p>In the <strong>Outliner</strong>, find <code>bp_AnimeCharacter</code> and click the <strong>Edit bp_AnimeCharacter</strong> link next to it to open the Blueprint editor.</p>
-<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../img/change-clothing-anime-character-pack-06.webp" data-desc-position="bottom"><img alt="The Outliner showing bp_AnimeCharacter with the Edit link" src="../img/change-clothing-anime-character-pack-06.webp"></a></p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../img/change-clothing-anime-character-pack-02.webp" data-desc-position="bottom"><img alt="The Outliner showing bp_AnimeCharacter with the Edit link" src="../img/change-clothing-anime-character-pack-02.webp"></a></p>
 <h2 id="step-2-open-class-defaults-and-find-the-appearance-section">Step 2: Open Class Defaults and Find the Appearance Section</h2>
 <p>In the Blueprint editor toolbar, click <strong>Class Defaults</strong>. In the <strong>Details</strong> panel on the right, scroll down to find the <strong>Appearance</strong> section. You will see four mesh variables:</p>
 <ul>
@@ -13261,13 +13286,13 @@
 </ul>
 <h2 id="step-3-change-the-torso-mesh">Step 3: Change the Torso Mesh</h2>
 <p>Click the dropdown next to <strong>Torso Mesh</strong> (currently <code>skl_AnimeM_Top_nak</code>) and select the clothing mesh you want — for example, <code>skl_AnimeM_Top_Tshirt</code> for the red t-shirt.</p>
-<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../img/change-clothing-anime-character-pack-07.webp" data-desc-position="bottom"><img alt="Class Defaults open showing the Appearance section with Torso Mesh" src="../img/change-clothing-anime-character-pack-07.webp"></a></p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../img/change-clothing-anime-character-pack-03.webp" data-desc-position="bottom"><img alt="Class Defaults open showing the Appearance section with Torso Mesh" src="../img/change-clothing-anime-character-pack-03.webp"></a></p>
 <h2 id="step-4-compile-and-save">Step 4: Compile and Save</h2>
 <p>Click <strong>Compile</strong> then <strong>Save</strong> in the Blueprint editor toolbar.</p>
-<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../img/change-clothing-anime-character-pack-08.webp" data-desc-position="bottom"><img alt="Compile and Save buttons in the Blueprint toolbar" src="../img/change-clothing-anime-character-pack-08.webp"></a></p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../img/change-clothing-anime-character-pack-04.webp" data-desc-position="bottom"><img alt="Compile and Save buttons in the Blueprint toolbar" src="../img/change-clothing-anime-character-pack-04.webp"></a></p>
 <h2 id="step-5-return-to-the-main-viewport">Step 5: Return to the Main Viewport</h2>
 <p>Close the Blueprint editor. The character in the viewport will now be wearing the selected top.</p>
-<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../img/change-clothing-anime-character-pack-09.webp" data-desc-position="bottom"><img alt="Character in the viewport wearing the red t-shirt" src="../img/change-clothing-anime-character-pack-09.webp"></a></p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../img/change-clothing-anime-character-pack-01.webp" data-desc-position="bottom"><img alt="Character in the viewport wearing the red t-shirt" src="../img/change-clothing-anime-character-pack-01.webp"></a></p>
 <h2 id="notes">Notes</h2>
 <ul>
 <li>This change applies to <strong>all instances</strong> of <code>bp_AnimeCharacter</code> in the level, because it modifies the Blueprint's class defaults.</li>
@@ -13293,7 +13318,7 @@
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"></path></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="June 21, 2026 20:07:51 JST">June 21, 2026</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="June 21, 2026 20:22:47 JST">June 21, 2026</span>
   </span>
 
     
