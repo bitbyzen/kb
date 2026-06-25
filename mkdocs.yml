@@ -165,11 +165,13 @@ nav:
     - Voicevox:
       - apps/voicevox/install-voicevox.md
     - VRoid Studio:
+      - apps/vroid-studio/change-iris-color.md
       - apps/vroid-studio/delete-hair-curve-control-points.md
       - apps/vroid-studio/edit-face-texture.md
       - apps/vroid-studio/edit-hair-texture.md
       - apps/vroid-studio/recolor-hair-with-shader-color.md
       - apps/vroid-studio/resize-hair.md
+      - apps/vroid-studio/resize-pupil.md
     - Wan:
       - apps/wan/generate-video.md
       - apps/wan/generate-video-with-original-character.md
