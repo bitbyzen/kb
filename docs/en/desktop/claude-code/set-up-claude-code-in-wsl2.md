@@ -19,14 +19,14 @@ Set up Claude Code in a WSL2 Ubuntu environment and connect it to an existing Mk
 Create a dedicated folder for your Claude Code projects:
 
 ```bash
-mkdir -p ~/projects/02-assistant/python/mkdocs
+mkdir -p ~/projects/<YOUR-FOLDER>/python/mkdocs
 ```
 
 The suggested structure is:
 
 ```
 ~/projects/
-└── 02-assistant/
+└── <YOUR-FOLDER>/
     └── python/
         └── mkdocs/       ← Claude Code project root
 ```
@@ -77,7 +77,7 @@ claude --version
 Navigate to your project folder and launch Claude Code:
 
 ```bash
-cd ~/projects/02-assistant/python/mkdocs
+cd ~/projects/<YOUR-FOLDER>/python/mkdocs
 claude
 ```
 
@@ -121,7 +121,7 @@ Use Option B when you want a graphical interface without opening VS Code.
 If you copied or moved the project folder, the existing `.venv` will have broken absolute paths. Delete it and rebuild:
 
 ```bash
-cd ~/projects/02-assistant/python/mkdocs
+cd ~/projects/<YOUR-FOLDER>/python/mkdocs
 rm -rf .venv
 ```
 

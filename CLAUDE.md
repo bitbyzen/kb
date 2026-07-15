@@ -32,6 +32,8 @@ This is an English-only MkDocs static knowledge base deployed to GitHub Pages at
 **Nav structure:**
 `mkdocs.yml` defines a single `nav:` block. The top level uses `navigation.tabs` (Home, Desktop Notes, Mobile Notes, Photo Gallery). Each tab has a section index page (`index.md`) so clicking the tab lands on the index rather than the first child page. App and tool names sit directly below the tab level, with pages listed flat under each — no Operations/Reference/Troubleshooting sub-categories. Sections collapse and expand on click (`navigation.sections` is not enabled). App/section names within each tab are sorted alphabetically, except `Misc` which always stays last. Pages within each app/section are also sorted alphabetically by their H1 title.
 
+A nav section label does not need to match its folder name(s) — e.g. "Unreal Engine" maps to `ue/`, "Perplexity" maps to `perprexity/`, and "Claude" maps to pages split across both `claude-ai/` and `claude-code/`. Related apps can share one nav label while keeping separate folders on disk; when doing this, interleave their pages alphabetically by H1 title within the merged section rather than grouping by folder.
+
 **Doc folder conventions:**
 Content is organised as `docs/en/<section>/<app-or-topic>/<slug>.md`. There are no category subfolders (`operations`, `reference`, `troubleshooting` — these have been removed). Each app/topic folder has an `img/` subfolder for all image files. Reference images in Markdown as `img/<filename>` (relative path). `docs/en/desktop/` holds both consumer-app and dev-tool topics side by side (the former separate `apps/` and `dev/` folders were merged).
 

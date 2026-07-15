@@ -35,7 +35,7 @@ YukkuriMarisa,That sounds exciting! Let's get started.
 2. No headers — start data from row 1
 3. Save as: **File → Save As → CSV UTF-8 (Comma delimited)**
 
-> **Note:** Save your scenario files to a dedicated folder, e.g. `D:\02-assistant\projects\creator\ymm`
+> **Note:** Save your scenario files to a dedicated folder, e.g. `D:\<YOUR-FOLDER>\projects\creator\ymm`
 
 ## Step 2: Import into YMM4
 
