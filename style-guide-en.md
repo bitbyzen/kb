@@ -20,22 +20,17 @@ This guide defines the writing and formatting standards for all English document
 
 ## Folder Structure
 
-All English documents go inside `docs/en/`. Organise files by category and subcategory:
+All English documents go inside `docs/en/`. Organise files by section, then app/topic:
 
 ```
 docs/en/
-├── apps/          # Application notes
-├── dev/           # Developer notes
-└── mobiles/       # Mobile notes
+├── desktop/       # Consumer-app and dev-tool notes
+├── mobiles/       # Mobile notes
+├── photos/        # Photo gallery notes
+└── stylesheets/   # extra.css
 ```
 
-Each topic folder uses one or more of the following subcategories:
-
-| Subcategory | Purpose |
-|-------------|---------|
-| `operations/` | Step-by-step procedures |
-| `troubleshooting/` | Fixes for known issues |
-| `reference/` | Background info, overviews, and specs |
+Files go directly in each app/topic folder — there are no `operations/`, `troubleshooting/`, or `reference/` subcategories. Notable folder names: miscellaneous tools use `misc/` (not `utilities/`), Unreal Engine uses `ue/` (not `unreal-engine/`).
 
 ---
 
