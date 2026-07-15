@@ -30,13 +30,13 @@ This is an English-only MkDocs static knowledge base deployed to GitHub Pages at
 - `.github/workflows/deploy.yml` — builds and deploys on every push to `main`
 
 **Nav structure:**
-`mkdocs.yml` defines a single `nav:` block. The top level uses `navigation.tabs` (Home, App Notes, Dev Notes, Mobile Notes, Photo Gallery). Each tab has a section index page (`index.md`) so clicking the tab lands on the index rather than the first child page. App and tool names sit directly below the tab level, with pages listed flat under each — no Operations/Reference/Troubleshooting sub-categories. Sections collapse and expand on click (`navigation.sections` is not enabled). App/section names within each tab are sorted alphabetically. Pages within each app/section are also sorted alphabetically by their H1 title.
+`mkdocs.yml` defines a single `nav:` block. The top level uses `navigation.tabs` (Home, Desktop Notes, Mobile Notes, Photo Gallery). Each tab has a section index page (`index.md`) so clicking the tab lands on the index rather than the first child page. App and tool names sit directly below the tab level, with pages listed flat under each — no Operations/Reference/Troubleshooting sub-categories. Sections collapse and expand on click (`navigation.sections` is not enabled). App/section names within each tab are sorted alphabetically, except `Misc` which always stays last. Pages within each app/section are also sorted alphabetically by their H1 title.
 
 **Doc folder conventions:**
-Content is organised as `docs/en/<section>/<app-or-topic>/<slug>.md`. There are no category subfolders (`operations`, `reference`, `troubleshooting` — these have been removed). Each app/topic folder has an `img/` subfolder for all image files. Reference images in Markdown as `img/<filename>` (relative path).
+Content is organised as `docs/en/<section>/<app-or-topic>/<slug>.md`. There are no category subfolders (`operations`, `reference`, `troubleshooting` — these have been removed). Each app/topic folder has an `img/` subfolder for all image files. Reference images in Markdown as `img/<filename>` (relative path). `docs/en/desktop/` holds both consumer-app and dev-tool topics side by side (the former separate `apps/` and `dev/` folders were merged).
 
 **Section index pages:**
-Each top-level section has an `index.md` at its root (e.g. `docs/en/apps/index.md`, `docs/en/dev/index.md`). These must be the first entry under their section in `mkdocs.yml`.
+Each top-level section has an `index.md` at its root (e.g. `docs/en/desktop/index.md`, `docs/en/mobiles/index.md`). These must be the first entry under their section in `mkdocs.yml`.
 
 **Adding a new page:**
 1. Create the Markdown file in the appropriate folder under `docs/en/`.
