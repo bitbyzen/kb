@@ -21,11 +21,11 @@ jobs:
         with:
           python-version: "3.x"
 
-      - run: pip install -r requirements.txt
-      - run: mkdocs build
+      - run: pip install -r src/requirements.txt
+      - run: mkdocs build -f src/mkdocs.yml
 
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: site
+          path: src/site
 
       - uses: actions/deploy-pages@v4

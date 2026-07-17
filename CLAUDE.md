@@ -9,13 +9,13 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 source .venv/bin/activate
 
 # Start local dev server
-mkdocs serve
+mkdocs serve -f src/mkdocs.yml
 
 # Build static site
-mkdocs build
+mkdocs build -f src/mkdocs.yml
 
 # Deploy to GitHub Pages manually
-mkdocs gh-deploy
+mkdocs gh-deploy -f src/mkdocs.yml
 ```
 
 ## Architecture
@@ -23,10 +23,10 @@ mkdocs gh-deploy
 This is an English-only MkDocs static knowledge base deployed to GitHub Pages at `https://bitbyzen.github.io/kb/`.
 
 **Key files:**
-- `mkdocs.yml` — single source of truth for the entire site: theme, plugins, and nav
-- `docs_dir: docs/en` — all content lives under `docs/en/`
-- `requirements.txt` — pin-free dependencies; `mkdocs<2` keeps the site on MkDocs v1
-- `overrides/main.html` — injects a "Last updated" date above page content (suppressed on index pages)
+- `src/mkdocs.yml` — single source of truth for the entire site: theme, plugins, and nav
+- `docs_dir: docs/en` — all content lives under `src/docs/en/`
+- `src/requirements.txt` — pin-free dependencies; `mkdocs<2` keeps the site on MkDocs v1
+- `src/overrides/main.html` — injects a "Last updated" date above page content (suppressed on index pages)
 - `.github/workflows/deploy.yml` — builds and deploys on every push to `main`
 
 **Nav structure:**
@@ -35,24 +35,24 @@ This is an English-only MkDocs static knowledge base deployed to GitHub Pages at
 A nav section label does not need to match its folder name(s) — e.g. "Unreal Engine" maps to `ue/`, "Perplexity" maps to `perprexity/`, and "Claude" maps to pages split across both `claude-ai/` and `claude-code/`. Related apps can share one nav label while keeping separate folders on disk; when doing this, interleave their pages alphabetically by H1 title within the merged section rather than grouping by folder.
 
 **Doc folder conventions:**
-Content is organised as `docs/en/<section>/<app-or-topic>/<slug>.md`. There are no category subfolders (`operations`, `reference`, `troubleshooting` — these have been removed). Each app/topic folder has an `img/` subfolder for all image files. Reference images in Markdown as `img/<filename>` (relative path). `docs/en/desktop/` holds both consumer-app and dev-tool topics side by side (the former separate `apps/` and `dev/` folders were merged).
+Content is organised as `src/docs/en/<section>/<app-or-topic>/<slug>.md`. There are no category subfolders (`operations`, `reference`, `troubleshooting` — these have been removed). Each app/topic folder has an `img/` subfolder for all image files. Reference images in Markdown as `img/<filename>` (relative path). `docs/en/desktop/` holds both consumer-app and dev-tool topics side by side (the former separate `apps/` and `dev/` folders were merged).
 
 **Section index pages:**
-Each top-level section has an `index.md` at its root (e.g. `docs/en/desktop/index.md`, `docs/en/mobiles/index.md`). These must be the first entry under their section in `mkdocs.yml`.
+Each top-level section has an `index.md` at its root (e.g. `src/docs/en/desktop/index.md`, `src/docs/en/mobiles/index.md`). These must be the first entry under their section in `mkdocs.yml`.
 
 **Adding a new page:**
-1. Create the Markdown file in the appropriate folder under `docs/en/`.
+1. Create the Markdown file in the appropriate folder under `src/docs/en/`.
 2. Add its path directly under the relevant app/tool name in `mkdocs.yml` — no category grouping needed.
 3. Insert at the correct alphabetical position by H1 title, both within the app/section and among app/section names.
 All steps are required — pages not listed in the nav produce a warning and are excluded from the built site.
 
 ## Writing Standards
 
-The full style guide is at `style-guide-en.md` (project root — not published to the site). Key rules to follow automatically:
+The full style guide is at `pm/style-guide-en.md` (not published to the site). Key rules to follow automatically:
 
 **File naming:** Use kebab-case derived from the H1 title. Start the filename with a verb. Always omit articles (a, an, the) and possessives (your). Keep it to 40 characters or fewer (excluding `.md`); drop other filler words (in, on, to, for, etc.) if still over the limit. Images in the `img/` folder must be named after the MD file (e.g. `install-gimp.md` → images named `install-gimp-01.webp`, `install-gimp-02.webp`). Example: `# Install GIMP on Windows` → `install-gimp.md`.
 
-**Folder structure:** The `docs/en/` folder contains `desktop/`, `mobiles/`, `photos/`, and `stylesheets/`. Always place new documents inside `docs/en/`. The `stylesheets/extra.css` file lives at `docs/en/stylesheets/extra.css`. Notable folder names: miscellaneous tools use `misc/` (not `utilities/`), Unreal Engine uses `ue/` (not `unreal-engine/`).
+**Folder structure:** The `src/docs/en/` folder contains `desktop/`, `mobiles/`, `photos/`, and `stylesheets/`. Always place new documents inside `src/docs/en/`. The `stylesheets/extra.css` file lives at `src/docs/en/stylesheets/extra.css`. Notable folder names: miscellaneous tools use `misc/` (not `utilities/`), Unreal Engine uses `ue/` (not `unreal-engine/`).
 
 **Document title (H1):** Title case, starting with an imperative verb. Minor words lowercase: a, an, the, in, of, to, with, for, and, or, but. Exception: particles in phrasal verbs are capitalized — **Log In**, **Sign In**, **Set Up**, **Zoom In** (e.g. `# Log In to DSM`). Only "in" as a standalone preposition stays lowercase (e.g. `# Enable Vertical Tabs in Chrome`). Example: `# Set Up Claude Code in WSL2`. Omit the app or section name from the title — readers already know the context from the nav. Write `# Edit Face Texture`, not `# Edit Face Texture in VRoid Studio`.
 
