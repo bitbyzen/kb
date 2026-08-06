@@ -31,6 +31,7 @@ nav:
     - ChatGPT:
       - desktop/chatgpt/convert-chatgpt-chat-to-word-document.md
     - Claude:
+      - desktop/claude-ai/fix-greyed-out-cowork-tab-windows-11.md
       - desktop/claude-code/install-claude-code-on-windows-11.md
       - desktop/claude-ai/log-in-to-claude.md
       - desktop/claude-ai/manage-claude-ai-memory.md
