@@ -118,6 +118,7 @@ nav:
       - desktop/linux/open-wsl-folder-from-windows.md
       - desktop/linux/open-ubuntu-terminal.md
       - desktop/linux/prevent-zone-identifier-files-in-linux.md
+      - desktop/linux/rename-wsl-username-home-directory.md
       - desktop/linux/run-commands-using-absolute-path.md
       - desktop/linux/use-nano-editor.md
     - memoQ:
