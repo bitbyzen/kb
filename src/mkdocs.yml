@@ -31,8 +31,6 @@ nav:
         - desktop/blender/install-blender-with-automatic-updates.md
         - desktop/blender/render-slideshow.md
     - C:
-      - ChatGPT:
-        - desktop/chatgpt/convert-chatgpt-chat-to-word-document.md
       - Claude:
         - desktop/claude-ai/fix-greyed-out-cowork-tab-windows-11.md
         - desktop/claude-code/install-claude-code-on-windows-11.md
@@ -195,6 +193,7 @@ nav:
       - OpenAI:
         - desktop/openai/accept-chatgpt-pro-free-offer.md
         - desktop/openai/cancel-chatgpt-subscription.md
+        - desktop/openai/convert-chatgpt-chat-to-word-document.md
         - desktop/openai/export-chat-data-from-chatgpt.md
         - desktop/openai/update-chatgpt-billing-address.md
       - Outlook:
