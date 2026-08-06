@@ -107,7 +107,6 @@ nav:
       - desktop/keychron/export-keymap.md
       - desktop/keychron/export-macros-as-backup.md
       - desktop/keychron/review-keychron-keyboard-cautions.md
-      - desktop/keychron/set-up-language-switching-shortcuts.md
       - desktop/keychron/type-tilde-or-backquote-on-keychron-q11.md
     - Linux:
       - desktop/linux/create-file-and-open-it-in-vs-code.md
@@ -280,6 +279,7 @@ nav:
       - desktop/windows/open-microsoft-account-website.md
       - desktop/windows/remove-pc-from-microsoft-account.md
       - desktop/windows/set-default-view-extra-large-icons.md
+      - desktop/windows/set-up-language-switching-shortcuts.md
       - desktop/windows/take-screenshot.md
       - desktop/windows/use-narrator-in-windows-11.md
     - XnView:
