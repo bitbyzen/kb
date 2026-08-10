@@ -82,7 +82,7 @@ Notes on desktop applications, development tools, and workflows.
 ## S
 
 - [Style-Bert-VITS2](style-bert-vits2/check-pinokio-support-style-bert-vits2.md)
-- [Synology](synology/analyze-storage.md)
+- [Synology](synology/add-second-ssd-synology-ds720.md)
 
 ## U
 

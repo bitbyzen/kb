@@ -191,6 +191,7 @@ nav:
       - desktop/style-bert-vits2/set-up-style-bert-vits2-webui.md
       - desktop/style-bert-vits2/stop-style-bert-vits2-webui.md
     - Synology:
+      - desktop/synology/add-second-ssd-synology-ds720.md
       - desktop/synology/analyze-storage.md
       - desktop/synology/back-up-documents-android-synology-nas.md
       - desktop/synology/back-up-smartphone-photos-synology.md
