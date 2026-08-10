@@ -242,6 +242,8 @@ nav:
     - Voicevox:
       - desktop/voicevox/install-voicevox.md
     - VRoid Studio:
+      - desktop/vroid-studio/apply-manga-style-look-settings.md
+      - desktop/vroid-studio/apply-manga-style-comics-effect.md
       - desktop/vroid-studio/change-iris-color.md
       - desktop/vroid-studio/delete-hair-curve-control-points.md
       - desktop/vroid-studio/edit-face-texture.md

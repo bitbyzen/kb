@@ -93,7 +93,7 @@ Notes on desktop applications, development tools, and workflows.
 
 - [Voicebox](voicebox/understand-voicebox.md)
 - [Voicevox](voicevox/install-voicevox.md)
-- [VRoid Studio](vroid-studio/change-iris-color.md)
+- [VRoid Studio](vroid-studio/apply-manga-style-look-settings.md)
 - [VS Code](vs-code/add-image-to-document-in-editor.md)
 
 ## W
