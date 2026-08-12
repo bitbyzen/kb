@@ -14,15 +14,33 @@ Installing the drive physically is not enough on its own — Windows won't show 
 
 ---
 
-## Step 1: Confirm the Drive Is Detected
+## Step 1: Install the SSD into a Drive Tray
 
-Log in to DSM (`http://find.synology.com` or the NAS's IP address) and open **Storage Manager** → **HDD/SSD**. Both drives should appear, healthy.
+Before the drive can be recognized, mount it in one of the NAS's drive trays (cassettes):
 
-![Both drives detected in Storage Manager](img/add-second-ssd-synology-ds720-01.png)
+1. Remove an empty cassette from the NAS.
+2. Remove the two side rails from the cassette.
+
+![Cassette side rails and mounting screws removed](img/add-second-ssd-synology-ds720-01.jpg)
+
+3. Remove the yellow "Remove Before Installing" sticker covering the SSD's connector terminal.
+4. Screw the SSD into the cassette at all four corners.
+
+![SSD screwed into the cassette at its four corners](img/add-second-ssd-synology-ds720-02.jpg)
+
+5. Slide the cassette back into the NAS.
 
 ---
 
-## Step 2: Decide How to Use the New Drive
+## Step 2: Confirm the Drive Is Detected
+
+Log in to DSM (`http://find.synology.com` or the NAS's IP address) and open **Storage Manager** → **HDD/SSD**. Both drives should appear, healthy.
+
+![Both drives detected in Storage Manager](img/add-second-ssd-synology-ds720-03.png)
+
+---
+
+## Step 3: Decide How to Use the New Drive
 
 A brand-new SSD doesn't automatically merge into the existing 2TB volume. Options:
 
@@ -35,74 +53,171 @@ The DS720+'s two M.2 slots can be used either as normal storage (each slot holds
 
 ---
 
-## Step 3: Create a New Storage Pool
+## Step 4: Create a New Storage Pool
 
 > **Note:** The **Action** button on the HDD/SSD page only has drive-level tools (Benchmark, Secure Erase, Configure Write Cache) — it does not create pools.
 
 1. In the left sidebar, go to **Storage** → **Storage Pool 1** (the existing pool's page).
 2. Click **Create** → **Create Storage Pool**.
 
-![Storage Pool overview page with the Create button](img/add-second-ssd-synology-ds720-02.png)
+![Storage Pool overview page with the Create button](img/add-second-ssd-synology-ds720-04.png)
 
-![Create menu options](img/add-second-ssd-synology-ds720-03.png)
+![Create menu options](img/add-second-ssd-synology-ds720-05.png)
 
 ---
 
-## Step 4: Choose the RAID Type
+## Step 5: Choose the RAID Type
 
 For a single drive, only **Basic** or **JBOD** make sense (SHR also technically works with one drive, but Basic is simpler and standard for a single disk).
 
-![RAID type dropdown](img/add-second-ssd-synology-ds720-04.png)
+![RAID type dropdown](img/add-second-ssd-synology-ds720-06.png)
 
-![Basic selected](img/add-second-ssd-synology-ds720-05.png)
+![Basic selected](img/add-second-ssd-synology-ds720-07.png)
 
 The **Storage pool description** field is optional — safe to leave blank.
 
 ---
 
-## Step 5: Select the Drive
+## Step 6: Select the Drive
 
 Select the new drive (Drive 2). DSM may show a warning:
 
 > "This drive is not supported for storage pool use. Refer to the compatibility list for supported drives."
 
-![Drive selection with compatibility warning](img/add-second-ssd-synology-ds720-06.png)
+![Drive selection with compatibility warning](img/add-second-ssd-synology-ds720-08.png)
 
 This warning is expected for third-party (non-Synology-branded) drives like the WD Red SA500 — it is not a blocker. The drive works fine; DSM just cannot guarantee full validation and health-reporting support, and may show occasional compatibility notifications.
 
 ---
 
-## Step 6: Run a Drive Check
+## Step 7: Run a Drive Check
 
 Choose **Perform drive check** (not the default "Skip"). For a brand-new drive, a full surface scan up front is worth the extra time — it catches bad sectors before you start storing data, rather than discovering them later.
 
-![Drive check options](img/add-second-ssd-synology-ds720-07.png)
+![Drive check options](img/add-second-ssd-synology-ds720-09.png)
 
 ---
 
-## Step 7: Confirm and Apply
+## Step 8: Confirm and Apply
 
 Review the summary (RAID type: Basic, Drive 2, ~3.7TB estimated capacity, drive check enabled) and click **Apply**.
 
-![Confirm settings summary](img/add-second-ssd-synology-ds720-08.png)
+![Confirm settings summary](img/add-second-ssd-synology-ds720-10.png)
 
 This starts the drive check and pool initialization, which can take over an hour for a full scan on a 4TB drive.
 
 ---
 
-## Step 8: Create the Volume
+## Step 9: Create the Volume
 
-Once the pool finishes initializing:
+Once the drive check completes, Storage Pool 2 shows **Healthy** with free capacity (3.6TB in this case).
 
-1. Back in **Storage Pool**, click **Create** → **Create Volume** on the new pool.
-2. Choose a file system — **Btrfs** is recommended (snapshots, checksums) over ext4.
-3. Allocate full capacity to the volume.
-4. Go to **Control Panel** → **Shared Folder** → **Create**, pick the new volume, name it, and set permissions.
+![Storage Pool 2 ready with free capacity](img/add-second-ssd-synology-ds720-11.png)
 
-> **Note:** The shared folder is what becomes visible and mappable from Windows as a network drive.
+Click **Create** → **Create Volume**.
+
+![Create menu with Create Volume option](img/add-second-ssd-synology-ds720-12.png)
+
+### Allocate Capacity
+
+Storage Pool should default to the new pool (**Storage Pool 2**). Click **Max** to allocate the full available capacity, unless you want to reserve space. Volume description is optional.
+
+![Allocate volume capacity screen](img/add-second-ssd-synology-ds720-13.png)
+
+### Choose File System
+
+Keep **Btrfs (recommended)** — it supports snapshots, shared folder quotas, and data integrity checksums, which ext4 doesn't.
+
+![File system selection, Btrfs recommended](img/add-second-ssd-synology-ds720-14.png)
+
+### Encryption
+
+Leave **Encrypt this volume** unchecked, unless the volume will hold sensitive data and you're specifically concerned about physical theft of the NAS. Reasons to skip: performance overhead (the DS720+ lacks AES-NI hardware acceleration) and permanent data loss risk if the Encryption Key Vault/key is ever lost.
+
+![Configure encryption, left unchecked](img/add-second-ssd-synology-ds720-15.png)
+
+### Confirm and Apply
+
+Review the summary (Storage pool, allocated capacity, file system) and click **Apply**.
+
+![Confirm volume settings summary](img/add-second-ssd-synology-ds720-16.png)
+
+Volume creation is much faster than the storage pool's drive check. Once done, **Volume 2** appears healthy with free space.
+
+![Volume 2 created and healthy](img/add-second-ssd-synology-ds720-17.png)
+
+---
+
+## Step 10: Create a Shared Folder on the New Volume
+
+A volume alone isn't accessible from Windows — you need a shared folder on it.
+
+Open **Control Panel** → **Shared Folder**. Existing shared folders (all on Volume 1) are listed here.
+
+![Existing shared folders, all on Volume 1](img/add-second-ssd-synology-ds720-18.png)
+
+Click **Create** → **Create Shared Folder** (not "Mount Hybrid Share Folder" — that's for Synology's cloud-linked Hybrid Share feature, unrelated).
+
+![Create menu, Create Shared Folder option](img/add-second-ssd-synology-ds720-19.png)
+
+### Basic Information
+
+- **Name**: shared folder names must be unique across the entire NAS (they're all top-level network shares), not just per volume. Pick something new — reusing a name that already exists on Volume 1 isn't allowed. This guide uses `<YOUR-FOLDER>-2` as a counterpart to an existing `<YOUR-FOLDER>` shared folder on Volume 1.
+- **Location**: change from the default (Volume 1) to **Volume 2**.
+- **Enable Recycle Bin**: leave checked (recommended).
+
+> **Note:** System-generated folders like `homes`, `ActiveBackupforBusiness`, `web`, `web_packages` are created by specific DSM services/packages (User Home Service, Active Backup for Business, Web Station) the first time each is enabled, and stay on whichever single volume they were pointed to. Adding a new volume does not cause DSM to recreate them there — no need to avoid those names when naming a new folder.
+
+![Basic information, name and Volume 2 location](img/add-second-ssd-synology-ds720-20.png)
+
+### Additional Security Measure
+
+Leave **Skip** selected. Encryption has the same tradeoffs as at the volume level; WriteOnce/WORM is only relevant for compliance scenarios requiring files to be locked from editing/deletion for a retention period.
+
+![Additional security measure, Skip selected](img/add-second-ssd-synology-ds720-21.png)
+
+### Advanced Settings
+
+- **Enable data checksum for advanced data integrity**: worth enabling for general file storage — it's one of the main benefits of Btrfs (self-healing, detects corruption). Skip it only if this folder will host a database, VM, Surveillance Station recordings, or be an Active Backup for Business target (per DSM's own note), since checksums add overhead in those cases.
+- **Enable shared folder quota**: optional, leave unchecked unless you want to cap this folder's size within the volume.
+
+![Advanced settings, data checksum enabled](img/add-second-ssd-synology-ds720-22.png)
+
+### Permissions
+
+The wizard's permissions step lets you assign per-user access. Defaults (based on existing group permissions) are usually already correct — confirm your account shows Read/Write before finishing.
+
+---
+
+## Step 11: Verify the Result
+
+Back in **Control Panel** → **Shared Folder**, the new folder appears in the list. Expanding it shows the configured settings (Recycle Bin enabled, Data Integrity Protection enabled, no quota).
+
+![Shared folder summary showing configured settings](img/add-second-ssd-synology-ds720-23.png)
+
+To double check permissions later: select the folder, click **Edit** → **Permissions** tab. Confirm your account(s) show **Read/Write**.
+
+![Permissions tab confirming Read/Write access](img/add-second-ssd-synology-ds720-24.png)
+
+---
+
+## Step 12: Access from Windows
+
+The new shared folder is now reachable at:
+
+```
+\\<NAS-IP-or-name>\<YOUR-FOLDER>-2
+```
+
+Enter that path in File Explorer's address bar, or map it as a network drive via **This PC** → **Map network drive**.
 
 ---
 
 ## Result
 
-Two independent volumes on the DS720+: the original 2TB (Storage Pool 1 / Volume 1) and the new ~3.7TB (Storage Pool 2 / Volume 2), each with its own shared folders.
+Two independent storage pools, volumes, and shared folders on the DS720+:
+
+| | Storage Pool | Volume | Shared Folder |
+|---|---|---|---|
+| Original | Storage Pool 1 (2TB SSD) | Volume 1 | `<YOUR-FOLDER>`, `homes`, `backup`, `web`, `web_packages`, `ActiveBackupforBusiness` |
+| New | Storage Pool 2 (4TB SSD) | Volume 2 | `<YOUR-FOLDER>-2` |
