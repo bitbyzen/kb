@@ -19,16 +19,16 @@ Installing the drive physically is not enough on its own — Windows won't show 
 Before the drive can be recognized, mount it in one of the NAS's drive trays (cassettes):
 
 1. Remove an empty cassette from the NAS.
-2. Remove the two side rails from the cassette.
+1. Remove the two side rails from the cassette.
 
-![Cassette side rails and mounting screws removed](img/add-second-ssd-synology-ds720-01.jpg)
+    ![Cassette side rails and mounting screws removed](img/add-second-ssd-synology-ds720-01.jpg)
 
-3. Remove the yellow "Remove Before Installing" sticker covering the SSD's connector terminal.
-4. Screw the SSD into the cassette at all four corners.
+1. Remove the yellow "Remove Before Installing" sticker covering the SSD's connector terminal.
+1. Screw the SSD into the cassette at all four corners.
 
-![SSD screwed into the cassette at its four corners](img/add-second-ssd-synology-ds720-02.jpg)
+    ![SSD screwed into the cassette at its four corners](img/add-second-ssd-synology-ds720-02.jpg)
 
-5. Slide the cassette back into the NAS.
+1. Slide the cassette back into the NAS.
 
 ---
 
