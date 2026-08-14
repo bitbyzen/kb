@@ -1,4 +1,4 @@
-# Change Folder Access Role in Google Drive
+# Changing Folder Access Role in Google Drive
 
 Change the access role of a user for a shared folder.
 

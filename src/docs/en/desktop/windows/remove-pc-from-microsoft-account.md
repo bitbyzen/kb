@@ -1,4 +1,4 @@
-# Remove a PC from the Microsoft Account
+# Removing a PC from the Microsoft Account
 1. Click **Linked devices**.
 ![Screenshot 01](img/remove-pc-from-microsoft-account-01.webp)
 1. Click **Remove device**. 

@@ -1,4 +1,4 @@
-# Convert PNG to WEBP
+# Converting PNG to WEBP
 
 Convert multiple PNG files to WEBP using XnView MP batch conversion.
 

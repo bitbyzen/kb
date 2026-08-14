@@ -1,4 +1,4 @@
-# Open the Vault Folder
+# Opening the Vault Folder
 
 Open the folder where the Obsidian vault is stored.
 

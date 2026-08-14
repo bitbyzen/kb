@@ -1,4 +1,4 @@
-# Set Default Save Folder
+# Setting Default Save Folder
 
 Configure a fixed folder for all new files in Notepad++.
 

@@ -97,6 +97,7 @@ nav:
       - desktop/iztope-rx8/understand-izotope-rx8.md
       - desktop/iztope-rx8/understand-time-pitch-module.md
     - Kensington:
+      - desktop/kensington/configure-favorite-trackball-settings.md
       - desktop/kensington/fix-trackball-not-recognized.md
       - desktop/kensington/fix-settings-changes-not-applied.md
     - Keychron:
@@ -242,12 +243,12 @@ nav:
     - Voicevox:
       - desktop/voicevox/install-voicevox.md
     - VRoid Studio:
-      - desktop/vroid-studio/apply-manga-style-look-settings.md
       - desktop/vroid-studio/apply-manga-style-comics-effect.md
       - desktop/vroid-studio/change-iris-color.md
       - desktop/vroid-studio/delete-hair-curve-control-points.md
       - desktop/vroid-studio/edit-face-texture.md
       - desktop/vroid-studio/edit-hair-texture.md
+      - desktop/vroid-studio/apply-manga-style-look-settings.md
       - desktop/vroid-studio/recolor-hair-with-shader-color.md
       - desktop/vroid-studio/resize-hair.md
       - desktop/vroid-studio/resize-pupil.md
@@ -276,8 +277,10 @@ nav:
       - desktop/windows/add-new-file-format-windows-11-new-menu.md
       - desktop/windows/avoid-ctrl-f-key-conflicts-windows.md
       - desktop/windows/change-email-address.md
+      - desktop/windows/clear-cloud-synced-settings.md
       - desktop/windows/disable-unknown-usb-device-error.md
       - desktop/windows/fix-file-that-cannot-be-deleted.md
+      - desktop/windows/install-apps-in-bulk.md
       - desktop/windows/lock-drive-using-bitlocker.md
       - desktop/windows/open-microsoft-account-website.md
       - desktop/windows/remove-pc-from-microsoft-account.md
@@ -313,7 +316,6 @@ nav:
       - desktop/misc/split-audio-with-go-splitter.md
       - desktop/misc/understand-state-ai-3d-2026.md
       - desktop/misc/visualize-disk-usage-on-windows.md
-
   - Mobile Notes:
     - mobiles/index.md
     - Google Drive:
@@ -366,7 +368,6 @@ nav:
       - mobiles/misc/compare-markdown-note-apps.md
       - mobiles/misc/get-second-phone-number.md
       - mobiles/misc/review-usable-smartphone-apps.md
-
   - Photo Gallery:
     - photos/index.md
     - Rooms:

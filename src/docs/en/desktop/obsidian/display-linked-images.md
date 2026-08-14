@@ -1,4 +1,4 @@
-# Display Linked Images
+# Displaying Linked Images
 
 Display linked images in Obsidian while editing Markdown files.
 

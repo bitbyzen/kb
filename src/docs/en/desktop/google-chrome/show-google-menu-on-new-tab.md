@@ -1,4 +1,4 @@
-# Show the Google Menu on a New Tab
+# Showing the Google Menu on a New Tab
 
 To display the Google menu (Gmail, Images, Google Apps, and your profile icon), you need to open the Google homepage:
 [https://www.google.com/](https://www.google.com/)  

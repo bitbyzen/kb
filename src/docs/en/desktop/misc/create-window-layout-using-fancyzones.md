@@ -1,4 +1,4 @@
-# Create a Window Layout Using FancyZones
+# Creating a Window Layout Using FancyZones
 
 1. Open **PowerToys**.
 

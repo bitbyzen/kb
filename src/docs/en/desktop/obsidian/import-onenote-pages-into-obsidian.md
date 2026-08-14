@@ -1,4 +1,4 @@
-# Import OneNote Pages into Obsidian
+# Importing OneNote Pages into Obsidian
 
 Use Obsidian’s **Importer** plugin to pull your notes straight from **Microsoft OneNote** into your Obsidian vault in Markdown format.
 

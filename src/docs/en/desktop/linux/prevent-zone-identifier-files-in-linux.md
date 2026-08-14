@@ -1,4 +1,4 @@
-# Prevent Zone.Identifier Files in Linux
+# Preventing Zone.Identifier Files in Linux
 
 `Zone.Identifier` files can appear in repositories when Windows attaches security metadata to files downloaded from the internet. When working with Linux tools through WSL, Git, or Docker, these metadata streams may appear as real files and pollute the project directory.
 

@@ -1,3 +1,3 @@
-# Preview Markdown Side-by-Side
+# Previewing Markdown Side-by-Side
 
 Press **Ctrl + K**, then **V**.

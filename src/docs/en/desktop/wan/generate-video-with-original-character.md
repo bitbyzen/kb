@@ -1,4 +1,4 @@
-# Generate a Video with an Original Character
+# Generating a Video with an Original Character
 
 ## Steps
 

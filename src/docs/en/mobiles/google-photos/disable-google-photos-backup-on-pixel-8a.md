@@ -1,4 +1,4 @@
-# Disable Google Photos Backup on Pixel 8a
+# Disabling Google Photos Backup on Pixel 8a
 
 Disable Google Photos backup to prevent photos and videos from uploading to your Google Account. This setting is controlled inside the Google Photos application.
 

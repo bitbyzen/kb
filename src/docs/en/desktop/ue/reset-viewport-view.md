@@ -1,4 +1,4 @@
-# Reset Viewport View
+# Resetting Viewport View
 
 Use these methods to restore the Viewport to a normal view.
 

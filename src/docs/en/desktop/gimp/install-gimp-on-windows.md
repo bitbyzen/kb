@@ -1,4 +1,4 @@
-# Install GIMP on Windows
+# Installing GIMP on Windows
 
 Download and install GIMP using the official installer.
 

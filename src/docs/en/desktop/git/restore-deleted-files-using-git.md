@@ -1,4 +1,4 @@
-# Restore Deleted Files Using Git
+# Restoring Deleted Files Using Git
 
 Restore deleted files that have not been committed.
 

@@ -1,4 +1,4 @@
-# Move Files Safely in Linux or WSL Using VS Code
+# Moving Files Safely in Linux or WSL Using VS Code
 
 Avoid accidental folder replacement when moving files in Linux or WSL.
 

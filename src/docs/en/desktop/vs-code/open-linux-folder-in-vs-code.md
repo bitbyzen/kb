@@ -1,4 +1,4 @@
-# Open a Linux Folder in VS Code
+# Opening a Linux Folder in VS Code
 
 1. Select a Linux folder in VS Code.
 

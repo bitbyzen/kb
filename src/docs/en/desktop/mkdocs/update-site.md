@@ -1,4 +1,4 @@
-# Update the Site
+# Updating the Site
 
 ## Step 1: Create the Page File
 

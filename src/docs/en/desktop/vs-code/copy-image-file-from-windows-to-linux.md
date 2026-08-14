@@ -1,4 +1,4 @@
-# Copy an Image File from Windows to Linux
+# Copying an Image File from Windows to Linux
 
 !!! Note
     **Are there any relevant extensions?** — No specific ones.

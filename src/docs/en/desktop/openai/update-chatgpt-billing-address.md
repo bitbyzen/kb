@@ -1,4 +1,4 @@
-# Update a ChatGPT Billing Address
+# Updating a ChatGPT Billing Address
 
 1. Click the profile icon.
    ![Screenshot](img/update-chatgpt-billing-address-01.webp)

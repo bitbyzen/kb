@@ -1,4 +1,4 @@
-# Rebuild the MkDocs Docker Image Only When Needed
+# Rebuilding the MkDocs Docker Image Only When Needed
 
 Use this guide to decide when you must run `docker build` before `docker run` for your MkDocs container.
 

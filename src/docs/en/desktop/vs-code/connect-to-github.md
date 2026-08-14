@@ -1,4 +1,4 @@
-# Connect to GitHub
+# Connecting to GitHub
 
 1. Run:
 

@@ -1,4 +1,4 @@
-# Fix “Author identity unknown”
+# Fixing "Author identity unknown"
 
 ## Symptoms
 

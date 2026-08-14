@@ -1,4 +1,4 @@
-# Understand the Docker Run Command
+# Understanding the Docker Run Command
 
 This guide explains the meaning of the following Docker command and how image names like `mkdocs-dev` and `my-mkdocs` affect behavior.
 

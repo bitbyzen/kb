@@ -1,4 +1,4 @@
-# Cancel or Clear Commands
+# Canceling or Clearing Commands
 
 Use keyboard shortcuts to cancel, edit, or clear commands in the terminal.
 

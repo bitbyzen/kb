@@ -1,4 +1,4 @@
-# Fix "The following pages exist in the docs directory, but are not included in “nav” configuration:"
+# Fixing "The following pages exist in the docs directory, but are not included in "nav" configuration:"
 
 ```bash title="terminal"
 The following pages exist in the docs directory, 

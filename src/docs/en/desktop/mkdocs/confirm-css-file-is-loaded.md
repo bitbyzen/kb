@@ -1,4 +1,4 @@
-# Confirm the CSS File Is Loaded
+# Confirming the CSS File Is Loaded
 
 Type the CSS file path into the address bar:
 

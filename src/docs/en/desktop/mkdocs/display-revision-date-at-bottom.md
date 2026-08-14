@@ -1,4 +1,4 @@
-# Display the Revision Date at the Bottom
+# Displaying the Revision Date at the Bottom
 
 Display the Git revision date in the default Material footer area using `mkdocs-git-revision-date-localized-plugin`.
 

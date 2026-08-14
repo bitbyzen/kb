@@ -1,4 +1,4 @@
-# Log In to DSM
+# Logging In to DSM
 
 ## Steps
 

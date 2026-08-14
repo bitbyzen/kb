@@ -1,4 +1,4 @@
-# Install Storage Analyzer in DSM
+# Installing Storage Analyzer in DSM
 
 ## Steps
 

@@ -1,4 +1,4 @@
-# Change a File Extension
+# Changing a File Extension
 
 Use **Flexible Renamer**.
 

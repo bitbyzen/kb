@@ -1,4 +1,4 @@
-# Create a Project
+# Creating a Project
 
 1. Select a project category (for example, **Games**).
 

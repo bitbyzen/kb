@@ -1,4 +1,4 @@
-# Move an Actor in Third Person
+# Moving an Actor in Third Person
 
 Control the default Third Person character during gameplay.
 

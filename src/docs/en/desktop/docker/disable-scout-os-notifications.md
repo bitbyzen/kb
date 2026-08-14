@@ -1,4 +1,4 @@
-# Disable Scout OS Notifications
+# Disabling Scout OS Notifications
 
 To disable the following notification:
 ```bash title="Docker Desktop"

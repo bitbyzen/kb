@@ -1,4 +1,4 @@
-# Use the Nano Editor
+# Using the Nano Editor
 
 1. Open the Ubuntu terminal.
    ![Screenshot](img/use-nano-editor-01.webp)

@@ -1,4 +1,4 @@
-# Open a Folder Using explorer.exe
+# Opening a Folder Using explorer.exe
 
 Open a folder in File Explorer from the command line.
 

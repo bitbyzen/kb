@@ -1,4 +1,4 @@
-# Connect to WSL
+# Connecting to WSL
 
 Connect Visual Studio Code to the Windows Subsystem for Linux (WSL).
 

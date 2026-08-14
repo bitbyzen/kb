@@ -1,4 +1,4 @@
-# Open the Google Drive Folder in Windows
+# Opening the Google Drive Folder in Windows
 
 Access the Google Drive folder from **This PC** in File Explorer.
 

@@ -1,4 +1,4 @@
-# Install Comet
+# Installing Comet
 
 !!! Warning  
     - Comet asks you to import your browser settings.

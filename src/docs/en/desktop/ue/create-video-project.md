@@ -1,4 +1,4 @@
-# Create a Video Project
+# Creating a Video Project
 
 Create a new Unreal Engine project configured for film and video production.
 

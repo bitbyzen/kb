@@ -1,4 +1,4 @@
-# Fix WSL Integration Unexpectedly Stopped in Docker Desktop
+# Fixing WSL Integration Unexpectedly Stopped in Docker Desktop
 
 Restart WSL integration for your Linux distribution in Docker Desktop.
 

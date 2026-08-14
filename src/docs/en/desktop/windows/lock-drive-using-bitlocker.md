@@ -1,4 +1,4 @@
-# Lock a Drive Using BitLocker
+# Locking a Drive Using BitLocker
 
 Encrypt a drive with BitLocker to protect the data.
 

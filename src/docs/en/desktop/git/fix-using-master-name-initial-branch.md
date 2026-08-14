@@ -1,4 +1,4 @@
-# Fix “Using 'master' as the name for the initial branch”
+# Fixing "Using 'master' as the name for the initial branch"
 
 ## Symptoms
 

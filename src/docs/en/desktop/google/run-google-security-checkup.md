@@ -1,4 +1,4 @@
-# Run Google Security Checkup
+# Running Google Security Checkup
 
 Use Google Security Checkup to review and improve the security of a Google account. The process verifies login activity, recovery settings, devices, and connected apps.
 

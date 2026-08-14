@@ -1,4 +1,4 @@
-# Download a Website
+# Downloading a Website
 
 Use [HTTrack Website Copier](http://www.httrack.com/page/1/en/index.html) to save a complete copy of any website for offline use.
 

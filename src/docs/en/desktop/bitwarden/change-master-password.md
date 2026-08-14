@@ -1,4 +1,4 @@
-# Change Master Password
+# Changing Master Password
 
 Change your Bitwarden master password.
 

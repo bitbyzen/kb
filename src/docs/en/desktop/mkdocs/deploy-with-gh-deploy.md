@@ -1,4 +1,4 @@
-# Deploy with gh-deploy
+# Deploying with gh-deploy
 
 `mkdocs gh-deploy` is a built-in MkDocs command that builds your site locally and pushes the generated files directly to the `gh-pages` branch.  
 This method **does not use GitHub Actions**.

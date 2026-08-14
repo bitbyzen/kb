@@ -1,4 +1,4 @@
-# Open a WSL Folder from Windows
+# Opening a WSL Folder from Windows
 
 Open a Linux directory in File Explorer using the WSL network path.
 

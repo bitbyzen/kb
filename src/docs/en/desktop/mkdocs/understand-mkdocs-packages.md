@@ -1,4 +1,4 @@
-# Understand MkDocs Packages
+# Understanding MkDocs Packages
 		
 | Package | Description |
 |----------|----------|

@@ -1,4 +1,4 @@
-# Navigate Viewport
+# Navigating Viewport
 
 The Viewport is the panel where you view and edit your level.
 

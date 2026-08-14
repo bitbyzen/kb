@@ -1,4 +1,4 @@
-# Get Started with Bitwarden
+# Getting Started with Bitwarden
 
 Install Bitwarden and configure basic security settings.
 

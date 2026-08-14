@@ -1,4 +1,4 @@
-# View Deployment Errors
+# Viewing Deployment Errors
 
 You can view deployment errors from the Actions tab in your repository.
 

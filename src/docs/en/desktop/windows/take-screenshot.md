@@ -1,4 +1,4 @@
-# Take a Screenshot
+# Taking a Screenshot
 
 ## Environment
 

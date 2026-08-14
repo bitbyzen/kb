@@ -1,4 +1,4 @@
-# Delete Hair Curve Control Points
+# Deleting Hair Curve Control Points
 
 In the **Edit Preset** screen, the curve editor under **Hair Parameters** → **Curve** lets you adjust the curve shape using control points.
 

@@ -1,4 +1,4 @@
-# Replace an Imported Image
+# Replacing an Imported Image
 
 Replace an existing image file in an MkDocs project without changing the Markdown reference.
 

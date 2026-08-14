@@ -1,4 +1,4 @@
-# Create Links That Open in a New Tab
+# Creating Links That Open in a New Tab
 
 Use HTML anchor tags to open links in a new browser tab.
 

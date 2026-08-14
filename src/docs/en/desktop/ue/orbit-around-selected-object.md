@@ -1,4 +1,4 @@
-# Orbit Around the Selected Object
+# Orbiting Around the Selected Object
 
 Rotate the camera around the selected object.
 

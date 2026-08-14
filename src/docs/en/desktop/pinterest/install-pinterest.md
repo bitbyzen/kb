@@ -1,4 +1,4 @@
-# Install Pinterest
+# Installing Pinterest
 
 Pinterest is available as a mobile app.
 

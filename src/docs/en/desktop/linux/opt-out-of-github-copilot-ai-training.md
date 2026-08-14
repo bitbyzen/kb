@@ -1,4 +1,4 @@
-# Opt Out of GitHub Copilot AI Training
+# Opting Out of GitHub Copilot AI Training
 
 > **Source:** GitHub product announcement, effective April 24, 2026
 

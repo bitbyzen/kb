@@ -1,4 +1,4 @@
-# Cancel a ChatGPT Subscription
+# Canceling a ChatGPT Subscription
 
 1. Select **Settings**.
     ![Screenshot](img/cancel-chatgpt-subscription-01.webp)

@@ -1,4 +1,4 @@
-# Empty Recycle Bin Manually
+# Emptying Recycle Bin Manually
 
 ## Steps
 

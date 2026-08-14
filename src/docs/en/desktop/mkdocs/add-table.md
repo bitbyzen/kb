@@ -1,4 +1,4 @@
-# Add a Table
+# Adding a Table
 
 ## Align a column 
 Use colons in the separator row:

@@ -1,4 +1,4 @@
-# Create a Bilingual Site
+# Creating a Bilingual Site
 
 ## Purpose
 

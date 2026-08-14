@@ -1,4 +1,4 @@
-# Convert CRW to JPG
+# Converting CRW to JPG
 
 1. Read the message.
 

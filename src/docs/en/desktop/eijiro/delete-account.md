@@ -1,4 +1,4 @@
-# Delete Account
+# Deleting Account
 
 Delete your account from **Eijiro on the WEB**.
 

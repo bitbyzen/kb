@@ -1,4 +1,4 @@
-# Update XnView MP
+# Updating XnView MP
 
 Update XnView MP by installing the latest version. The installer overwrites the existing installation.
 
