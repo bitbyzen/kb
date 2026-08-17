@@ -243,15 +243,20 @@ nav:
     - Voicevox:
       - desktop/voicevox/install-voicevox.md
     - VRoid Studio:
+      - desktop/vroid-studio/add-sticker-to-texture.md
       - desktop/vroid-studio/apply-manga-style-comics-effect.md
       - desktop/vroid-studio/change-iris-color.md
+      - desktop/vroid-studio/create-custom-tshirt.md
       - desktop/vroid-studio/delete-hair-curve-control-points.md
       - desktop/vroid-studio/edit-face-texture.md
       - desktop/vroid-studio/edit-hair-texture.md
       - desktop/vroid-studio/apply-manga-style-look-settings.md
       - desktop/vroid-studio/recolor-hair-with-shader-color.md
+      - desktop/vroid-studio/remove-skin-mask.md
       - desktop/vroid-studio/resize-hair.md
       - desktop/vroid-studio/resize-pupil.md
+      - desktop/vroid-studio/use-guide-to-draw-texture.md
+      - desktop/vroid-studio/use-custom-templates-for-tops.md
     - VS Code:
       - desktop/vs-code/add-image-to-document-in-editor.md
       - desktop/vs-code/add-image-to-folder.md
