@@ -224,6 +224,7 @@ nav:
     - Unreal Engine:
       - desktop/ue/add-cinematic-camera-to-level-sequence.md
       - desktop/ue/add-fab-asset-to-project.md
+      - desktop/ue/center-blueprint-editor-view.md
       - desktop/ue/change-camera-speed.md
       - desktop/ue/change-clothing-anime-character-pack.md
       - desktop/ue/create-level-sequence.md
