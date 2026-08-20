@@ -231,12 +231,16 @@ nav:
       - desktop/ue/create-video-project.md
       - desktop/ue/delete-project.md
       - desktop/ue/focus-on-object.md
+      - desktop/ue/import-vrm-character.md
       - desktop/ue/install-older-version-of-unreal-engine.md
+      - desktop/ue/install-vrm4u-plugin.md
       - desktop/ue/move-actor-in-third-person.md
       - desktop/ue/navigate-viewport.md
       - desktop/ue/orbit-around-selected-object.md
       - desktop/ue/place-character-blueprint-in-scene.md
       - desktop/ue/reset-viewport-view.md
+      - desktop/ue/set-up-animation-for-vrm-character.md
+      - desktop/ue/set-up-mcp-plugin-for-claude-code.md
       - desktop/ue/zoom-in-and-out.md
     - Voicebox:
       - desktop/voicebox/understand-voicebox.md
@@ -252,6 +256,7 @@ nav:
       - desktop/vroid-studio/delete-hair-curve-control-points.md
       - desktop/vroid-studio/edit-face-texture.md
       - desktop/vroid-studio/edit-hair-texture.md
+      - desktop/vroid-studio/export-character-as-vrm.md
       - desktop/vroid-studio/apply-manga-style-look-settings.md
       - desktop/vroid-studio/recolor-hair-with-shader-color.md
       - desktop/vroid-studio/remove-skin-mask.md
