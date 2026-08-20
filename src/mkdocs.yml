@@ -231,6 +231,7 @@ nav:
       - desktop/ue/create-project.md
       - desktop/ue/create-video-project.md
       - desktop/ue/delete-project.md
+      - desktop/ue/fix-missing-third-person-template.md
       - desktop/ue/focus-on-object.md
       - desktop/ue/import-vrm-character.md
       - desktop/ue/install-older-version-of-unreal-engine.md
