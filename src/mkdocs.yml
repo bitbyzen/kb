@@ -233,6 +233,7 @@ nav:
       - desktop/ue/delete-project.md
       - desktop/ue/fix-missing-third-person-template.md
       - desktop/ue/focus-on-object.md
+      - desktop/ue/get-back-to-default-character.md
       - desktop/ue/import-vrm-character.md
       - desktop/ue/install-older-version-of-unreal-engine.md
       - desktop/ue/install-vrm4u-plugin.md
@@ -243,6 +244,7 @@ nav:
       - desktop/ue/reset-viewport-view.md
       - desktop/ue/set-up-animation-for-vrm-character.md
       - desktop/ue/set-up-mcp-plugin-for-claude-code.md
+      - desktop/ue/swap-character.md
       - desktop/ue/zoom-in-and-out.md
     - Voicebox:
       - desktop/voicebox/understand-voicebox.md
