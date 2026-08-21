@@ -21,4 +21,4 @@ VRM4U automatically generates:
 - An **IK Retargeter** asset
 - **Blendshape** / face animation assets
 
-> **Note:** To get the character walking and animating using the default mannequin animations, see [Setting Up Animation for a VRM Character](set-up-animation-for-vrm-character.md).
+> **Note:** To get the character walking and animating using the default mannequin animations, see [Setting Up Animation for a VRM Character](set-up-animation-for-vrm-character.md). If you're using the **Game Animation Sample** project specifically, see [Retargeting a VRM Character to Game Animation Sample](retarget-character-game-animation-sample.md) instead.

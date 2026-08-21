@@ -222,6 +222,7 @@ nav:
       - desktop/uniconverter/download-youtube-video.md
       - desktop/uniconverter/update-uniconverter.md
     - Unreal Engine:
+      - desktop/ue/access-documentation-from-fab.md
       - desktop/ue/add-cinematic-camera-to-level-sequence.md
       - desktop/ue/add-fab-asset-to-project.md
       - desktop/ue/center-blueprint-editor-view.md
@@ -238,13 +239,19 @@ nav:
       - desktop/ue/install-older-version-of-unreal-engine.md
       - desktop/ue/install-vrm4u-plugin.md
       - desktop/ue/move-actor-in-third-person.md
+      - desktop/ue/move-to-npc-level.md
       - desktop/ue/navigate-viewport.md
       - desktop/ue/orbit-around-selected-object.md
       - desktop/ue/place-character-blueprint-in-scene.md
+      - desktop/ue/player-movement-controls.md
       - desktop/ue/reset-viewport-view.md
+      - desktop/ue/retarget-character-game-animation-sample.md
       - desktop/ue/set-up-animation-for-vrm-character.md
       - desktop/ue/set-up-mcp-plugin-for-claude-code.md
+      - desktop/ue/spawn-locomotor-robot.md
       - desktop/ue/swap-character.md
+      - desktop/ue/view-readme-release-notes.md
+      - desktop/ue/watch-target-point.md
       - desktop/ue/zoom-in-and-out.md
     - Voicebox:
       - desktop/voicebox/understand-voicebox.md
