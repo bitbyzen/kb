@@ -225,10 +225,13 @@ nav:
       - desktop/ue/access-documentation-from-fab.md
       - desktop/ue/add-cinematic-camera-to-level-sequence.md
       - desktop/ue/add-fab-asset-to-project.md
+      - desktop/ue/apply-chaos-cloth.md
       - desktop/ue/center-blueprint-editor-view.md
       - desktop/ue/change-camera-speed.md
       - desktop/ue/change-clothing-anime-character-pack.md
+      - desktop/ue/create-chaos-cloth-asset.md
       - desktop/ue/create-level-sequence.md
+      - desktop/ue/create-physics-asset.md
       - desktop/ue/create-project.md
       - desktop/ue/create-video-project.md
       - desktop/ue/delete-project.md
