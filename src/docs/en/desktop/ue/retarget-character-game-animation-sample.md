@@ -18,13 +18,20 @@ Complete these first:
 
 1. Open **World Settings** (**Window** → **World Settings**).
 2. Under **GameMode Override**, find **Default Pawn Class** (`CBP_SandboxCharacter`). Click the magnifying glass icon next to it to locate it in the Content Browser, under **Content** → **RetargetedCharacters**.
-3. Select one of the existing character Blueprints, such as `CBP_SandboxCharacter_Quinn`, press **Ctrl+D** to duplicate it, and rename the copy — for example, `CBP_Anime`.
+3. Select one of the existing character Blueprints, such as `CBP_SandboxCharacter_Quinn`, press **Ctrl+D** to duplicate it, and rename the copy — for example, `BP_Test`.
+
+![New character Blueprint duplicated alongside the project's other RetargetedCharacters entries](img/retarget-character-game-animation-sample-03.png)
 
 ## Step 2: Assign Your Mesh and a Custom Tag
 
 1. Double-click your new Blueprint to open it.
 2. Select the **Mesh** component in the Components panel, then in the Details panel under **Mesh** → **Skeletal Mesh Asset**, select your imported character mesh.
-3. Scroll to **Tags** → **Component Tags** and replace the existing tag with a custom one, such as `RTG_Anime`.
+
+    ![Mesh component with the Skeletal Mesh Asset and Anim Class assigned](img/retarget-character-game-animation-sample-04.png)
+
+3. Scroll to **Tags** → **Component Tags** and replace the existing tag with a custom one, such as `RTG_UEFN_to_Test`.
+
+    ![Component Tags array with a custom retargeting tag set](img/retarget-character-game-animation-sample-05.png)
 
     > **Warning:** Component tags are case-sensitive. Use the exact same tag in the next step.
 
@@ -34,9 +41,11 @@ Complete these first:
 
 1. With **Mesh** still selected, click the magnifying glass icon next to **Anim Class** (`ABP_GenericRetarget`) to locate it in the Content Browser, then double-click to open it.
 2. In the Details panel, find the **Retargeter Maps** array and click **+** (Add Element):
-      - **Key** — your custom tag from Step 2, such as `RTG_Anime`.
-      - **Value** — the IK Retargeter asset that VRM4U generated during import, such as `RTG_to_UFN_YourCharacter`.
+      - **Key** — your custom tag from Step 2, such as `RTG_UEFN_to_Test`.
+      - **Value** — the IK Retargeter asset that VRM4U generated during import, such as `RTG_UEFN_YourCharacter`.
 3. Click **Compile** and **Save**.
+
+![Retargeter Maps array with several character tags mapped to their IK Retargeter assets](img/retarget-character-game-animation-sample-06.png)
 
 ## Step 4: Test Play
 
