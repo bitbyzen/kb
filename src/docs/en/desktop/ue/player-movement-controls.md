@@ -6,11 +6,14 @@ These are the default keyboard controls for moving and traversing obstacles in t
 
 | Action | Key |
 |---|---|
-| Move Forward | `W` |
+| Move (`W` `A` `S` `D`) | Running is the default movement state — no key is held to run |
+| Toggle Walk / Run | `Left Ctrl` (Right Shoulder Button on a controller) |
 | Sprint | Hold `Left Shift` while moving forward |
 | Crouch | `C` (while stationary or walking) |
 | Slide | Press `C` while sprinting forward (`W` + `Left Shift` + `C`) |
 | Jump / Vault | `Space` (while moving or on the ground) |
 | Ledge Catch | Press or hold `Space` while falling near a ledge |
+
+> **Note:** Walking is not a hold-to-walk key. Press **Left Ctrl** (or the controller's Right Shoulder Button) to toggle between the walk and run movement modes — the character stays in that mode until you toggle it again.
 
 > **Note:** Ledge Catch triggers automatically — press or hold **Space** as your character falls near a ledge, and it grabs on instead of falling past it.
