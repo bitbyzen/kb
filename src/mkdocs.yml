@@ -235,6 +235,7 @@ nav:
       - desktop/ue/create-project.md
       - desktop/ue/create-video-project.md
       - desktop/ue/delete-project.md
+      - desktop/ue/display-collisions-skeletal-mesh-editor.md
       - desktop/ue/fix-missing-third-person-template.md
       - desktop/ue/focus-on-object.md
       - desktop/ue/get-back-to-default-character.md
