@@ -238,6 +238,7 @@ nav:
       - desktop/ue/display-collisions-skeletal-mesh-editor.md
       - desktop/ue/fix-missing-third-person-template.md
       - desktop/ue/focus-on-object.md
+      - desktop/ue/generate-skinned-triangle-mesh-collision.md
       - desktop/ue/get-back-to-default-character.md
       - desktop/ue/import-vrm-character.md
       - desktop/ue/install-older-version-of-unreal-engine.md

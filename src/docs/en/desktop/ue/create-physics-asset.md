@@ -47,6 +47,8 @@ The new Physics Asset opens in its own editor tab, with capsule collision bodies
 
 > **Note:** If you need to regenerate the bodies with different settings, adjust the **Body Creation** options in the bottom-right panel and click **Generate All Bodies**.
 
+> **Note:** These capsule bodies are an approximation. For collision that follows the mesh's exact shape instead, see [Generating a Skinned Triangle Mesh Collision Primitive](generate-skinned-triangle-mesh-collision.md).
+
 ## Step 6: Adjust a Bone in the Skeleton Tree
 
 If a generated collision body doesn't line up correctly with a limb, go back to the **Skeletal Mesh** editor and reposition the underlying bone — see [Moving a Body Part](move-body-part.md) for the full steps.
