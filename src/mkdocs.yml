@@ -241,6 +241,7 @@ nav:
       - desktop/ue/import-vrm-character.md
       - desktop/ue/install-older-version-of-unreal-engine.md
       - desktop/ue/install-vrm4u-plugin.md
+      - desktop/ue/move-body-part.md
       - desktop/ue/move-actor-in-third-person.md
       - desktop/ue/move-to-npc-level.md
       - desktop/ue/navigate-viewport.md

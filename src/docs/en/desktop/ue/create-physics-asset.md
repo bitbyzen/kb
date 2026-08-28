@@ -49,24 +49,18 @@ The new Physics Asset opens in its own editor tab, with capsule collision bodies
 
 ## Step 6: Adjust a Bone in the Skeleton Tree
 
-If a generated collision body doesn't line up correctly with a limb, go back to the **Skeletal Mesh** editor and open **Edit Skeleton** mode to reposition the underlying bone.
+If a generated collision body doesn't line up correctly with a limb, go back to the **Skeletal Mesh** editor and reposition the underlying bone — see [Moving a Body Part](move-body-part.md) for the full steps.
 
-![Skeletal Mesh editor in Edit Skeleton mode, with the Skeleton Tree panel and Preview Settings tab open on the right](img/create-physics-asset-06.png)
-
-Use the **Skeleton Tree** search box to filter for the bone — for example, typing `ar` filters the list down to the arm bones. Select the bone (such as `J_Bip_L_UpperArm`); a move/rotate gizmo appears on it in the viewport.
-
-![Skeleton Tree filtered by the search term "ar", with J_Bip_L_UpperArm selected and its manipulation gizmo shown at the shoulder](img/create-physics-asset-07.png)
-
-Drag the gizmo to reposition or rotate the bone as needed.
+![Skeletal Mesh editor with the Skeleton Tree panel and Preview Settings tab open on the right](img/create-physics-asset-06.png)
 
 ## Step 7: Review and Regenerate the Affected Body
 
 Switch back to the **Physics Asset** editor tab. Select the same bone in its **Skeleton Tree** to highlight the corresponding collision body in the viewport, and check its properties in the **Details** panel — **Mass**, **Linear Damping**, **Angular Damping**, **Enable Gravity**, and **Physics Type**.
 
-![Physics Asset editor with J_Bip_L_UpperArm selected, its capsule body highlighted, and the Details panel showing physics body properties](img/create-physics-asset-08.png)
+![Physics Asset editor with J_Bip_L_UpperArm selected, its capsule body highlighted, and the Details panel showing physics body properties](img/create-physics-asset-07.png)
 
 Use the **Center Of Mass Offset** gizmo to fine-tune the body's pivot if needed, then click **Re-generate Bodies** (or **Generate All Bodies**) to rebuild collision for the adjusted bone.
 
-![Physics Asset editor showing the Center Of Mass Offset gizmo on the selected body, the Constraint Creation settings, and the Re-generate Bodies button](img/create-physics-asset-09.png)
+![Physics Asset editor showing the Center Of Mass Offset gizmo on the selected body, the Constraint Creation settings, and the Re-generate Bodies button](img/create-physics-asset-08.png)
 
 > **Note:** A Physics Asset created here can be assigned as the collision source when [applying Chaos Cloth simulation](apply-chaos-cloth.md#step-5-assign-collision).
