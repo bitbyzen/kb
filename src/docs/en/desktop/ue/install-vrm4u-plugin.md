@@ -6,20 +6,40 @@
 
 > **Warning:** Do not drag a `.vrm` file into Unreal Engine before installing and enabling VRM4U, or the editor will crash.
 
-## Step 1: Download VRM4U
+## Method 1: Manual Download
+
+### Step 1: Download VRM4U
 
 Go to the [VRM4U releases page](https://github.com/ruyo/VRM4U/releases) and download the zip archive that matches your Unreal Engine version (for example, UE 5.5). Extract the downloaded zip file.
 
-## Step 2: Find Your Project's Root Folder
+### Step 2: Find Your Project's Root Folder
 
 In the Content Browser, right-click the **Content** folder and select **Show in Explorer**, then navigate up one level to the project's root folder (`<YOUR-PROJECT-PATH>\`).
 
-## Step 3: Copy the Plugin into Your Project
+### Step 3: Copy the Plugin into Your Project
 
 Copy the extracted `Plugins` folder into your project's root folder.
 
 > **Note:** If a `Plugins` folder already exists in your project, copy just the `VRM4U` folder into your existing `Plugins` folder instead of replacing it.
 
-## Step 4: Restart and Verify
+### Step 4: Restart and Verify
 
 Restart your Unreal Engine project. Go to **Edit** → **Plugins** and confirm **VRM4U** is listed and enabled.
+
+## Method 2: Fab Marketplace
+
+### Step 1: Search Fab for VRM4U
+
+In the Epic Games Launcher, open the **Fab** tab and search for `VRM4U`. Select **dylo's VRM4U** under **Tools & Plugins** — this is the standard listing for the plugin.
+
+![Fab search results for VRM4U, with the dylo's VRM4U listing highlighted](img/install-vrm4u-plugin-01.png)
+
+### Step 2: Check Engine Compatibility
+
+On the listing's product page, check the dropdown of supported Unreal Engine versions to confirm it covers your installed version.
+
+### Step 3: Install the Plugin
+
+Click **Add to Library**, then open the Epic Games Launcher's **Library** tab and install VRM4U directly into your project from there.
+
+> **Note:** If you downloaded the plugin manually instead of installing it through the Library tab, enable it the same way as Method 1's Step 4 — via **Edit** → **Plugins**.
