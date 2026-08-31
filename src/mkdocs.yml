@@ -248,6 +248,7 @@ nav:
       - desktop/ue/move-body-part.md
       - desktop/ue/move-actor-in-third-person.md
       - desktop/ue/move-to-npc-level.md
+      - desktop/ue/move-to-ragdoll-level.md
       - desktop/ue/navigate-viewport.md
       - desktop/ue/orbit-around-selected-object.md
       - desktop/ue/place-character-blueprint-in-scene.md
