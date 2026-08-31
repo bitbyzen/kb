@@ -93,6 +93,8 @@ Select each of the following nodes in the Dataflow graph and adjust their values
 
 > **Note:** To see the collision bodies the cloth is colliding against, drawn directly on the mesh, see [Displaying Collisions in the Skeletal Mesh Editor](display-collisions-skeletal-mesh-editor.md).
 
+> **Note:** This preview plays a static reference pose by default. To see the cloth react to actual movement, see [Applying an Animation to a Chaos Cloth Simulation](apply-animation-to-chaos-cloth.md).
+
 ## Step 7: Fix Clipping by Refining Collision
 
 If part of the body pokes through the simulated cloth, the physics asset's collision shapes usually need adjusting rather than the cloth parameters themselves.
