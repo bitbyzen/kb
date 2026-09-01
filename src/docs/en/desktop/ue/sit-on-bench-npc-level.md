@@ -12,7 +12,7 @@ In the Content Browser, navigate to **Content** → **Levels** → **Level Proto
 
 ## Step 2: Approach an Open Bench
 
-Walk your character toward a bench that has a free spot.
+Press `W` to walk close to the bench.
 
 ![Player character standing near a smart bench with a seated NPC, with the Shift+F1 for Mouse Cursor prompt visible](img/sit-on-bench-npc-level-02.png)
 
@@ -20,6 +20,6 @@ Walk your character toward a bench that has a free spot.
 
 ## Step 3: Sit Down
 
-Press `W` to walk close to the bench, then press `E` to sit down on it.
+Press `E` to sit down on the bench.
 
 ![NPCLevel in Play mode with two NPCs seated together on a smart bench](img/sit-on-bench-npc-level-01.png)
