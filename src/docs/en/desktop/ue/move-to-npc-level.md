@@ -25,3 +25,5 @@ Walk your character onto the arrow to load the NPC Level, the same way walking o
 The NPC Level loads with your character standing among several NPCs positioned around the level.
 
 ![NPC Level with the character standing among several NPCs near benches](img/move-to-npc-level-03.png)
+
+> **Note:** To sit down on one of the benches yourself, see [Sitting on a Bench in the NPC Level](sit-on-bench-npc-level.md).

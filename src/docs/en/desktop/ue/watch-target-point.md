@@ -15,3 +15,5 @@ Walk your character into the purple circular area on the ground near a target po
 As you move around inside the circle, the character's head and eyes turn to keep looking at the target point instead of facing your movement direction.
 
 ![Character mid-stride inside the circle, still looking toward the target pole](img/watch-target-point-02.png)
+
+> **Note:** For a more in-depth look at this same look-at system, with live parameter tweaking across several scenarios, see [Exploring the LookAtPOI Level's Look-At Demos](explore-lookatpoi-level.md).
