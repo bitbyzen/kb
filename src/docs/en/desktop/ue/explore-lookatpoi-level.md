@@ -31,11 +31,13 @@ All three demos are loaded and running at the same time — clicking a different
 The Loops demo cycles a character through different idle animation loops while its head and eyes track a moving target as you orbit the camera.
 
 - Rotate the camera by moving the mouse; scale (zoom) with the mouse wheel.
-- **Select Loop** dropdown switches which animation loop plays (for example `Idle`).
+- **Select Loop** dropdown switches which animation loop plays — `Idle`, `Sprint`, `Walk`, or `Crouch`.
 - **Enable Look At** checkbox toggles the tracking on and off.
 - **About Loops Sample** opens an info panel explaining the demo, including how to live-tweak its solver settings by opening the `DA_LookAtPOI_Loops` data asset and setting `DevMode = True`.
 
 ![Loops panel with the Select Loop dropdown, Enable Look At checkbox, and About Loops Sample button, with a green loop path on the ground](img/explore-lookatpoi-level-04.png)
+
+![Select Loop dropdown open, listing Idle, Sprint, Walk, and Crouch, with Walk highlighted](img/explore-lookatpoi-level-07.png)
 
 ## Patrol & Move
 
