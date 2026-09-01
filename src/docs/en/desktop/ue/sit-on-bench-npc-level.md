@@ -8,8 +8,6 @@
 
 In the Content Browser, navigate to **Content** → **Levels** → **Level Prototyping**, double-click `NPCLevel`, and press **Play**. NPCs in the level are already using its `BP_SmartBench` actors — you will see some already seated on benches as soon as the level loads.
 
-![NPCLevel in Play mode with two AI-controlled NPCs already seated together on a smart bench](img/sit-on-bench-npc-level-01.png)
-
 > **Note:** These NPCs sit down on their own through Smart Object components (`AIC_NPC_SmartObject`) — this is AI-driven behavior, not the result of any player input.
 
 ## Step 2: Approach an Open Bench
@@ -23,3 +21,5 @@ Walk your character toward a bench that has a free spot.
 ## Step 3: Sit Down
 
 Press `W` to walk close to the bench, then press `E` to sit down on it.
+
+![NPCLevel in Play mode with two NPCs seated together on a smart bench](img/sit-on-bench-npc-level-01.png)
