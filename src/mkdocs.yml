@@ -234,12 +234,15 @@ nav:
       - desktop/ue/create-chaos-cloth-asset.md
       - desktop/ue/create-level-sequence.md
       - desktop/ue/create-physics-asset.md
+      - desktop/ue/create-pose-asset-from-animation.md
       - desktop/ue/create-project.md
+      - desktop/ue/create-single-expression-animation.md
       - desktop/ue/create-video-project.md
       - desktop/ue/delete-project.md
       - desktop/ue/display-collisions-skeletal-mesh-editor.md
       - desktop/ue/display-plugin-content.md
       - desktop/ue/explore-lookatpoi-level.md
+      - desktop/ue/find-animation-asset.md
       - desktop/ue/fix-missing-third-person-template.md
       - desktop/ue/focus-on-object.md
       - desktop/ue/generate-skinned-triangle-mesh-collision.md
@@ -249,9 +252,11 @@ nav:
       - desktop/ue/install-vrm4u-plugin.md
       - desktop/ue/move-body-part.md
       - desktop/ue/move-actor-in-third-person.md
+      - desktop/ue/move-playhead.md
       - desktop/ue/move-to-npc-level.md
       - desktop/ue/move-to-ragdoll-level.md
       - desktop/ue/navigate-viewport.md
+      - desktop/ue/open-curve-editor.md
       - desktop/ue/orbit-around-selected-object.md
       - desktop/ue/place-character-blueprint-in-scene.md
       - desktop/ue/player-movement-controls.md
