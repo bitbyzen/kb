@@ -10,7 +10,9 @@
 
 ### Step 1: Download VRM4U
 
-Go to the [VRM4U releases page](https://github.com/ruyo/VRM4U/releases) and download the zip archive that matches your Unreal Engine version (for example, UE 5.5). Extract the downloaded zip file.
+Go to the [VRM4U releases page](https://github.com/ruyo/VRM4U/releases) and download the zip archive that matches your Unreal Engine version — the filename encodes it, for example `VRM4U_5_8_<date>.zip` for UE 5.8. Extract the downloaded zip file.
+
+![VRM4U GitHub releases page with the UE 5.8 zip asset highlighted](img/install-vrm4u-plugin-02.png)
 
 ### Step 2: Find Your Project's Root Folder
 
@@ -25,6 +27,14 @@ Copy the extracted `Plugins` folder into your project's root folder.
 ### Step 4: Restart and Verify
 
 Restart your Unreal Engine project. Go to **Edit** → **Plugins** and confirm **VRM4U** is listed and enabled.
+
+> **Note:** You may see a message reading "Plugin 'VRM4U' failed to load because module 'VRM4UCaptureEditor' could not be loaded." Closing this dialog and continuing is fine — the main VRM4U import functionality still works even if this optional submodule fails to load.
+
+![VRM4U module load failure message with the OK button highlighted](img/install-vrm4u-plugin-03.png)
+
+> **Note:** Some workflows also enable Unreal's built-in **OSC (Open Sound Control)** plugin alongside VRM4U, to send or receive real-time facial tracking data from external tools. This is not required for a basic VRM import — only enable it if your pipeline needs live OSC streaming.
+
+![Plugins browser with the OSC plugin found via search and enabled](img/install-vrm4u-plugin-04.png)
 
 ## Method 2: Fab Marketplace
 

@@ -238,6 +238,7 @@ nav:
       - desktop/ue/create-video-project.md
       - desktop/ue/delete-project.md
       - desktop/ue/display-collisions-skeletal-mesh-editor.md
+      - desktop/ue/display-plugin-content.md
       - desktop/ue/explore-lookatpoi-level.md
       - desktop/ue/fix-missing-third-person-template.md
       - desktop/ue/focus-on-object.md
@@ -261,6 +262,8 @@ nav:
       - desktop/ue/sit-on-bench-npc-level.md
       - desktop/ue/spawn-locomotor-robot.md
       - desktop/ue/swap-character.md
+      - desktop/ue/understand-pose-weights-vs-curves.md
+      - desktop/ue/understand-post-process-anim-blueprint.md
       - desktop/ue/view-readme-release-notes.md
       - desktop/ue/watch-target-point.md
       - desktop/ue/zoom-in-and-out.md
