@@ -12,7 +12,7 @@ With the animation open, click **Create Asset** in the toolbar, then open the **
 
 ![Create Asset dropdown menu open on an Animation Sequence, with Create PoseAsset highlighted and its Current Pose and Current Animation options visible](img/create-pose-asset-from-animation-01.png)
 
-> **Note:** The screenshot shows this menu open but not which option was clicked next. Because the source animation here holds a single expression across its whole length, **Current Animation** (which bakes the whole clip into one named pose) is the more likely choice over **Current Pose** (which would only capture whatever single frame the playhead was on) — but this is inferred from the result, not directly observed.
+Select **Current Animation** ("Create Animation from current animation") rather than **Current Pose**, which would only capture whatever single frame the playhead was on.
 
 ## Step 2: Choose a Destination and Name
 
@@ -21,5 +21,7 @@ A **Create a New Animation Asset** dialog opens, prompting you to select a desti
 ![Create a New Animation Asset dialog with the VroidKento folder selected and the Animation Name field showing SKEL_kento-blue_PoseAsset_sorrow](img/create-pose-asset-from-animation-02.png)
 
 Click **OK** to create the Pose Asset in that folder.
+
+> **Warning:** **Current Animation** creates one pose per sampled frame of the source animation, not a single named pose — a 75-frame clip produces 76 poses (`Pose_0` through `Pose_75`). See [Isolating a Single Pose in a Pose Asset](isolate-single-pose.md) to clean this up.
 
 > **Note:** A Pose Asset created this way only reflects the curve values baked into the source animation at the time you ran this command. To learn how a Pose Asset's per-pose **Weight** slider differs from those baked values, see [Understanding Pose Weights vs. Curve Values](understand-pose-weights-vs-curves.md).

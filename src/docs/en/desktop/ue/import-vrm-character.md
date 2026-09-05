@@ -21,4 +21,8 @@ VRM4U automatically generates:
 - An **IK Retargeter** asset
 - **Blendshape** / face animation assets
 
+Select the generated Skeletal Mesh in the Content Browser and check its info tooltip's **Morph Targets** count to confirm the blendshapes came through — see [Checking Morph Target and Pose Counts](check-morph-target-and-pose-counts.md).
+
+![Skeletal Mesh info tooltip showing a non-zero Morph Targets count after a VRM import](img/import-vrm-character-01.png)
+
 > **Note:** To get the character walking and animating using the default mannequin animations, see [Setting Up Animation for a VRM Character](set-up-animation-for-vrm-character.md). If you're using the **Game Animation Sample** project specifically, see [Retargeting a VRM Character to Game Animation Sample](retarget-character-game-animation-sample.md) instead.
