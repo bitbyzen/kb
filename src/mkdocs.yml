@@ -248,6 +248,7 @@ nav:
       - desktop/ue/find-animation-asset.md
       - desktop/ue/fix-missing-third-person-template.md
       - desktop/ue/focus-on-object.md
+      - desktop/ue/focus-camera-on-face.md
       - desktop/ue/generate-skinned-triangle-mesh-collision.md
       - desktop/ue/get-back-to-default-character.md
       - desktop/ue/import-vrm-character.md
