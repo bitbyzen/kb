@@ -187,6 +187,8 @@ nav:
     - Python:
       - desktop/python/create-executable-from-python-script.md
       - desktop/python/create-installer-for-python-app.md
+    - Sketchfab:
+      - desktop/sketchfab/create-account.md
     - Style-Bert-VITS2:
       - desktop/style-bert-vits2/check-pinokio-support-style-bert-vits2.md
       - desktop/style-bert-vits2/set-up-style-bert-vits2-webui.md
