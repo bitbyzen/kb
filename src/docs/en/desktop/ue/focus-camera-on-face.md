@@ -22,6 +22,8 @@ Click any blank space in the viewport to clear the selection and hide the manipu
 
 ![Final close-up framing of the face, with the manipulator gizmo hidden](img/focus-camera-on-face-03.png)
 
-> **Note:** At this close zoom range, enable **Distance Based Camera Speed** in the viewport's camera speed dropdown (top toolbar) so mouse-driven camera movement scales sensibly instead of feeling too fast or too slow.
+## Step 4: Enable Distance Based Camera Speed
+
+At this close zoom range, enable **Distance Based Camera Speed** in the viewport's camera speed dropdown (top toolbar) so mouse-driven camera movement scales sensibly instead of feeling too fast or too slow.
 
 ![Camera speed dropdown with Distance Based Camera Speed checked](img/focus-camera-on-face-04.png)
