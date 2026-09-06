@@ -8,17 +8,17 @@
 
 In the **Skeleton Tree** search box, type `head` to filter the list down to the head bone, then select `J_Bip_C_Head`.
 
+![Skeleton Tree filtered to head, with J_Bip_C_Head selected and the focus/orbit gizmo centered on the character's head](img/focus-camera-on-face-01.png)
+
 ## Step 2: Focus the Camera on It
 
 Press `F`. The camera frames and orbits around the selected bone instead of the whole character.
 
-![Skeleton Tree filtered to head, with J_Bip_C_Head selected and the focus/orbit gizmo centered on the character's head](img/focus-camera-on-face-01.png)
+![Camera zoomed in close on the character's face, with the head-bone gizmo still visible](img/focus-camera-on-face-02.png)
 
 ## Step 3: Zoom In Further
 
 Scroll the mouse wheel to move in closer for a tight framing of the face.
-
-![Camera zoomed in close on the character's face, with the head-bone gizmo still visible](img/focus-camera-on-face-02.png)
 
 ![Final close-up framing of the face](img/focus-camera-on-face-03.png)
 
