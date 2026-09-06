@@ -16,11 +16,11 @@ Press `F`. The camera frames and orbits around the selected bone instead of the 
 
 ![Camera zoomed in close on the character's face, with the head-bone gizmo still visible](img/focus-camera-on-face-02.png)
 
-## Step 3: Zoom In Further
+## Step 3: Deselect to Hide the Manipulator
 
-Scroll the mouse wheel to move in closer for a tight framing of the face.
+Click any blank space in the viewport to clear the selection and hide the manipulator gizmo, leaving an unobstructed view of the face.
 
-![Final close-up framing of the face](img/focus-camera-on-face-03.png)
+![Final close-up framing of the face, with the manipulator gizmo hidden](img/focus-camera-on-face-03.png)
 
 > **Note:** At this close zoom range, enable **Distance Based Camera Speed** in the viewport's camera speed dropdown (top toolbar) so mouse-driven camera movement scales sensibly instead of feeling too fast or too slow.
 
