@@ -4,7 +4,7 @@
 
 A `Pose Asset` can be generated directly from an already-open `Animation Sequence`, instead of building one from scratch. This example uses `A_face_kento-blue_sorrow`, a single-curve animation holding one facial expression.
 
-> **Note:** See [Creating a Single-Expression Facial Animation](create-single-expression-animation.md) for how a source animation like this one gets isolated down to a single curve first.
+> **Note:** See [Creating an Animation from a Pose](create-animation-from-pose.md) for how to build a single-expression source animation like this one from scratch.
 
 ## Step 1: Open the Create Asset Menu
 

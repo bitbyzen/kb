@@ -16,6 +16,6 @@ Click **Edit Curve**. A new **Curve Editor** tab opens next to the animation's m
 
 ![Curve Editor tab showing the Fcl_EYE_Close_L curve plotted as a triangular shape peaking at 1.0](img/open-curve-editor-02.png)
 
-> **Note:** These two screenshots capture opening the Curve Editor, not a keyframe or tangent actually being dragged. The Curve Editor's toolbar (Selection, Tangents, Snap, and framing tools) is visible for further editing, but that editing itself isn't shown here.
+> **Note:** These two screenshots capture opening the Curve Editor, not a keyframe or tangent actually being dragged. The Curve Editor's toolbar (Selection, Tangents, Snap, and framing tools) is visible for further editing, but that editing itself isn't shown here. To frame the play range once you're in here, see [Focusing the Play Range in the Curve Editor](focus-play-range-curve-editor.md).
 
 > **Note:** If a **Post process Animation Blueprint** status bar is visible above the curve panel, it's modifying curves on top of whatever you see in the Curve Editor — see [Understanding the Post Process Animation Blueprint](understand-post-process-anim-blueprint.md).

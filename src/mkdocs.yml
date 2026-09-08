@@ -241,8 +241,8 @@ nav:
       - desktop/ue/create-physics-asset.md
       - desktop/ue/create-pose-asset-from-animation.md
       - desktop/ue/create-project.md
-      - desktop/ue/create-single-expression-animation.md
       - desktop/ue/create-video-project.md
+      - desktop/ue/create-animation-from-pose.md
       - desktop/ue/delete-project.md
       - desktop/ue/display-collisions-skeletal-mesh-editor.md
       - desktop/ue/display-plugin-content.md
@@ -251,6 +251,7 @@ nav:
       - desktop/ue/fix-missing-third-person-template.md
       - desktop/ue/focus-on-object.md
       - desktop/ue/focus-camera-on-face.md
+      - desktop/ue/focus-play-range-curve-editor.md
       - desktop/ue/generate-skinned-triangle-mesh-collision.md
       - desktop/ue/get-back-to-default-character.md
       - desktop/ue/import-vrm-character.md
