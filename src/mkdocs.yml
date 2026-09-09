@@ -27,6 +27,7 @@ nav:
       - desktop/bitwarden/get-started-with-bitwarden.md
     - Blender:
       - desktop/blender/install-blender-with-automatic-updates.md
+      - desktop/blender/install-mpfb-addon.md
       - desktop/blender/render-slideshow.md
     - Claude:
       - desktop/claude-ai/fix-greyed-out-cowork-tab-windows-11.md
