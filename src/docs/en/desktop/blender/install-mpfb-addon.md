@@ -12,7 +12,7 @@ Go to [extensions.blender.org](https://extensions.blender.org) and search for `c
 
 ## Step 2: Get the Add-on
 
-Open the **MPFB** listing and click **Get Add-on**.
+Open the **MPFB** listing, then drag the **Get Add-on** button from the browser and drop it onto the Blender editor window.
 
 ![MPFB extension page with the Get Add-on button highlighted](img/install-mpfb-addon-02.png)
 
@@ -32,7 +32,7 @@ Check **Allow Online Access**, then close the Preferences window.
 
 ## Step 4: Install the Add-on
 
-Back on the MPFB page, click the install button again — it may now read **Drag and Drop into Blender** instead of **Get Add-on**.
+Back on the MPFB page, the button may now read **Drag and Drop into Blender** instead of **Get Add-on**. Drag it onto the Blender editor window again the same way.
 
 ![MPFB extension page with the Drag and Drop into Blender button highlighted](img/install-mpfb-addon-06.png)
 
