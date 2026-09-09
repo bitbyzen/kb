@@ -14,38 +14,40 @@ Go to [extensions.blender.org](https://extensions.blender.org) and search for `c
 
 Open the **MPFB** listing, then drag the **Get Add-on** button from the browser and drop it onto the Blender editor window.
 
-![MPFB extension page with the Get Add-on button highlighted](img/install-mpfb-addon-02.png)
-
 ## Step 3: Enable Online Access
 
 Blender shows an **Install Extension** dialog reading "Please enable Online Access from the System settings." Click **Allow Online Access**.
 
-![Install Extension dialog prompting to enable Online Access, with the Allow Online Access button highlighted](img/install-mpfb-addon-03.png)
+![Install Extension dialog prompting to enable Online Access, with the Allow Online Access button highlighted](img/install-mpfb-addon-02.png)
 
 This opens **Preferences** → **System**, where **Allow Online Access** is unchecked by default.
 
-![Preferences window with the System tab selected and Allow Online Access unchecked](img/install-mpfb-addon-04.png)
+![Preferences window with the System tab selected and Allow Online Access unchecked](img/install-mpfb-addon-03.png)
 
 Check **Allow Online Access**, then close the Preferences window.
 
-![Allow Online Access checked in Preferences, with the window's close button highlighted](img/install-mpfb-addon-05.png)
+![Allow Online Access checked in Preferences, with the window's close button highlighted](img/install-mpfb-addon-04.png)
 
 ## Step 4: Install the Add-on
 
 Back on the MPFB page, the button now reads **Drag and Drop into Blender** instead of **Get Add-on**. Drag it onto the Blender editor window again the same way.
 
-![MPFB extension page with the Drag and Drop into Blender button highlighted](img/install-mpfb-addon-06.png)
+![MPFB extension page with the Drag and Drop into Blender button highlighted](img/install-mpfb-addon-05.png)
 
 Blender shows a confirmation dialog naming the add-on, its repository, and its size, with **Enable Add-on** checked. Click **OK**.
 
-![Install Extension confirmation dialog for MPFB with Enable Add-on checked and the OK button highlighted](img/install-mpfb-addon-07.png)
+![Install Extension confirmation dialog for MPFB with Enable Add-on checked and the OK button highlighted](img/install-mpfb-addon-06.png)
 
 ## Step 5: Confirm the Add-on Is Installed
 
 In the 3D viewport, press `N` to open the sidebar.
 
-![3D viewport with a "Press N" prompt overlay](img/install-mpfb-addon-08.png)
+![3D viewport with a "Press N" prompt overlay](img/install-mpfb-addon-07.png)
+
+The sidebar opens, showing the **Transform** panel.
+
+![Viewport sidebar open, showing the Transform panel](img/install-mpfb-addon-08.png)
 
 An **MPFB** tab appears among the sidebar's vertical tabs, confirming the add-on installed successfully.
 
-![Viewport sidebar open with an MPFB v2.0.17 tab visible alongside the Transform panel](img/install-mpfb-addon-09.png)
+![Viewport sidebar's MPFB tab open, listing Developer, Hair Editor, New human, and other MPFB tools](img/install-mpfb-addon-09.png)
