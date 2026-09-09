@@ -32,7 +32,7 @@ Check **Allow Online Access**, then close the Preferences window.
 
 ## Step 4: Install the Add-on
 
-Back on the MPFB page, the button may now read **Drag and Drop into Blender** instead of **Get Add-on**. Drag it onto the Blender editor window again the same way.
+Back on the MPFB page, the button now reads **Drag and Drop into Blender** instead of **Get Add-on**. Drag it onto the Blender editor window again the same way.
 
 ![MPFB extension page with the Drag and Drop into Blender button highlighted](img/install-mpfb-addon-06.png)
 
