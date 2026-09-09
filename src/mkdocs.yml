@@ -228,6 +228,7 @@ nav:
       - desktop/ue/access-documentation-from-fab.md
       - desktop/ue/add-cinematic-camera-to-level-sequence.md
       - desktop/ue/add-fab-asset-to-project.md
+      - desktop/ue/animate-control-rig-in-sequencer.md
       - desktop/ue/apply-animation-to-chaos-cloth.md
       - desktop/ue/apply-chaos-cloth.md
       - desktop/ue/center-blueprint-editor-view.md
@@ -238,6 +239,7 @@ nav:
       - desktop/ue/check-morph-target-and-pose-counts.md
       - desktop/ue/clip-animation-with-montage.md
       - desktop/ue/create-chaos-cloth-asset.md
+      - desktop/ue/create-control-rig.md
       - desktop/ue/create-level-sequence.md
       - desktop/ue/create-physics-asset.md
       - desktop/ue/create-pose-asset-from-animation.md
