@@ -71,3 +71,7 @@ Select `J_Adj_R_FaceEye_ctrl`, change its Rotator **Z** value (here, to `-5.00`)
 Move the playhead back into the middle of the timeline and click **Play** in the transport bar. The `SK_silber_CtrlRig` track shows both `J_Adj_L_FaceEye_ctrl` and `J_Adj_R_FaceEye_ctrl` sub-tracks with two keyframes each, visible at the start and end of the timeline. The viewport shows the character's face in close-up with the eyes visibly shifted mid-playback, confirming the keyframed animation plays correctly.
 
 ![Sequencer with playhead at frame 0123, Play button highlighted in the transport bar with an arrow, both eye control tracks showing keyframe diamonds circled at start and end, viewport showing a close-up of the character's face with visibly shifted eyes](img/animate-control-rig-in-sequencer-09.png)
+
+## Next Steps
+
+To use this animation outside Sequencer — for example, feeding it into a Pose Asset — see [Baking a Control Rig Animation](bake-control-rig-animation.md).
