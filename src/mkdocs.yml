@@ -275,6 +275,7 @@ nav:
       - desktop/ue/rename-blueprint-project.md
       - desktop/ue/reset-viewport-view.md
       - desktop/ue/retarget-character-game-animation-sample.md
+      - desktop/ue/sculpt-custom-morph-target.md
       - desktop/ue/set-up-animation-for-vrm-character.md
       - desktop/ue/set-up-mcp-plugin-for-claude-code.md
       - desktop/ue/sit-on-bench-npc-level.md
