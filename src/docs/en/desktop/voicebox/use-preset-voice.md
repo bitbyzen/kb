@@ -94,6 +94,6 @@ Back on the main page, selecting `kumo-male-ja` grays out `ryan-male-en` (differ
 
 ![kumo-male-ja selected, ryan-male-en grayed out, Japanese text entered](img/use-preset-voice-18.webp)
 
-> **Warning:** Generating with a Japanese Kokoro 82M voice may fail with a `Failed initializing MeCab` error. This is a missing dependency in Voicebox itself, not a mistake in your setup — see the [fugashi README](https://github.com/polm/fugashi) linked in the error message for details.
+> **Warning:** Generating with a Japanese Kokoro 82M voice may fail with a `Failed initializing MeCab` error. This is a missing dependency in Voicebox itself, not a mistake in your setup — see [Fixing a MeCab Initialization Error](fix-mecab-initialization-error.md) for details.
 
 ![Generation failed error: "Failed initializing MeCab"](img/use-preset-voice-19.webp)

@@ -50,4 +50,7 @@ Voicebox is a voice cloning tool that generates speech in your own voice from a 
 
 ## Reference
 
+- [Official site](https://voicebox.sh/)
+- [GitHub repository (jamiepine/voicebox)](https://github.com/jamiepine/voicebox) — open-source; a Tauri (Rust) shell around a React frontend and a PyInstaller-bundled FastAPI Python backend
+- [DeepWiki AI documentation](https://deepwiki.com/jamiepine/voicebox) — ask questions about the codebase directly
 - [Madosoft review (Impress)](https://forest.watch.impress.co.jp/docs/review/2089030.html)

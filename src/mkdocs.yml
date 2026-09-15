@@ -288,6 +288,7 @@ nav:
       - desktop/ue/watch-target-point.md
       - desktop/ue/zoom-in-and-out.md
     - Voicebox:
+      - desktop/voicebox/fix-mecab-initialization-error.md
       - desktop/voicebox/understand-voicebox.md
       - desktop/voicebox/use-preset-voice.md
     - Voicevox:
