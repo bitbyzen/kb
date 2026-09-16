@@ -105,6 +105,7 @@ nav:
       - desktop/kensington/fix-trackball-not-recognized.md
       - desktop/kensington/fix-settings-changes-not-applied.md
     - Keychron:
+      - desktop/keychron/connect-keyboard-to-via.md
       - desktop/keychron/duplicate-macro-in-keychron-launcher.md
       - desktop/keychron/enter-quotation-marks-keychron-keyboard.md
       - desktop/keychron/export-keymap.md

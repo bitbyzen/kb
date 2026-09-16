@@ -13,3 +13,10 @@ Download the official English user manual from the XPPen website:
 No Japanese PDF is available, but you can read the Japanese manual online:
 
 [Magic Drawing Pad ユーザーマニュアル（日本語）](https://www.xp-pen.jp/user-manual/magic-drawing-pad.html)
+
+## Finding It From the Product Page
+
+If either link above goes stale, reach the same manual by navigating from the [official product page](https://www.xp-pen.jp/product/standalone-magic-drawing-pad.html):
+
+1. Click the **説明書&ドライバ** (Manual & Driver) tab.
+2. Open the **取扱説明書** (Manual) tab and click **確認** (Confirm) next to the manual entry.
