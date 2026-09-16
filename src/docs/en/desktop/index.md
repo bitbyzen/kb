@@ -5,6 +5,7 @@ Notes on desktop applications, development tools, and workflows.
 ## A
 
 - [Acrobat](acrobat/insert-page-into-pdf.md)
+- [AivisSpeech](aivisspeech/add-voice-model-from-aivishub.md)
 - [Amazon](amazon/change-default-payment-method-on-amazon.md)
 
 ## B
