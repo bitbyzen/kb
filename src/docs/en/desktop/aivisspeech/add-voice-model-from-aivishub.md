@@ -42,7 +42,7 @@ A confirmation message appears once the install finishes.
 
 ## Step 4: Apply the Model in AivisSpeech
 
-Back in AivisSpeech, go to **音声合成モデル** → **AivisHubで追加した音声合成モデルを反映** (Apply models added on AivisHub).
+Back in AivisSpeech, go to **音声合成モデル** (Voice Synthesis Model) → **AivisHubで追加した音声合成モデルを反映** (Apply models added on AivisHub).
 
 ![AivisSpeech's Voice Synthesis Model menu, with the apply-added-models option highlighted](img/add-voice-model-from-aivishub-08.webp)
 
