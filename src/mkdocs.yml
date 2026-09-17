@@ -220,6 +220,7 @@ nav:
       - desktop/synology/review-ds720-hardware-layout.md
       - desktop/synology/run-claude-synology-nas-docker-api.md
       - desktop/synology/set-up-active-backup-business-d-drive.md
+      - desktop/synology/sync-folder-second-synology-volume.md
       - desktop/synology/sync-google-drive-synology-nas.md
       - desktop/synology/understand-dsm.md
       - desktop/synology/understand-web-assistant.md
