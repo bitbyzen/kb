@@ -299,7 +299,7 @@ nav:
       - desktop/voicebox/understand-voicebox.md
       - desktop/voicebox/use-preset-voice.md
     - Voicevox:
-      - desktop/voicevox/access-voicevox-engine-repo.md
+      - desktop/voicevox/access-voicevox-repos.md
       - desktop/voicevox/add-nemo-voices.md
       - desktop/voicevox/install-voicevox.md
     - VRoid Studio:
