@@ -359,6 +359,10 @@ nav:
       - desktop/xnview/edit-image-with-external-editor.md
       - desktop/xnview/resize-image-height.md
       - desktop/xnview/update-xnview-mp.md
+    - XPPen:
+      - desktop/xppen/access-deco-lw-start-guide.md
+      - desktop/xppen/purchase-deco-lw.md
+      - desktop/xppen/replace-deco-lw-pen-nib.md
     - Xserver:
       - desktop/xserver/manage-xserver-services.md
     - YMM4:

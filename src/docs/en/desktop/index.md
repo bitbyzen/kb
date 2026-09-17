@@ -106,6 +106,7 @@ Notes on desktop applications, development tools, and workflows.
 ## X
 
 - [XnView](xnview/batch-rename-photos.md)
+- [XPPen](xppen/access-deco-lw-start-guide.md)
 - [Xserver](xserver/manage-xserver-services.md)
 
 ## Y
