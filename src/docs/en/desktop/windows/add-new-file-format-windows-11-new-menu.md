@@ -36,8 +36,52 @@ Open the Templates folder and create an empty file with the extension you want �
 
 ![Screenshot](img/add-new-file-format-windows-11-new-menu-04.webp)
 
-## Step 5: Use the Template
+## Step 5: Confirm the Template Is Blank
 
-Right-click in any folder in File Explorer, choose **New+**, and your template appears in the submenu alongside the example folder. Select it to create a new file with that extension instantly — no typing required.
+Right-click in a folder → **New** → your template. If the file it creates isn't empty — it already contains PowerToys' own sample text:
 
-![Screenshot](img/add-new-file-format-windows-11-new-menu-05.webp)
+```
+Learn more about New+ by visiting https://aka.ms/PowerToysOverview_NewPlus
+```
+
+...the source template still has that boilerplate baked in, rather than being truly empty. If your file is already blank, skip ahead to [Step 10: Use the Template](#step-10-use-the-template).
+
+![Right-click New menu showing a template](img/add-new-file-format-windows-11-new-menu-05.webp)
+
+![Template file created in the target folder, not 0 bytes](img/add-new-file-format-windows-11-new-menu-06.webp)
+
+![The boilerplate text opened in a text editor](img/add-new-file-format-windows-11-new-menu-07.webp)
+
+The text isn't coming from the folder you're working in — it's baked into the template file itself, in New+'s templates folder. Edit that file once and the boilerplate is gone for good.
+
+## Step 6: Open the Templates Folder Again
+
+You can jump straight back to it via right-click → **New+** → **Open templates**, instead of navigating there manually.
+
+![Open templates menu item under New+](img/add-new-file-format-windows-11-new-menu-08.webp)
+
+## Step 7: Find Your Template File
+
+Locate the template that matches the one you use from the New menu.
+
+![Templates folder with the template file selected](img/add-new-file-format-windows-11-new-menu-09.webp)
+
+## Step 8: Clear Its Contents
+
+Open the file in a text editor, select all the text, delete it, and save.
+
+![Template file opened and cleared in a text editor](img/add-new-file-format-windows-11-new-menu-10.webp)
+
+## Step 9: Confirm the File Is Empty
+
+Back in the templates folder, check the file's size — it should now show **0 KB**.
+
+![Template file now showing 0 KB](img/add-new-file-format-windows-11-new-menu-11.webp)
+
+> **Note:** If you have more than one New+ template (e.g. one per file type), repeat Steps 7–9 for each one that still contains the default boilerplate.
+
+## Step 10: Use the Template
+
+Right-click in any folder in File Explorer, choose **New+**, and your template appears in the submenu alongside the example folder. Select it to create a new file with that extension instantly — no typing required, and now genuinely blank.
+
+![Screenshot](img/add-new-file-format-windows-11-new-menu-12.webp)
