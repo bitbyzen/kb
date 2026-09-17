@@ -77,6 +77,7 @@ Notes on desktop applications, development tools, and workflows.
 ## P
 
 - [Perplexity](perprexity/create-perplexity-account.md)
+- [PicPick](picpick/migrate-picpick-portable-settings.md)
 - [Pinterest](pinterest/install-pinterest.md)
 - [Python](python/create-executable-from-python-script.md)
 

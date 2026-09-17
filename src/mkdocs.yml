@@ -186,6 +186,8 @@ nav:
       - desktop/perprexity/create-perplexity-account.md
       - desktop/perprexity/install-comet.md
       - desktop/perprexity/log-in-to-perplexity.md
+    - PicPick:
+      - desktop/picpick/migrate-picpick-portable-settings.md
     - Pinterest:
       - desktop/pinterest/install-pinterest.md
       - desktop/pinterest/stop-using-google-account.md
