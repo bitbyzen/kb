@@ -191,6 +191,8 @@ nav:
     - Pinterest:
       - desktop/pinterest/install-pinterest.md
       - desktop/pinterest/stop-using-google-account.md
+    - PowerToys:
+      - desktop/powertoys/remove-new-plus-boilerplate-text.md
     - Python:
       - desktop/python/create-executable-from-python-script.md
       - desktop/python/create-installer-for-python-app.md
