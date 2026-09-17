@@ -299,6 +299,7 @@ nav:
       - desktop/voicebox/understand-voicebox.md
       - desktop/voicebox/use-preset-voice.md
     - Voicevox:
+      - desktop/voicevox/add-nemo-voices.md
       - desktop/voicevox/install-voicevox.md
     - VRoid Studio:
       - desktop/vroid-studio/add-sticker-to-texture.md
