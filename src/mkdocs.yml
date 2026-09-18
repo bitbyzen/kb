@@ -21,6 +21,7 @@ nav:
       - desktop/acrobat/insert-page-into-pdf.md
       - desktop/acrobat/remove-pdf-password-with-acrobat-reader.md
     - AivisSpeech:
+      - desktop/aivisspeech/add-coeiroink-voices-to-aivisspeech.md
       - desktop/aivisspeech/add-voice-model-from-aivishub.md
       - desktop/aivisspeech/add-voicevox-engine-to-aivisspeech.md
       - desktop/aivisspeech/get-started-with-aivisspeech.md
