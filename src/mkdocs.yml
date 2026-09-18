@@ -43,6 +43,8 @@ nav:
       - desktop/claude-ai/understand-cowork-and-dispatch.md
     - CoeiroInk:
       - desktop/coeiroink/add-mycoeiroink-voice-to-coeiroink.md
+      - desktop/coeiroink/download-built-in-character-voices.md
+      - desktop/coeiroink/get-started-with-coeiroink.md
     - ComfyUI:
       - desktop/comfyui/install-comfyui-with-desktop-installer.md
       - desktop/comfyui/run-flux-locally-with-comfyui.md
