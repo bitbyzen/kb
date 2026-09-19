@@ -64,9 +64,7 @@ Scroll down in the email to see the **元のデバイス** (original device) and
 
 If the old phone won't power on — for example, because the battery is dead — you can't erase it from the device itself. Use Google Find Hub instead: select the device, click **Factory reset**, then click **Next** and sign in to your Google Account.
 
-![Find Hub device panel with Factory reset highlighted](img/replace-pixel-9-pro-fold-warranty-07.png)
-
-![Find Hub factory reset confirmation dialog](img/replace-pixel-9-pro-fold-warranty-08.png)
+![Find Hub device panel with Factory reset highlighted, and the factory reset confirmation dialog](img/replace-pixel-9-pro-fold-warranty-07.png)
 
 If the phone is offline, erasing starts the next time it comes online.
 
