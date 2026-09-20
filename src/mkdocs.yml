@@ -426,6 +426,8 @@ nav:
     - SpaceDesk:
       - mobiles/spacedesk/connect-disconnect-spacedesk.md
       - mobiles/spacedesk/understand-why-spacedesk-is-free.md
+    - Sunshine:
+      - mobiles/sunshine/set-up-sunshine-and-moonlight.md
     - Synology Photos:
       - mobiles/synology-photos/back-up-photos-to-photolibrary-only.md
       - mobiles/synology-photos/back-up-screenshots-automatically.md
@@ -437,12 +439,13 @@ nav:
       - mobiles/xppen-magic-drawing-pad/access-official-manual.md
       - mobiles/xppen-magic-drawing-pad/charge-and-reverse-charge.md
       - mobiles/xppen-magic-drawing-pad/compare-pen-display-apps.md
+      - mobiles/xppen-magic-drawing-pad/connect-by-cable.md
+      - mobiles/xppen-magic-drawing-pad/connect-wirelessly.md
       - mobiles/xppen-magic-drawing-pad/power-on-off-restart.md
       - mobiles/xppen-magic-drawing-pad/prevent-finger-false-touch.md
       - mobiles/xppen-magic-drawing-pad/redeem-ibis-paint-x-membership.md
       - mobiles/xppen-magic-drawing-pad/transfer-files-to-pc.md
       - mobiles/xppen-magic-drawing-pad/understand-home-screen.md
-      - mobiles/xppen-magic-drawing-pad/use-magic-drawing-pad-pen-display.md
       - mobiles/xppen-magic-drawing-pad/use-stylus.md
     - Misc:
       - mobiles/misc/compare-markdown-note-apps.md
