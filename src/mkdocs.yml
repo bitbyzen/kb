@@ -43,6 +43,7 @@ nav:
       - desktop/blender/resize-object-using-dimensions.md
       - desktop/blender/select-vertices-edges-faces.md
       - desktop/blender/switch-to-top-view.md
+      - desktop/blender/use-scale-tool.md
       - desktop/blender/use-x-ray-mode.md
     - Claude:
       - desktop/claude-ai/fix-greyed-out-cowork-tab-windows-11.md
