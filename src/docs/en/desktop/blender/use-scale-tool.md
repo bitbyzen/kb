@@ -17,3 +17,15 @@ Click the **Scale** tool in the toolbar (or press `S`).
 ![Scale tool highlighted in the toolbar, with a tooltip reading "Scale, Scale (resize) selected items, Shortcut: Shift Space Bar, S" and the scale gizmo shown around the selection](img/use-scale-tool-02.png)
 
 Drag the gizmo's outer circle to scale evenly in all directions, or drag one of its colored axis handles to scale along just that axis.
+
+## Step 3: Scale Evenly in All Directions
+
+Grab the small white square on the gizmo's outer circle, then drag it.
+
+![Scale tool highlighted in the toolbar with a tooltip, gizmo shown around a cube](img/use-scale-tool-03.png)
+
+![Arrow pointing to the white square handle on the gizmo's outer circle](img/use-scale-tool-04.png)
+
+The object scales up or down evenly on all axes at once, rather than stretching along a single direction.
+
+![Cube scaled up evenly, with Scale X, Y, and Z all showing the same value](img/use-scale-tool-05.png)
