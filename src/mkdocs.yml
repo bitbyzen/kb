@@ -42,6 +42,7 @@ nav:
       - desktop/blender/render-slideshow.md
       - desktop/blender/resize-object-using-dimensions.md
       - desktop/blender/select-vertices-edges-faces.md
+      - desktop/blender/use-x-ray-mode.md
     - Claude:
       - desktop/claude-ai/fix-greyed-out-cowork-tab-windows-11.md
       - desktop/claude-code/install-claude-code-on-windows-11.md
