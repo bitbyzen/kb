@@ -36,6 +36,7 @@ nav:
       - desktop/blender/apply-mirror-modifier.md
       - desktop/blender/apply-subdivision-surface-modifier.md
       - desktop/blender/change-unit-meters-to-millimeters.md
+      - desktop/blender/check-if-shapes-are-one-object.md
       - desktop/blender/cut-hole-with-boolean-modifier.md
       - desktop/blender/duplicate-and-position-object.md
       - desktop/blender/enable-auto-navigation-settings.md
