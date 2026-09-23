@@ -31,11 +31,13 @@ nav:
       - desktop/bitwarden/change-master-password.md
       - desktop/bitwarden/get-started-with-bitwarden.md
     - Blender:
+      - desktop/blender/add-metaball.md
       - desktop/blender/add-and-name-cylinder.md
       - desktop/blender/apply-subdivision-surface-modifier.md
       - desktop/blender/change-unit-meters-to-millimeters.md
       - desktop/blender/cut-hole-with-boolean-modifier.md
       - desktop/blender/duplicate-and-position-object.md
+      - desktop/blender/enable-auto-navigation-settings.md
       - desktop/blender/extrude-face.md
       - desktop/blender/install-blender-with-automatic-updates.md
       - desktop/blender/install-mpfb-addon.md
