@@ -36,6 +36,8 @@ nav:
       - desktop/blender/apply-mirror-modifier.md
       - desktop/blender/apply-subdivision-surface-modifier.md
       - desktop/blender/change-unit-meters-to-millimeters.md
+      - desktop/blender/check-origin-for-mirroring.md
+      - desktop/blender/check-polygon-count.md
       - desktop/blender/check-if-shapes-are-one-object.md
       - desktop/blender/cut-hole-with-boolean-modifier.md
       - desktop/blender/duplicate-and-position-object.md
@@ -46,6 +48,7 @@ nav:
       - desktop/blender/join-multiple-objects.md
       - desktop/blender/measure-distance-with-measureit.md
       - desktop/blender/orbit-and-pan-view.md
+      - desktop/blender/reduce-polygon-count.md
       - desktop/blender/render-slideshow.md
       - desktop/blender/resize-object-using-dimensions.md
       - desktop/blender/sculpt-with-mask.md
