@@ -50,6 +50,7 @@ nav:
       - desktop/blender/sculpt-clay-strips-smooth-grab.md
       - desktop/blender/select-vertices-edges-faces.md
       - desktop/blender/switch-to-top-view.md
+      - desktop/blender/emulate-numpad.md
       - desktop/blender/use-scale-tool.md
       - desktop/blender/use-x-ray-mode.md
     - Claude:
