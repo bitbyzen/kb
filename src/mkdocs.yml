@@ -31,6 +31,7 @@ nav:
       - desktop/bitwarden/change-master-password.md
       - desktop/bitwarden/get-started-with-bitwarden.md
     - Blender:
+      - desktop/blender/add-and-name-cylinder.md
       - desktop/blender/change-unit-meters-to-millimeters.md
       - desktop/blender/install-blender-with-automatic-updates.md
       - desktop/blender/install-mpfb-addon.md
