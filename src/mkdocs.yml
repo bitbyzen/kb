@@ -33,6 +33,7 @@ nav:
     - Blender:
       - desktop/blender/add-metaball.md
       - desktop/blender/add-and-name-cylinder.md
+      - desktop/blender/adjust-mtoon-shading.md
       - desktop/blender/apply-mirror-modifier.md
       - desktop/blender/apply-subdivision-surface-modifier.md
       - desktop/blender/change-unit-meters-to-millimeters.md
@@ -42,6 +43,7 @@ nav:
       - desktop/blender/cut-hole-with-boolean-modifier.md
       - desktop/blender/duplicate-and-position-object.md
       - desktop/blender/enable-auto-navigation-settings.md
+      - desktop/blender/export-uv-layout.md
       - desktop/blender/extrude-face.md
       - desktop/blender/install-blender-with-automatic-updates.md
       - desktop/blender/install-mpfb-addon.md
@@ -98,6 +100,7 @@ nav:
     - GIMP:
       - desktop/gimp/convert-crw-to-jpg.md
       - desktop/gimp/install-gimp-on-windows.md
+      - desktop/gimp/repaint-flat-anime-colors.md
       - desktop/gimp/update-gimp-to-latest-version.md
     - Git:
       - desktop/git/fix-author-identity-unknown.md
