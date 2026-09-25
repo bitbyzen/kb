@@ -8,7 +8,7 @@ Flat, solid colors are a defining trait of anime-style art. This repaints a soft
 
 ## Set Up a Reference Layer
 
-Open a backup copy of the original texture. Add the exported UV layout (see [Exporting a UV Layout as an Image](../blender/export-uv-layout.md)) as a layer on top, set to low opacity, so you can see where the eyes, mouth, and face edges are.
+Open a backup copy of the original texture, then use **File** → **Open as Layers** to add the exported UV layout (see [Exporting a UV Layout as an Image](../blender/export-uv-layout.md)) as a layer on top. Lower that layer's opacity to around **40%** (right-click it → **Edit Layer Attributes**) so it acts as a faint guide rather than obscuring the texture underneath — enough to see where the eyes, mouth, and face edges are.
 
 ## Paint in Flat Layers
 
@@ -23,6 +23,24 @@ Open a backup copy of the original texture. Add the exported UV layout (see [Exp
 
 ## Export Back to the 3D Application
 
-Keep the same image size as the original, then export as **PNG** (**File** → **Export As**) — GIMP's **Save** only creates an `.xcf` file. In Blender, use **Image** → **Reload** to see the result.
+1. Hide the reference layer — click its visibility (eye) icon in the Layers panel — so the UV wireframe isn't included in the exported image.
+
+   ![Layers panel with the face_uv.png reference layer's visibility toggle unchecked](img/repaint-flat-anime-colors-01.png)
+
+2. Open **File** → **Export** (`Ctrl+E`) to re-export using the same filename and settings as your last export.
+
+   ![File menu with Export highlighted](img/repaint-flat-anime-colors-02.png)
+
+3. Confirm the filename and click **Export**.
+
+   ![Export Image dialog with the filename and Export button highlighted](img/repaint-flat-anime-colors-03.png)
+
+4. If the file already exists, confirm **Replace** to overwrite it.
+
+   ![Overwrite confirmation dialog with Replace highlighted](img/repaint-flat-anime-colors-04.png)
+
+Keep the image the same size as the original. GIMP's **Save** only creates an `.xcf` project file — keep saving that too, so your layers and masks are still there for later tweaks, but it isn't what the 3D application reads.
+
+Once exported, reload the texture in Blender — see [Adjusting MToon Shading for a Hard Cel-Shaded Look](../blender/adjust-mtoon-shading.md).
 
 > **Note:** VRoid Studio (free) also has built-in texture editing with layers, letting you paint directly on the 3D model and export a new VRM. This is worth considering instead of GIMP if you haven't made any Blender-side edits yet, since those wouldn't carry over to a re-exported VRM — see [Editing Face Texture](../vroid-studio/edit-face-texture.md).

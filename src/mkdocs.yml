@@ -45,6 +45,7 @@ nav:
       - desktop/blender/enable-auto-navigation-settings.md
       - desktop/blender/export-uv-layout.md
       - desktop/blender/extrude-face.md
+      - desktop/blender/hide-viewport-overlays.md
       - desktop/blender/install-blender-with-automatic-updates.md
       - desktop/blender/install-mpfb-addon.md
       - desktop/blender/join-multiple-objects.md
