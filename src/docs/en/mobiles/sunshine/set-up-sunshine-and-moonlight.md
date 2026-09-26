@@ -40,23 +40,23 @@ Open the downloaded `.msi` file and click through the wizard:
 
 1. **Welcome** → **Next**
 
-   ![Sunshine Setup welcome screen](img/set-up-sunshine-and-moonlight-03.png)
+    ![Sunshine Setup welcome screen](img/set-up-sunshine-and-moonlight-03.png)
 
 2. **License Agreement** → check **I accept the terms in the License Agreement** → **Next**
 
-   ![Sunshine Setup license agreement screen](img/set-up-sunshine-and-moonlight-04.png)
+    ![Sunshine Setup license agreement screen](img/set-up-sunshine-and-moonlight-04.png)
 
 3. **Custom Setup** → keep the defaults → **Next**. The defaults include **Launch on Startup**, so Sunshine starts automatically with Windows.
 
-   ![Sunshine Setup custom setup screen](img/set-up-sunshine-and-moonlight-05.png)
+    ![Sunshine Setup custom setup screen](img/set-up-sunshine-and-moonlight-05.png)
 
 4. **Ready to install** → **Install** (approve the Windows permission prompt)
 
-   ![Sunshine Setup ready to install screen](img/set-up-sunshine-and-moonlight-06.png)
+    ![Sunshine Setup ready to install screen](img/set-up-sunshine-and-moonlight-06.png)
 
 5. **Completed** → **Finish**
 
-   ![Sunshine Setup completed screen](img/set-up-sunshine-and-moonlight-07.png)
+    ![Sunshine Setup completed screen](img/set-up-sunshine-and-moonlight-07.png)
 
 ---
 
@@ -76,11 +76,11 @@ Chrome shows **"Your connection is not private"** (`NET::ERR_CERT_AUTHORITY_INVA
 
 1. Click **Advanced**.
 
-   ![Chrome certificate warning for localhost](img/set-up-sunshine-and-moonlight-09.png)
+    ![Chrome certificate warning for localhost](img/set-up-sunshine-and-moonlight-09.png)
 
 2. Click **Proceed to localhost (unsafe)**.
 
-   ![Chrome certificate warning expanded, with Proceed to localhost (unsafe) highlighted](img/set-up-sunshine-and-moonlight-10.png)
+    ![Chrome certificate warning expanded, with Proceed to localhost (unsafe) highlighted](img/set-up-sunshine-and-moonlight-10.png)
 
 ---
 

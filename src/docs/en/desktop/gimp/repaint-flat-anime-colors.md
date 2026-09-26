@@ -25,19 +25,19 @@ Open a backup copy of the original texture, then use **File** → **Open as Laye
 
 1. Hide the reference layer — click its visibility (eye) icon in the Layers panel — so the UV wireframe isn't included in the exported image.
 
-   ![Layers panel with the face_uv.png reference layer's visibility toggle unchecked](img/repaint-flat-anime-colors-01.png)
+    ![Layers panel with the face_uv.png reference layer's visibility toggle unchecked](img/repaint-flat-anime-colors-01.png)
 
 2. Open **File** → **Export** (`Ctrl+E`) to re-export using the same filename and settings as your last export.
 
-   ![File menu with Export highlighted](img/repaint-flat-anime-colors-02.png)
+    ![File menu with Export highlighted](img/repaint-flat-anime-colors-02.png)
 
 3. Confirm the filename and click **Export**.
 
-   ![Export Image dialog with the filename and Export button highlighted](img/repaint-flat-anime-colors-03.png)
+    ![Export Image dialog with the filename and Export button highlighted](img/repaint-flat-anime-colors-03.png)
 
 4. If the file already exists, confirm **Replace** to overwrite it.
 
-   ![Overwrite confirmation dialog with Replace highlighted](img/repaint-flat-anime-colors-04.png)
+    ![Overwrite confirmation dialog with Replace highlighted](img/repaint-flat-anime-colors-04.png)
 
 Keep the image the same size as the original. GIMP's **Save** only creates an `.xcf` project file — keep saving that too, so your layers and masks are still there for later tweaks, but it isn't what the 3D application reads.
 

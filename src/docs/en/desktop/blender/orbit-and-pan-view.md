@@ -22,12 +22,12 @@ The viewport also has an on-screen gizmo for orbiting and panning without a midd
 
 1. Click the **Show Gizmo** icon in the header (or press `` Ctrl+` ``) to show or hide it.
 
-   ![Viewport header with the Show Gizmo icon highlighted](img/orbit-and-pan-view-02.png)
+    ![Viewport header with the Show Gizmo icon highlighted](img/orbit-and-pan-view-02.png)
 
 2. The gizmo appears in the top-right corner of the viewport: drag the colored axis ball to orbit the view, and use the icons below it to zoom, pan, and toggle between perspective and orthographic.
 
-   ![Navigation gizmo shown in the viewport's top-right corner, with a tooltip reading "Show Gizmo, Show gizmos of all types, Shortcut: Ctrl `"](img/orbit-and-pan-view-03.png)
+    ![Navigation gizmo shown in the viewport's top-right corner, with a tooltip reading "Show Gizmo, Show gizmos of all types, Shortcut: Ctrl `"](img/orbit-and-pan-view-03.png)
 
 3. Click and drag the hand icon to pan the view — the same result as Shift + middle mouse button drag.
 
-   ![Cursor hovering over the gizmo's hand icon, with a tooltip reading "Move the view"](img/orbit-and-pan-view-04.png)
+    ![Cursor hovering over the gizmo's hand icon, with a tooltip reading "Move the view"](img/orbit-and-pan-view-04.png)
