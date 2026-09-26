@@ -27,4 +27,4 @@ Hover over the 3D viewport and press `Tab` to switch from Edit Mode to Object Mo
 
 Click the **Overlays** icon itself, or press `Shift+Alt+Z`, to toggle every overlay — bones, vertices, edges, the grid, and everything else — off in one go. Press it again to bring them all back.
 
-> **Note:** The Image Editor panel has its own separate Overlays icon. Faint gray lines still visible there are a UV wireframe display overlay, not part of the actual texture — check whether the model itself looks clean before assuming the texture has a problem.
+> **Note:** The Image Editor panel has its own separate Overlays icon. Faint gray lines still visible there are a UV wireframe display overlay, not part of the actual texture — check whether the model itself looks clean before assuming the texture has a problem. See [Reducing the UV Wireframe in the Image Editor](reduce-uv-wireframe-image-editor.md) for how to hide or dim them.
