@@ -49,6 +49,7 @@ nav:
       - desktop/blender/install-blender-with-automatic-updates.md
       - desktop/blender/install-mpfb-addon.md
       - desktop/blender/join-multiple-objects.md
+      - desktop/blender/lift-outer-eye-corners.md
       - desktop/blender/measure-distance-with-measureit.md
       - desktop/blender/orbit-and-pan-view.md
       - desktop/blender/reduce-polygon-count.md
@@ -59,6 +60,7 @@ nav:
       - desktop/blender/select-all-objects.md
       - desktop/blender/select-vertices-edges-faces.md
       - desktop/blender/switch-to-top-view.md
+      - desktop/blender/use-pen-tablet.md
       - desktop/blender/emulate-numpad.md
       - desktop/blender/use-scale-tool.md
       - desktop/blender/use-x-ray-mode.md
