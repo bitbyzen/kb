@@ -52,6 +52,7 @@ nav:
       - desktop/blender/lift-outer-eye-corners.md
       - desktop/blender/measure-distance-with-measureit.md
       - desktop/blender/orbit-and-pan-view.md
+      - desktop/blender/paint-flat-skin-with-stencil-mask.md
       - desktop/blender/reduce-polygon-count.md
       - desktop/blender/reduce-uv-wireframe-image-editor.md
       - desktop/blender/render-slideshow.md
