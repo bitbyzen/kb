@@ -81,7 +81,9 @@ nav:
       - desktop/coeiroink/download-built-in-character-voices.md
       - desktop/coeiroink/get-started-with-coeiroink.md
     - ComfyUI:
+      - desktop/comfyui/enlarge-prompt-text-in-comfyui.md
       - desktop/comfyui/install-comfyui-with-desktop-installer.md
+      - desktop/comfyui/run-anima-locally-with-comfyui.md
       - desktop/comfyui/run-flux-locally-with-comfyui.md
       - desktop/comfyui/understand-spectrum-in-comfyui.md
     - DeepL:

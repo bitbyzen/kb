@@ -25,6 +25,10 @@ Open **Task Manager** → **Performance** → **GPU**, or run:
 Win + R → dxdiag
 ```
 
+In the **DirectX Diagnostic Tool**, click the **Display 1** tab to see your **Chip Type** and **Display Memory (VRAM)**.
+
+![DirectX Diagnostic Tool Display tab with Chip Type and VRAM highlighted](img/run-flux-locally-with-comfyui-01.png)
+
 ---
 
 ## Step 1: Install ComfyUI
