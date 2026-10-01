@@ -15,110 +15,23 @@ theme:
 
 nav:
   - Home: index.md
-  - Desktop Notes:
+  - Desktop:
     - desktop/index.md
     - Acrobat:
       - desktop/acrobat/insert-page-into-pdf.md
       - desktop/acrobat/remove-pdf-password-with-acrobat-reader.md
-    - AivisSpeech:
-      - desktop/aivisspeech/add-coeiroink-voices-to-aivisspeech.md
-      - desktop/aivisspeech/add-voice-model-from-aivishub.md
-      - desktop/aivisspeech/add-voicevox-engine-to-aivisspeech.md
-      - desktop/aivisspeech/get-started-with-aivisspeech.md
     - Amazon:
       - desktop/amazon/change-default-payment-method-on-amazon.md
     - Bitwarden:
       - desktop/bitwarden/change-master-password.md
       - desktop/bitwarden/get-started-with-bitwarden.md
-    - Blender:
-      - desktop/blender/add-metaball.md
-      - desktop/blender/add-and-name-cylinder.md
-      - desktop/blender/adjust-mtoon-shading.md
-      - desktop/blender/apply-mirror-modifier.md
-      - desktop/blender/apply-subdivision-surface-modifier.md
-      - desktop/blender/change-unit-meters-to-millimeters.md
-      - desktop/blender/check-origin-for-mirroring.md
-      - desktop/blender/check-polygon-count.md
-      - desktop/blender/check-if-shapes-are-one-object.md
-      - desktop/blender/cut-hole-with-boolean-modifier.md
-      - desktop/blender/duplicate-and-position-object.md
-      - desktop/blender/enable-auto-navigation-settings.md
-      - desktop/blender/export-uv-layout.md
-      - desktop/blender/extrude-face.md
-      - desktop/blender/hide-viewport-overlays.md
-      - desktop/blender/install-blender-with-automatic-updates.md
-      - desktop/blender/install-mpfb-addon.md
-      - desktop/blender/join-multiple-objects.md
-      - desktop/blender/lift-outer-eye-corners.md
-      - desktop/blender/measure-distance-with-measureit.md
-      - desktop/blender/orbit-and-pan-view.md
-      - desktop/blender/paint-flat-skin-with-stencil-mask.md
-      - desktop/blender/reduce-polygon-count.md
-      - desktop/blender/reduce-uv-wireframe-image-editor.md
-      - desktop/blender/render-slideshow.md
-      - desktop/blender/resize-object-using-dimensions.md
-      - desktop/blender/sculpt-with-mask.md
-      - desktop/blender/sculpt-clay-strips-smooth-grab.md
-      - desktop/blender/select-all-objects.md
-      - desktop/blender/select-vertices-edges-faces.md
-      - desktop/blender/switch-to-top-view.md
-      - desktop/blender/use-pen-tablet.md
-      - desktop/blender/emulate-numpad.md
-      - desktop/blender/use-scale-tool.md
-      - desktop/blender/use-x-ray-mode.md
-      - desktop/blender/zoom-in-on-face-texture-paint.md
-    - Claude:
-      - desktop/claude-ai/fix-greyed-out-cowork-tab-windows-11.md
-      - desktop/claude-code/install-claude-code-on-windows-11.md
-      - desktop/claude-ai/log-in-to-claude.md
-      - desktop/claude-ai/manage-claude-ai-memory.md
-      - desktop/claude-code/migrate-claude-code-npm-native-installer.md
-      - desktop/claude-code/set-up-claude-code-in-wsl2.md
-      - desktop/claude-ai/specify-trusted-cowork-folders.md
-      - desktop/claude-ai/understand-cowork-and-dispatch.md
-    - CoeiroInk:
-      - desktop/coeiroink/add-mycoeiroink-voice-to-coeiroink.md
-      - desktop/coeiroink/download-built-in-character-voices.md
-      - desktop/coeiroink/get-started-with-coeiroink.md
-    - ComfyUI:
-      - desktop/comfyui/build-image-to-image-workflow-anima.md
-      - desktop/comfyui/enlarge-prompt-text-in-comfyui.md
-      - desktop/comfyui/install-comfyui-with-desktop-installer.md
-      - desktop/comfyui/run-anima-locally-with-comfyui.md
-      - desktop/comfyui/run-flux-locally-with-comfyui.md
-      - desktop/comfyui/save-and-find-comfyui-workflows.md
-      - desktop/comfyui/understand-spectrum-in-comfyui.md
     - DeepL:
       - desktop/deepl/update-payment-method.md
     - Discord:
       - desktop/discord/set-up-discord-and-follow-server.md
-    - Docker:
-      - desktop/docker/disable-scout-os-notifications.md
-      - desktop/docker/fix-failed-connect-docker-api-vs-code.md
-      - desktop/docker/fix-wsl-integration-unexpectedly-stopped.md
-      - desktop/docker/install-docker-on-windows.md
-      - desktop/docker/install-python-packages-pip-docker.md
-      - desktop/docker/manage-docker-images.md
-      - desktop/docker/sign-docker-desktop-personal-user.md
-      - desktop/docker/understand-docker.md
-      - desktop/docker/understand-docker-pricing.md
     - Eijiro:
       - desktop/eijiro/check-account-information.md
       - desktop/eijiro/delete-account.md
-    - Genspark:
-      - desktop/genspark/understand-genspark.md
-    - GIMP:
-      - desktop/gimp/convert-crw-to-jpg.md
-      - desktop/gimp/install-gimp-on-windows.md
-      - desktop/gimp/repaint-flat-anime-colors.md
-      - desktop/gimp/update-gimp-to-latest-version.md
-    - Git:
-      - desktop/git/fix-author-identity-unknown.md
-      - desktop/git/fix-using-master-name-initial-branch.md
-      - desktop/git/restore-deleted-files-using-git.md
-    - GitHub:
-      - desktop/github/change-repository-name.md
-      - desktop/linux/opt-out-of-github-copilot-ai-training.md
     - Google:
       - desktop/google/run-google-security-checkup.md
       - desktop/google/understand-google-ai-pro.md
@@ -133,82 +46,8 @@ nav:
       - desktop/google-drive/open-google-drive-folder-in-windows.md
     - Google Sites:
       - desktop/google-sites/share-published-google-site.md
-    - Inno Setup:
-      - desktop/inno-setup/understand-inno-setup.md
-    - Iztope RX8:
-      - desktop/iztope-rx8/convert-female-voices-to-male-voices.md
-      - desktop/iztope-rx8/remove-bgm-from-audio.md
-      - desktop/iztope-rx8/remove-vocals-from-audio.md
-      - desktop/iztope-rx8/stop-loading-previous-sessions-startup.md
-      - desktop/iztope-rx8/understand-izotope-rx8.md
-      - desktop/iztope-rx8/understand-time-pitch-module.md
-    - Kensington:
-      - desktop/kensington/configure-favorite-trackball-settings.md
-      - desktop/kensington/fix-trackball-not-recognized.md
-      - desktop/kensington/fix-settings-changes-not-applied.md
-    - Keychron:
-      - desktop/keychron/connect-keyboard-to-via.md
-      - desktop/keychron/duplicate-macro-in-keychron-launcher.md
-      - desktop/keychron/enter-quotation-marks-keychron-keyboard.md
-      - desktop/keychron/export-keymap.md
-      - desktop/keychron/export-macros-as-backup.md
-      - desktop/keychron/review-keychron-keyboard-cautions.md
-      - desktop/keychron/type-tilde-or-backquote-on-keychron-q11.md
-    - Linux:
-      - desktop/linux/create-file-and-open-it-in-vs-code.md
-      - desktop/linux/create-new-file-in-specific-directory.md
-      - desktop/linux/create-new-folder.md
-      - desktop/linux/fix-exec-format-error-in-wsl2.md
-      - desktop/linux/move-file-using-mv.md
-      - desktop/linux/navigate-to-repository-root.md
-      - desktop/linux/open-folder-using-explorer-exe.md
-      - desktop/linux/open-markdown-file-using-code-command.md
-      - desktop/linux/open-wsl-folder-from-windows.md
-      - desktop/linux/open-ubuntu-terminal.md
-      - desktop/linux/prevent-zone-identifier-files-in-linux.md
-      - desktop/linux/rename-wsl-username-home-directory.md
-      - desktop/linux/run-commands-using-absolute-path.md
-      - desktop/linux/use-nano-editor.md
     - memoQ:
       - desktop/memoq/update-address.md
-    - Meta Quest:
-      - desktop/meta-quest/add-new-profile-on-meta-quest-3.md
-      - desktop/meta-quest/display-windows-screen-on-meta-quest-3.md
-      - desktop/meta-quest/remove-meta-quest-3-face-cover.md
-    - MkDocs:
-      - desktop/mkdocs/add-copyright-footer-in-mkdocs-material.md
-      - desktop/mkdocs/add-table.md
-      - desktop/mkdocs/add-indentation-in-instruction-steps.md
-      - desktop/mkdocs/confirm-css-file-is-loaded.md
-      - desktop/mkdocs/create-bilingual-site.md
-      - desktop/mkdocs/create-links-that-open-in-new-tab.md
-      - desktop/mkdocs/deploy-with-gh-deploy.md
-      - desktop/mkdocs/display-revision-date-at-bottom.md
-      - desktop/mkdocs/display-revision-date-at-top.md
-      - desktop/mkdocs/fix-get-ja-http-1-1-code-302.md
-      - desktop/mkdocs/fix-get-ja-sitemap-xml-http-1-1-code-404.md
-      - desktop/mkdocs/fix-following-pages-exist-docs-directory.md
-      - desktop/mkdocs/host-mkdocs-site-synology-nas.md
-      - desktop/mkdocs/migrate-mkdocs-from-docker-to-venv.md
-      - desktop/mkdocs/publish-docker-based-site-github-pages.md
-      - desktop/mkdocs/publish-site-using-github-pages.md
-      - desktop/mkdocs/rebuild-mkdocs-docker-image-only-when.md
-      - desktop/mkdocs/understand-mkdocs-packages.md
-      - desktop/mkdocs/understand-docker-run-command.md
-      - desktop/mkdocs/understand-mkdocs-2-0-warning.md
-      - desktop/mkdocs/update-site.md
-      - desktop/mkdocs/view-deployment-errors.md
-    - Nano Banana:
-      - desktop/nano-banana/apply-nano-banana-prompting-best.md
-    - Notepad++:
-      - desktop/notepad-pp/comment-out-lines.md
-      - desktop/notepad-pp/enable-comment-shortcut-for-autohotkey.md
-      - desktop/notepad-pp/respond-notepad-updater-hijack-incident.md
-      - desktop/notepad-pp/set-default-language-new-documents.md
-      - desktop/notepad-pp/set-default-save-folder.md
-      - desktop/notepad-pp/update-notepad-without-using-updater.md
-    - Nuitka:
-      - desktop/nuitka/convert-python-script-to-executable.md
     - NVIDIA:
       - desktop/nvidia/update-nvidia-gpu-driver.md
     - Obsidian:
@@ -216,32 +55,13 @@ nav:
       - desktop/obsidian/import-onenote-pages-into-obsidian.md
       - desktop/obsidian/open-vault-folder.md
       - desktop/obsidian/show-whitespace.md
-    - OpenAI:
-      - desktop/openai/accept-chatgpt-pro-free-offer.md
-      - desktop/openai/cancel-chatgpt-subscription.md
-      - desktop/openai/convert-chatgpt-chat-to-word-document.md
-      - desktop/openai/export-chat-data-from-chatgpt.md
-      - desktop/openai/update-chatgpt-billing-address.md
     - Outlook:
       - desktop/outlook/disable-email-forwarding-in-outlook.md
-    - Perplexity:
-      - desktop/perprexity/create-perplexity-account.md
-      - desktop/perprexity/install-comet.md
-      - desktop/perprexity/log-in-to-perplexity.md
     - PicPick:
       - desktop/picpick/migrate-picpick-portable-settings.md
     - Pinterest:
       - desktop/pinterest/install-pinterest.md
       - desktop/pinterest/stop-using-google-account.md
-    - Python:
-      - desktop/python/create-executable-from-python-script.md
-      - desktop/python/create-installer-for-python-app.md
-    - Sketchfab:
-      - desktop/sketchfab/create-account.md
-    - Style-Bert-VITS2:
-      - desktop/style-bert-vits2/check-pinokio-support-style-bert-vits2.md
-      - desktop/style-bert-vits2/set-up-style-bert-vits2-webui.md
-      - desktop/style-bert-vits2/stop-style-bert-vits2-webui.md
     - Synology:
       - desktop/synology/add-second-ssd-synology-ds720.md
       - desktop/synology/analyze-storage.md
@@ -273,120 +93,6 @@ nav:
       - desktop/uniconverter/change-save-folders.md
       - desktop/uniconverter/download-youtube-video.md
       - desktop/uniconverter/update-uniconverter.md
-    - Unreal Engine:
-      - desktop/ue/access-documentation-from-fab.md
-      - desktop/ue/add-cinematic-camera-to-level-sequence.md
-      - desktop/ue/add-fab-asset-to-project.md
-      - desktop/ue/animate-control-rig-in-sequencer.md
-      - desktop/ue/apply-animation-to-chaos-cloth.md
-      - desktop/ue/apply-chaos-cloth.md
-      - desktop/ue/bake-control-rig-animation.md
-      - desktop/ue/capture-editor-screenshots-claude-code.md
-      - desktop/ue/center-blueprint-editor-view.md
-      - desktop/ue/change-camera-speed.md
-      - desktop/ue/change-clothing-anime-character-pack.md
-      - desktop/ue/change-time-format.md
-      - desktop/ue/check-animation-sets.md
-      - desktop/ue/check-morph-target-and-pose-counts.md
-      - desktop/ue/clip-animation-with-montage.md
-      - desktop/ue/create-chaos-cloth-asset.md
-      - desktop/ue/create-control-rig.md
-      - desktop/ue/create-custom-metahuman-character.md
-      - desktop/ue/create-level-sequence.md
-      - desktop/ue/create-physics-asset.md
-      - desktop/ue/create-pose-asset-from-animation.md
-      - desktop/ue/create-project.md
-      - desktop/ue/create-video-project.md
-      - desktop/ue/create-animation-from-pose.md
-      - desktop/ue/delete-project.md
-      - desktop/ue/display-collisions-skeletal-mesh-editor.md
-      - desktop/ue/display-plugin-content.md
-      - desktop/ue/explore-lookatpoi-level.md
-      - desktop/ue/find-animation-asset.md
-      - desktop/ue/fix-missing-third-person-template.md
-      - desktop/ue/focus-on-object.md
-      - desktop/ue/focus-camera-on-face.md
-      - desktop/ue/focus-play-range-curve-editor.md
-      - desktop/ue/generate-skinned-triangle-mesh-collision.md
-      - desktop/ue/get-back-to-default-character.md
-      - desktop/ue/import-vrm-character.md
-      - desktop/ue/install-older-version-of-unreal-engine.md
-      - desktop/ue/install-vrm4u-plugin.md
-      - desktop/ue/isolate-single-pose.md
-      - desktop/ue/move-body-part.md
-      - desktop/ue/move-actor-in-third-person.md
-      - desktop/ue/move-playhead.md
-      - desktop/ue/move-to-npc-level.md
-      - desktop/ue/move-to-ragdoll-level.md
-      - desktop/ue/navigate-viewport.md
-      - desktop/ue/open-curve-editor.md
-      - desktop/ue/orbit-around-selected-object.md
-      - desktop/ue/place-character-blueprint-in-scene.md
-      - desktop/ue/player-movement-controls.md
-      - desktop/ue/rename-blueprint-project.md
-      - desktop/ue/reset-viewport-view.md
-      - desktop/ue/retarget-character-game-animation-sample.md
-      - desktop/ue/sculpt-custom-morph-target.md
-      - desktop/ue/set-up-animation-for-vrm-character.md
-      - desktop/ue/set-up-mcp-plugin-for-claude-code.md
-      - desktop/ue/sit-on-bench-npc-level.md
-      - desktop/ue/spawn-locomotor-robot.md
-      - desktop/ue/swap-character.md
-      - desktop/ue/understand-pose-weights-vs-curves.md
-      - desktop/ue/understand-sampled-frames-limit.md
-      - desktop/ue/understand-post-process-anim-blueprint.md
-      - desktop/ue/view-readme-release-notes.md
-      - desktop/ue/watch-target-point.md
-      - desktop/ue/zoom-in-and-out.md
-    - Voicebox:
-      - desktop/voicebox/fix-mecab-initialization-error.md
-      - desktop/voicebox/understand-voicebox.md
-      - desktop/voicebox/use-preset-voice.md
-    - Voicevox:
-      - desktop/voicevox/access-voicevox-repos.md
-      - desktop/voicevox/add-aivisspeech-engine-to-voicevox.md
-      - desktop/voicevox/add-nemo-voices.md
-      - desktop/voicevox/install-voicevox.md
-    - VRoid Studio:
-      - desktop/vroid-studio/add-sticker-to-texture.md
-      - desktop/vroid-studio/apply-manga-style-comics-effect.md
-      - desktop/vroid-studio/change-iris-color.md
-      - desktop/vroid-studio/check-vrm-model-online.md
-      - desktop/vroid-studio/create-custom-hat.md
-      - desktop/vroid-studio/create-custom-tshirt.md
-      - desktop/vroid-studio/create-custom-glasses.md
-      - desktop/vroid-studio/delete-hair-curve-control-points.md
-      - desktop/vroid-studio/edit-face-texture.md
-      - desktop/vroid-studio/edit-hair-texture.md
-      - desktop/vroid-studio/export-character-as-vrm.md
-      - desktop/vroid-studio/apply-manga-style-look-settings.md
-      - desktop/vroid-studio/recolor-hair-with-shader-color.md
-      - desktop/vroid-studio/remove-skin-mask.md
-      - desktop/vroid-studio/resize-hair.md
-      - desktop/vroid-studio/resize-pupil.md
-      - desktop/vroid-studio/use-guide-to-draw-texture.md
-      - desktop/vroid-studio/use-custom-templates-for-tops.md
-    - VS Code:
-      - desktop/vs-code/add-image-to-document-in-editor.md
-      - desktop/vs-code/add-image-to-folder.md
-      - desktop/vs-code/add-multiple-images-to-markdown-file.md
-      - desktop/vs-code/cancel-or-clear-commands.md
-      - desktop/vs-code/connect-to-github.md
-      - desktop/vs-code/connect-to-wsl.md
-      - desktop/vs-code/copy-image-file-from-windows-to-linux.md
-      - desktop/vs-code/fix-python-interpreter-path-not-found-vs.md
-      - desktop/vs-code/install-github-actions-extension.md
-      - desktop/vs-code/move-files-safely-linux-wsl-using-vs.md
-      - desktop/vs-code/open-linux-folder-in-vs-code.md
-      - desktop/vs-code/open-linux-windows-folders-vs-code-wsl.md
-      - desktop/vs-code/open-ubuntu-terminal.md
-      - desktop/vs-code/preview-markdown-side-by-side.md
-      - desktop/vs-code/remove-tab-indentation-multiple-lines.md
-      - desktop/vs-code/replace-imported-image.md
-    - Wan:
-      - desktop/wan/generate-video.md
-      - desktop/wan/generate-video-with-original-character.md
-      - desktop/wan/generate-image.md
     - Windows:
       - desktop/windows/add-new-file-format-windows-11-new-menu.md
       - desktop/windows/avoid-ctrl-f-key-conflicts-windows.md
@@ -409,18 +115,6 @@ nav:
       - desktop/xnview/edit-image-with-external-editor.md
       - desktop/xnview/resize-image-height.md
       - desktop/xnview/update-xnview-mp.md
-    - XPPen:
-      - desktop/xppen/access-deco-lw-start-guide.md
-      - desktop/xppen/purchase-deco-lw.md
-      - desktop/xppen/replace-deco-lw-pen-nib.md
-    - Xserver:
-      - desktop/xserver/manage-xserver-services.md
-    - YMM4:
-      - desktop/ymm4/add-coeiroink-voices-to-ymm4.md
-      - desktop/ymm4/import-voice-lines-scenario-file-ymm4.md
-      - desktop/ymm4/install-yukkurimoviemaker4.md
-      - desktop/ymm4/use-free-coefont-voices-allial-millial.md
-      - desktop/ymm4/use-ymm4-playback-shortcuts.md
     - YouTube:
       - desktop/youtube/download-playlist-videos-automatically.md
     - Misc:
@@ -435,7 +129,7 @@ nav:
       - desktop/misc/understand-discontinued-tts-software.md
       - desktop/misc/understand-state-ai-3d-2026.md
       - desktop/misc/visualize-disk-usage-on-windows.md
-  - Mobile Notes:
+  - Mobile:
     - mobiles/index.md
     - Google Drive:
       - mobiles/google-drive/download-google-sheet-excel-android.md
@@ -456,9 +150,25 @@ nav:
       - mobiles/insta360-go-ultra/attach-microsd-card.md
       - mobiles/insta360-go-ultra/update-firmware.md
       - mobiles/insta360-go-ultra/use-trade-in-service.md
+    - Kensington:
+      - mobiles/kensington/configure-favorite-trackball-settings.md
+      - mobiles/kensington/fix-trackball-not-recognized.md
+      - mobiles/kensington/fix-settings-changes-not-applied.md
+    - Keychron:
+      - mobiles/keychron/connect-keyboard-to-via.md
+      - mobiles/keychron/duplicate-macro-in-keychron-launcher.md
+      - mobiles/keychron/enter-quotation-marks-keychron-keyboard.md
+      - mobiles/keychron/export-keymap.md
+      - mobiles/keychron/export-macros-as-backup.md
+      - mobiles/keychron/review-keychron-keyboard-cautions.md
+      - mobiles/keychron/type-tilde-or-backquote-on-keychron-q11.md
     - LINE:
       - mobiles/line/block-and-delete-friend-on-line.md
       - mobiles/line/create-album-in-line.md
+    - Meta Quest:
+      - mobiles/meta-quest/add-new-profile-on-meta-quest-3.md
+      - mobiles/meta-quest/display-windows-screen-on-meta-quest-3.md
+      - mobiles/meta-quest/remove-meta-quest-3-face-cover.md
     - Roborock:
       - mobiles/roborock/register-second-vacuum-cleaner.md
     - SpaceDesk:
@@ -466,6 +176,10 @@ nav:
       - mobiles/spacedesk/understand-why-spacedesk-is-free.md
     - Sunshine:
       - mobiles/sunshine/set-up-sunshine-and-moonlight.md
+    - XPPen Deco LW:
+      - mobiles/xppen/access-deco-lw-start-guide.md
+      - mobiles/xppen/purchase-deco-lw.md
+      - mobiles/xppen/replace-deco-lw-pen-nib.md
     - XPPen Magic Drawing Pad:
       - mobiles/xppen-magic-drawing-pad/access-official-manual.md
       - mobiles/xppen-magic-drawing-pad/charge-and-reverse-charge.md
@@ -481,7 +195,301 @@ nav:
     - Misc:
       - mobiles/misc/get-second-phone-number.md
       - mobiles/misc/review-usable-smartphone-apps.md
-  - Photo Gallery:
+  - Media:
+    - media/index.md
+    - Blender:
+      - media/blender/add-metaball.md
+      - media/blender/add-and-name-cylinder.md
+      - media/blender/adjust-mtoon-shading.md
+      - media/blender/apply-mirror-modifier.md
+      - media/blender/apply-subdivision-surface-modifier.md
+      - media/blender/change-unit-meters-to-millimeters.md
+      - media/blender/check-origin-for-mirroring.md
+      - media/blender/check-polygon-count.md
+      - media/blender/check-if-shapes-are-one-object.md
+      - media/blender/cut-hole-with-boolean-modifier.md
+      - media/blender/duplicate-and-position-object.md
+      - media/blender/enable-auto-navigation-settings.md
+      - media/blender/export-uv-layout.md
+      - media/blender/extrude-face.md
+      - media/blender/hide-viewport-overlays.md
+      - media/blender/install-blender-with-automatic-updates.md
+      - media/blender/install-mpfb-addon.md
+      - media/blender/join-multiple-objects.md
+      - media/blender/lift-outer-eye-corners.md
+      - media/blender/measure-distance-with-measureit.md
+      - media/blender/orbit-and-pan-view.md
+      - media/blender/paint-flat-skin-with-stencil-mask.md
+      - media/blender/reduce-polygon-count.md
+      - media/blender/reduce-uv-wireframe-image-editor.md
+      - media/blender/render-slideshow.md
+      - media/blender/resize-object-using-dimensions.md
+      - media/blender/sculpt-with-mask.md
+      - media/blender/sculpt-clay-strips-smooth-grab.md
+      - media/blender/select-all-objects.md
+      - media/blender/select-vertices-edges-faces.md
+      - media/blender/switch-to-top-view.md
+      - media/blender/use-pen-tablet.md
+      - media/blender/emulate-numpad.md
+      - media/blender/use-scale-tool.md
+      - media/blender/use-x-ray-mode.md
+      - media/blender/zoom-in-on-face-texture-paint.md
+    - ComfyUI:
+      - media/comfyui/build-image-to-image-workflow-anima.md
+      - media/comfyui/enlarge-prompt-text-in-comfyui.md
+      - media/comfyui/install-comfyui-with-desktop-installer.md
+      - media/comfyui/run-anima-locally-with-comfyui.md
+      - media/comfyui/run-flux-locally-with-comfyui.md
+      - media/comfyui/save-and-find-comfyui-workflows.md
+      - media/comfyui/understand-spectrum-in-comfyui.md
+    - GIMP:
+      - media/gimp/convert-crw-to-jpg.md
+      - media/gimp/install-gimp-on-windows.md
+      - media/gimp/repaint-flat-anime-colors.md
+      - media/gimp/update-gimp-to-latest-version.md
+    - Sketchfab:
+      - media/sketchfab/create-account.md
+    - Unreal Engine:
+      - media/ue/access-documentation-from-fab.md
+      - media/ue/add-cinematic-camera-to-level-sequence.md
+      - media/ue/add-fab-asset-to-project.md
+      - media/ue/animate-control-rig-in-sequencer.md
+      - media/ue/apply-animation-to-chaos-cloth.md
+      - media/ue/apply-chaos-cloth.md
+      - media/ue/bake-control-rig-animation.md
+      - media/ue/capture-editor-screenshots-claude-code.md
+      - media/ue/center-blueprint-editor-view.md
+      - media/ue/change-camera-speed.md
+      - media/ue/change-clothing-anime-character-pack.md
+      - media/ue/change-time-format.md
+      - media/ue/check-animation-sets.md
+      - media/ue/check-morph-target-and-pose-counts.md
+      - media/ue/clip-animation-with-montage.md
+      - media/ue/create-chaos-cloth-asset.md
+      - media/ue/create-control-rig.md
+      - media/ue/create-custom-metahuman-character.md
+      - media/ue/create-level-sequence.md
+      - media/ue/create-physics-asset.md
+      - media/ue/create-pose-asset-from-animation.md
+      - media/ue/create-project.md
+      - media/ue/create-video-project.md
+      - media/ue/create-animation-from-pose.md
+      - media/ue/delete-project.md
+      - media/ue/display-collisions-skeletal-mesh-editor.md
+      - media/ue/display-plugin-content.md
+      - media/ue/explore-lookatpoi-level.md
+      - media/ue/find-animation-asset.md
+      - media/ue/fix-missing-third-person-template.md
+      - media/ue/focus-on-object.md
+      - media/ue/focus-camera-on-face.md
+      - media/ue/focus-play-range-curve-editor.md
+      - media/ue/generate-skinned-triangle-mesh-collision.md
+      - media/ue/get-back-to-default-character.md
+      - media/ue/import-vrm-character.md
+      - media/ue/install-older-version-of-unreal-engine.md
+      - media/ue/install-vrm4u-plugin.md
+      - media/ue/isolate-single-pose.md
+      - media/ue/move-body-part.md
+      - media/ue/move-actor-in-third-person.md
+      - media/ue/move-playhead.md
+      - media/ue/move-to-npc-level.md
+      - media/ue/move-to-ragdoll-level.md
+      - media/ue/navigate-viewport.md
+      - media/ue/open-curve-editor.md
+      - media/ue/orbit-around-selected-object.md
+      - media/ue/place-character-blueprint-in-scene.md
+      - media/ue/player-movement-controls.md
+      - media/ue/rename-blueprint-project.md
+      - media/ue/reset-viewport-view.md
+      - media/ue/retarget-character-game-animation-sample.md
+      - media/ue/sculpt-custom-morph-target.md
+      - media/ue/set-up-animation-for-vrm-character.md
+      - media/ue/set-up-mcp-plugin-for-claude-code.md
+      - media/ue/sit-on-bench-npc-level.md
+      - media/ue/spawn-locomotor-robot.md
+      - media/ue/swap-character.md
+      - media/ue/understand-pose-weights-vs-curves.md
+      - media/ue/understand-sampled-frames-limit.md
+      - media/ue/understand-post-process-anim-blueprint.md
+      - media/ue/view-readme-release-notes.md
+      - media/ue/watch-target-point.md
+      - media/ue/zoom-in-and-out.md
+    - VRoid Studio:
+      - media/vroid-studio/add-sticker-to-texture.md
+      - media/vroid-studio/apply-manga-style-comics-effect.md
+      - media/vroid-studio/change-iris-color.md
+      - media/vroid-studio/check-vrm-model-online.md
+      - media/vroid-studio/create-custom-hat.md
+      - media/vroid-studio/create-custom-tshirt.md
+      - media/vroid-studio/create-custom-glasses.md
+      - media/vroid-studio/delete-hair-curve-control-points.md
+      - media/vroid-studio/edit-face-texture.md
+      - media/vroid-studio/edit-hair-texture.md
+      - media/vroid-studio/export-character-as-vrm.md
+      - media/vroid-studio/apply-manga-style-look-settings.md
+      - media/vroid-studio/recolor-hair-with-shader-color.md
+      - media/vroid-studio/remove-skin-mask.md
+      - media/vroid-studio/resize-hair.md
+      - media/vroid-studio/resize-pupil.md
+      - media/vroid-studio/use-guide-to-draw-texture.md
+      - media/vroid-studio/use-custom-templates-for-tops.md
+    - YMM4:
+      - media/ymm4/add-coeiroink-voices-to-ymm4.md
+      - media/ymm4/import-voice-lines-scenario-file-ymm4.md
+      - media/ymm4/install-yukkurimoviemaker4.md
+      - media/ymm4/use-free-coefont-voices-allial-millial.md
+      - media/ymm4/use-ymm4-playback-shortcuts.md
+  - Audio:
+    - audio/index.md
+    - AivisSpeech:
+      - audio/aivisspeech/add-coeiroink-voices-to-aivisspeech.md
+      - audio/aivisspeech/add-voice-model-from-aivishub.md
+      - audio/aivisspeech/add-voicevox-engine-to-aivisspeech.md
+      - audio/aivisspeech/get-started-with-aivisspeech.md
+    - CoeiroInk:
+      - audio/coeiroink/add-mycoeiroink-voice-to-coeiroink.md
+      - audio/coeiroink/download-built-in-character-voices.md
+      - audio/coeiroink/get-started-with-coeiroink.md
+    - Iztope RX8:
+      - audio/iztope-rx8/convert-female-voices-to-male-voices.md
+      - audio/iztope-rx8/remove-bgm-from-audio.md
+      - audio/iztope-rx8/remove-vocals-from-audio.md
+      - audio/iztope-rx8/stop-loading-previous-sessions-startup.md
+      - audio/iztope-rx8/understand-izotope-rx8.md
+      - audio/iztope-rx8/understand-time-pitch-module.md
+    - Style-Bert-VITS2:
+      - audio/style-bert-vits2/check-pinokio-support-style-bert-vits2.md
+      - audio/style-bert-vits2/set-up-style-bert-vits2-webui.md
+      - audio/style-bert-vits2/stop-style-bert-vits2-webui.md
+    - Voicebox:
+      - audio/voicebox/fix-mecab-initialization-error.md
+      - audio/voicebox/understand-voicebox.md
+      - audio/voicebox/use-preset-voice.md
+    - Voicevox:
+      - audio/voicevox/access-voicevox-repos.md
+      - audio/voicevox/add-aivisspeech-engine-to-voicevox.md
+      - audio/voicevox/add-nemo-voices.md
+      - audio/voicevox/install-voicevox.md
+  - Code:
+    - code/index.md
+    - Docker:
+      - code/docker/disable-scout-os-notifications.md
+      - code/docker/fix-failed-connect-docker-api-vs-code.md
+      - code/docker/fix-wsl-integration-unexpectedly-stopped.md
+      - code/docker/install-docker-on-windows.md
+      - code/docker/install-python-packages-pip-docker.md
+      - code/docker/manage-docker-images.md
+      - code/docker/sign-docker-desktop-personal-user.md
+      - code/docker/understand-docker.md
+      - code/docker/understand-docker-pricing.md
+    - Git:
+      - code/git/fix-author-identity-unknown.md
+      - code/git/fix-using-master-name-initial-branch.md
+      - code/git/restore-deleted-files-using-git.md
+    - GitHub:
+      - code/github/change-repository-name.md
+      - code/linux/opt-out-of-github-copilot-ai-training.md
+    - Inno Setup:
+      - code/inno-setup/understand-inno-setup.md
+    - Linux:
+      - code/linux/create-file-and-open-it-in-vs-code.md
+      - code/linux/create-new-file-in-specific-directory.md
+      - code/linux/create-new-folder.md
+      - code/linux/fix-exec-format-error-in-wsl2.md
+      - code/linux/move-file-using-mv.md
+      - code/linux/navigate-to-repository-root.md
+      - code/linux/open-folder-using-explorer-exe.md
+      - code/linux/open-markdown-file-using-code-command.md
+      - code/linux/open-wsl-folder-from-windows.md
+      - code/linux/open-ubuntu-terminal.md
+      - code/linux/prevent-zone-identifier-files-in-linux.md
+      - code/linux/rename-wsl-username-home-directory.md
+      - code/linux/run-commands-using-absolute-path.md
+      - code/linux/use-nano-editor.md
+    - MkDocs:
+      - code/mkdocs/add-copyright-footer-in-mkdocs-material.md
+      - code/mkdocs/add-table.md
+      - code/mkdocs/add-indentation-in-instruction-steps.md
+      - code/mkdocs/confirm-css-file-is-loaded.md
+      - code/mkdocs/create-bilingual-site.md
+      - code/mkdocs/create-links-that-open-in-new-tab.md
+      - code/mkdocs/deploy-with-gh-deploy.md
+      - code/mkdocs/display-revision-date-at-bottom.md
+      - code/mkdocs/display-revision-date-at-top.md
+      - code/mkdocs/fix-get-ja-http-1-1-code-302.md
+      - code/mkdocs/fix-get-ja-sitemap-xml-http-1-1-code-404.md
+      - code/mkdocs/fix-following-pages-exist-docs-directory.md
+      - code/mkdocs/host-mkdocs-site-synology-nas.md
+      - code/mkdocs/migrate-mkdocs-from-docker-to-venv.md
+      - code/mkdocs/publish-docker-based-site-github-pages.md
+      - code/mkdocs/publish-site-using-github-pages.md
+      - code/mkdocs/rebuild-mkdocs-docker-image-only-when.md
+      - code/mkdocs/understand-mkdocs-packages.md
+      - code/mkdocs/understand-docker-run-command.md
+      - code/mkdocs/understand-mkdocs-2-0-warning.md
+      - code/mkdocs/update-site.md
+      - code/mkdocs/view-deployment-errors.md
+    - Notepad++:
+      - code/notepad-pp/comment-out-lines.md
+      - code/notepad-pp/enable-comment-shortcut-for-autohotkey.md
+      - code/notepad-pp/respond-notepad-updater-hijack-incident.md
+      - code/notepad-pp/set-default-language-new-documents.md
+      - code/notepad-pp/set-default-save-folder.md
+      - code/notepad-pp/update-notepad-without-using-updater.md
+    - Nuitka:
+      - code/nuitka/convert-python-script-to-executable.md
+    - Python:
+      - code/python/create-executable-from-python-script.md
+      - code/python/create-installer-for-python-app.md
+    - VS Code:
+      - code/vs-code/add-image-to-document-in-editor.md
+      - code/vs-code/add-image-to-folder.md
+      - code/vs-code/add-multiple-images-to-markdown-file.md
+      - code/vs-code/cancel-or-clear-commands.md
+      - code/vs-code/connect-to-github.md
+      - code/vs-code/connect-to-wsl.md
+      - code/vs-code/copy-image-file-from-windows-to-linux.md
+      - code/vs-code/fix-python-interpreter-path-not-found-vs.md
+      - code/vs-code/install-github-actions-extension.md
+      - code/vs-code/move-files-safely-linux-wsl-using-vs.md
+      - code/vs-code/open-linux-folder-in-vs-code.md
+      - code/vs-code/open-linux-windows-folders-vs-code-wsl.md
+      - code/vs-code/open-ubuntu-terminal.md
+      - code/vs-code/preview-markdown-side-by-side.md
+      - code/vs-code/remove-tab-indentation-multiple-lines.md
+      - code/vs-code/replace-imported-image.md
+    - Xserver:
+      - code/xserver/manage-xserver-services.md
+  - AI:
+    - ai/index.md
+    - Claude:
+      - ai/claude-ai/fix-greyed-out-cowork-tab-windows-11.md
+      - ai/claude-code/install-claude-code-on-windows-11.md
+      - ai/claude-ai/log-in-to-claude.md
+      - ai/claude-ai/manage-claude-ai-memory.md
+      - ai/claude-code/migrate-claude-code-npm-native-installer.md
+      - ai/claude-code/set-up-claude-code-in-wsl2.md
+      - ai/claude-ai/specify-trusted-cowork-folders.md
+      - ai/claude-ai/understand-cowork-and-dispatch.md
+    - Genspark:
+      - ai/genspark/understand-genspark.md
+    - Nano Banana:
+      - ai/nano-banana/apply-nano-banana-prompting-best.md
+    - OpenAI:
+      - ai/openai/accept-chatgpt-pro-free-offer.md
+      - ai/openai/cancel-chatgpt-subscription.md
+      - ai/openai/convert-chatgpt-chat-to-word-document.md
+      - ai/openai/export-chat-data-from-chatgpt.md
+      - ai/openai/update-chatgpt-billing-address.md
+    - Perplexity:
+      - ai/perprexity/create-perplexity-account.md
+      - ai/perprexity/install-comet.md
+      - ai/perprexity/log-in-to-perplexity.md
+    - Wan:
+      - ai/wan/generate-video.md
+      - ai/wan/generate-video-with-original-character.md
+      - ai/wan/generate-image.md
+  - Photos:
     - photos/index.md
     - Rooms:
       - Room 01: photos/rooms/room-layout.md

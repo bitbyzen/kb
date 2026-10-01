@@ -1,3 +1,3 @@
-# Mobile Notes
+# Mobile
 
 Notes on mobile apps and devices.

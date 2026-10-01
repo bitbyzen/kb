@@ -8,7 +8,7 @@ Development has stopped on the following Japanese text-to-speech engines:
 - **ITVOICE**
 - **SHAREVOX**
 
-For actively maintained alternatives, see [VOICEVOX](../voicevox/install-voicevox.md), [AivisSpeech](../aivisspeech/get-started-with-aivisspeech.md), and [CoeiroInk](../coeiroink/get-started-with-coeiroink.md).
+For actively maintained alternatives, see [VOICEVOX](../../audio/voicevox/install-voicevox.md), [AivisSpeech](../../audio/aivisspeech/get-started-with-aivisspeech.md), and [CoeiroInk](../../audio/coeiroink/get-started-with-coeiroink.md).
 
 ## Reference
 
