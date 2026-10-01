@@ -1,6 +1,6 @@
 # Desktop
 
-Notes on desktop applications, development tools, and workflows.
+Notes on desktop applications and workflows.
 
 ## A
 
@@ -41,26 +41,9 @@ Notes on desktop applications, development tools, and workflows.
 - [Obsidian](obsidian/display-linked-images.md)
 - [Outlook](outlook/disable-email-forwarding-in-outlook.md)
 
-## P
-
-- [PicPick](picpick/migrate-picpick-portable-settings.md)
-- [Pinterest](pinterest/install-pinterest.md)
-
-## S
-
-- [Synology](synology/add-second-ssd-synology-ds720.md)
-
-## U
-
-- [UniConverter](uniconverter/change-save-folders.md)
-
 ## W
 
 - [Windows](windows/add-new-file-format-windows-11-new-menu.md)
-
-## X
-
-- [XnView](xnview/batch-rename-photos.md)
 
 ## Y
 

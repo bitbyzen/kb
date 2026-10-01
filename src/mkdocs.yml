@@ -57,42 +57,6 @@ nav:
       - desktop/obsidian/show-whitespace.md
     - Outlook:
       - desktop/outlook/disable-email-forwarding-in-outlook.md
-    - PicPick:
-      - desktop/picpick/migrate-picpick-portable-settings.md
-    - Pinterest:
-      - desktop/pinterest/install-pinterest.md
-      - desktop/pinterest/stop-using-google-account.md
-    - Synology:
-      - desktop/synology/add-second-ssd-synology-ds720.md
-      - desktop/synology/analyze-storage.md
-      - desktop/synology/back-up-documents-android-synology-nas.md
-      - desktop/synology/back-up-screenshots-automatically.md
-      - desktop/synology/back-up-smartphone-photos-synology.md
-      - desktop/synology/back-up-obsidian-vault-synology-drive.md
-      - desktop/synology/change-ui-language-of-synology-photos.md
-      - desktop/synology/check-storage-on-synology-ds720.md
-      - desktop/synology/check-ip-address-of-synology-nas.md
-      - desktop/synology/empty-recycle-bin-automatically.md
-      - desktop/synology/empty-recycle-bin-manually.md
-      - desktop/synology/hide-homes-folder-in-synology-dsm.md
-      - desktop/synology/install-storage-analyzer-in-dsm.md
-      - desktop/synology/log-in-to-dsm.md
-      - desktop/synology/research-synology-products.md
-      - desktop/synology/restore-deleted-file.md
-      - desktop/synology/review-reasons-for-retiring-buffalo-nas.md
-      - desktop/synology/review-ds720-hardware-layout.md
-      - desktop/synology/run-claude-synology-nas-docker-api.md
-      - desktop/synology/set-up-active-backup-business-d-drive.md
-      - desktop/synology/sync-folder-second-synology-volume.md
-      - desktop/synology/sync-google-drive-synology-nas.md
-      - desktop/synology/understand-dsm.md
-      - desktop/synology/understand-personal-space-folder.md
-      - desktop/synology/understand-web-assistant.md
-      - desktop/synology/use-synology-nas-as-claude-workflow-hub.md
-    - UniConverter:
-      - desktop/uniconverter/change-save-folders.md
-      - desktop/uniconverter/download-youtube-video.md
-      - desktop/uniconverter/update-uniconverter.md
     - Windows:
       - desktop/windows/add-new-file-format-windows-11-new-menu.md
       - desktop/windows/avoid-ctrl-f-key-conflicts-windows.md
@@ -109,12 +73,6 @@ nav:
       - desktop/windows/set-up-windows-11.md
       - desktop/windows/take-screenshot.md
       - desktop/windows/use-narrator-in-windows-11.md
-    - XnView:
-      - desktop/xnview/batch-rename-photos.md
-      - desktop/xnview/convert-png-to-webp.md
-      - desktop/xnview/edit-image-with-external-editor.md
-      - desktop/xnview/resize-image-height.md
-      - desktop/xnview/update-xnview-mp.md
     - YouTube:
       - desktop/youtube/download-playlist-videos-automatically.md
     - Misc:
@@ -176,6 +134,33 @@ nav:
       - mobiles/spacedesk/understand-why-spacedesk-is-free.md
     - Sunshine:
       - mobiles/sunshine/set-up-sunshine-and-moonlight.md
+    - Synology:
+      - mobiles/synology/add-second-ssd-synology-ds720.md
+      - mobiles/synology/analyze-storage.md
+      - mobiles/synology/back-up-documents-android-synology-nas.md
+      - mobiles/synology/back-up-screenshots-automatically.md
+      - mobiles/synology/back-up-smartphone-photos-synology.md
+      - mobiles/synology/back-up-obsidian-vault-synology-drive.md
+      - mobiles/synology/change-ui-language-of-synology-photos.md
+      - mobiles/synology/check-storage-on-synology-ds720.md
+      - mobiles/synology/check-ip-address-of-synology-nas.md
+      - mobiles/synology/empty-recycle-bin-automatically.md
+      - mobiles/synology/empty-recycle-bin-manually.md
+      - mobiles/synology/hide-homes-folder-in-synology-dsm.md
+      - mobiles/synology/install-storage-analyzer-in-dsm.md
+      - mobiles/synology/log-in-to-dsm.md
+      - mobiles/synology/research-synology-products.md
+      - mobiles/synology/restore-deleted-file.md
+      - mobiles/synology/review-reasons-for-retiring-buffalo-nas.md
+      - mobiles/synology/review-ds720-hardware-layout.md
+      - mobiles/synology/run-claude-synology-nas-docker-api.md
+      - mobiles/synology/set-up-active-backup-business-d-drive.md
+      - mobiles/synology/sync-folder-second-synology-volume.md
+      - mobiles/synology/sync-google-drive-synology-nas.md
+      - mobiles/synology/understand-dsm.md
+      - mobiles/synology/understand-personal-space-folder.md
+      - mobiles/synology/understand-web-assistant.md
+      - mobiles/synology/use-synology-nas-as-claude-workflow-hub.md
     - XPPen Deco LW:
       - mobiles/xppen/access-deco-lw-start-guide.md
       - mobiles/xppen/purchase-deco-lw.md
@@ -247,8 +232,17 @@ nav:
       - media/gimp/install-gimp-on-windows.md
       - media/gimp/repaint-flat-anime-colors.md
       - media/gimp/update-gimp-to-latest-version.md
+    - PicPick:
+      - media/picpick/migrate-picpick-portable-settings.md
+    - Pinterest:
+      - media/pinterest/install-pinterest.md
+      - media/pinterest/stop-using-google-account.md
     - Sketchfab:
       - media/sketchfab/create-account.md
+    - UniConverter:
+      - media/uniconverter/change-save-folders.md
+      - media/uniconverter/download-youtube-video.md
+      - media/uniconverter/update-uniconverter.md
     - Unreal Engine:
       - media/ue/access-documentation-from-fab.md
       - media/ue/add-cinematic-camera-to-level-sequence.md
@@ -333,6 +327,12 @@ nav:
       - media/vroid-studio/resize-pupil.md
       - media/vroid-studio/use-guide-to-draw-texture.md
       - media/vroid-studio/use-custom-templates-for-tops.md
+    - XnView:
+      - media/xnview/batch-rename-photos.md
+      - media/xnview/convert-png-to-webp.md
+      - media/xnview/edit-image-with-external-editor.md
+      - media/xnview/resize-image-height.md
+      - media/xnview/update-xnview-mp.md
     - YMM4:
       - media/ymm4/add-coeiroink-voices-to-ymm4.md
       - media/ymm4/import-voice-lines-scenario-file-ymm4.md
