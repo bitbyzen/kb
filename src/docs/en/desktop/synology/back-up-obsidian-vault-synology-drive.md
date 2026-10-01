@@ -124,5 +124,3 @@ For full coverage, pair Synology Drive with Active Backup for Business:
 |---|---|
 | **Synology Drive** | Protects your Obsidian notes with versioning |
 | **Active Backup for Business** | Protects your entire PC |
-
-See [Compare Synology Backup Tools for Windows 11](compare-synology-backup-tools-windows-11.md) for a full comparison.

@@ -246,14 +246,12 @@ nav:
       - desktop/synology/add-second-ssd-synology-ds720.md
       - desktop/synology/analyze-storage.md
       - desktop/synology/back-up-documents-android-synology-nas.md
+      - desktop/synology/back-up-screenshots-automatically.md
       - desktop/synology/back-up-smartphone-photos-synology.md
       - desktop/synology/back-up-obsidian-vault-synology-drive.md
-      - desktop/synology/back-up-photos-android-synology-drive.md
+      - desktop/synology/change-ui-language-of-synology-photos.md
       - desktop/synology/check-storage-on-synology-ds720.md
       - desktop/synology/check-ip-address-of-synology-nas.md
-      - desktop/synology/compare-mobilebackup-photolibrary.md
-      - desktop/synology/compare-synology-backup-tools-windows-11.md
-      - desktop/synology/compare-synology-photos-synology-drive.md
       - desktop/synology/empty-recycle-bin-automatically.md
       - desktop/synology/empty-recycle-bin-manually.md
       - desktop/synology/hide-homes-folder-in-synology-dsm.md
@@ -268,6 +266,7 @@ nav:
       - desktop/synology/sync-folder-second-synology-volume.md
       - desktop/synology/sync-google-drive-synology-nas.md
       - desktop/synology/understand-dsm.md
+      - desktop/synology/understand-personal-space-folder.md
       - desktop/synology/understand-web-assistant.md
       - desktop/synology/use-synology-nas-as-claude-workflow-hub.md
     - UniConverter:
@@ -462,20 +461,11 @@ nav:
       - mobiles/line/create-album-in-line.md
     - Roborock:
       - mobiles/roborock/register-second-vacuum-cleaner.md
-    - Simplenote:
-      - mobiles/simplenote/understand-simplenote.md
     - SpaceDesk:
       - mobiles/spacedesk/connect-disconnect-spacedesk.md
       - mobiles/spacedesk/understand-why-spacedesk-is-free.md
     - Sunshine:
       - mobiles/sunshine/set-up-sunshine-and-moonlight.md
-    - Synology Photos:
-      - mobiles/synology-photos/back-up-photos-to-photolibrary-only.md
-      - mobiles/synology-photos/back-up-screenshots-automatically.md
-      - mobiles/synology-photos/change-ui-language-of-synology-photos.md
-      - mobiles/synology-photos/delete-images-after-backup-synology.md
-      - mobiles/synology-photos/understand-personal-space-folder.md
-      - mobiles/synology-photos/understand-year-month-backup-folders.md
     - XPPen Magic Drawing Pad:
       - mobiles/xppen-magic-drawing-pad/access-official-manual.md
       - mobiles/xppen-magic-drawing-pad/charge-and-reverse-charge.md
@@ -489,7 +479,6 @@ nav:
       - mobiles/xppen-magic-drawing-pad/understand-home-screen.md
       - mobiles/xppen-magic-drawing-pad/use-stylus.md
     - Misc:
-      - mobiles/misc/compare-markdown-note-apps.md
       - mobiles/misc/get-second-phone-number.md
       - mobiles/misc/review-usable-smartphone-apps.md
   - Photo Gallery:
