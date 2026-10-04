@@ -222,7 +222,9 @@ nav:
     - ComfyUI:
       - media/comfyui/build-image-to-image-workflow-anima.md
       - media/comfyui/enlarge-prompt-text-in-comfyui.md
+      - media/comfyui/fix-missing-model-in-template.md
       - media/comfyui/install-comfyui-with-desktop-installer.md
+      - media/comfyui/reuse-style-prompt-concatenate-text.md
       - media/comfyui/run-anima-locally-with-comfyui.md
       - media/comfyui/run-flux-locally-with-comfyui.md
       - media/comfyui/save-and-find-comfyui-workflows.md
