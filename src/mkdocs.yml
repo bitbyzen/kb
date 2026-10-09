@@ -234,6 +234,10 @@ nav:
       - media/gimp/install-gimp-on-windows.md
       - media/gimp/repaint-flat-anime-colors.md
       - media/gimp/update-gimp-to-latest-version.md
+    - Krita:
+      - media/krita/install-krita-on-windows.md
+      - media/krita/remove-objects-smart-patch-tool.md
+      - media/krita/reshape-object-with-liquify.md
     - PicPick:
       - media/picpick/migrate-picpick-portable-settings.md
     - Pinterest:
