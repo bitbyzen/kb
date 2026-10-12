@@ -229,6 +229,7 @@ nav:
       - media/comfyui/run-flux-locally-with-comfyui.md
       - media/comfyui/save-and-find-comfyui-workflows.md
       - media/comfyui/understand-spectrum-in-comfyui.md
+      - media/comfyui/upscale-image-4x-in-comfyui.md
     - GIMP:
       - media/gimp/convert-crw-to-jpg.md
       - media/gimp/install-gimp-on-windows.md
