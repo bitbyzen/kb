@@ -240,6 +240,7 @@ nav:
       - media/gimp/repaint-flat-anime-colors.md
       - media/gimp/update-gimp-to-latest-version.md
     - Krita:
+      - media/krita/center-canvas-with-fit-to-view.md
       - media/krita/install-krita-on-windows.md
       - media/krita/remove-objects-smart-patch-tool.md
       - media/krita/replace-hair-with-layers.md
