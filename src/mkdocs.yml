@@ -72,6 +72,7 @@ nav:
       - desktop/windows/set-up-language-switching-shortcuts.md
       - desktop/windows/set-up-windows-11.md
       - desktop/windows/take-screenshot.md
+      - desktop/windows/understand-confidential-data-appdata.md
       - desktop/windows/use-narrator-in-windows-11.md
     - YouTube:
       - desktop/youtube/download-playlist-videos-automatically.md
@@ -221,6 +222,7 @@ nav:
       - media/blender/zoom-in-on-face-texture-paint.md
     - Comfy:
       - media/comfyui/build-image-to-image-workflow-anima.md
+      - media/comfyui/download-anima-model.md
       - media/comfyui/enlarge-prompt-text-in-comfyui.md
       - media/comfyui/fix-missing-model-in-template.md
       - media/comfyui/install-comfy-desktop.md
@@ -229,6 +231,8 @@ nav:
       - media/comfyui/run-flux-locally-with-comfyui.md
       - media/comfyui/save-and-find-comfyui-workflows.md
       - media/comfyui/understand-spectrum-in-comfyui.md
+      - media/comfyui/understand-anima-model.md
+      - media/comfyui/understand-comfyui-project-folder.md
       - media/comfyui/upscale-image-4x-in-comfyui.md
     - GIMP:
       - media/gimp/convert-crw-to-jpg.md
@@ -311,6 +315,7 @@ nav:
       - media/ue/sit-on-bench-npc-level.md
       - media/ue/spawn-locomotor-robot.md
       - media/ue/swap-character.md
+      - media/ue/understand-anime-character-pack-legacy.md
       - media/ue/understand-pose-weights-vs-curves.md
       - media/ue/understand-sampled-frames-limit.md
       - media/ue/understand-post-process-anim-blueprint.md
