@@ -103,4 +103,4 @@ Replace the text in the positive prompt box with your own prompt, then click **R
 ## References
 
 - [ComfyUI Templates](https://docs.comfy.org/interface/features/template) — official docs.
-- [ComfyUI Desktop on Windows](https://docs.comfy.org/installation/desktop/windows) — official docs.
+- [Comfy Desktop on Windows](https://docs.comfy.org/installation/desktop/windows) — official docs.

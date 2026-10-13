@@ -4,7 +4,7 @@
 
 Make a small image bigger with an AI upscale model, using only ComfyUI's built-in nodes. This guide enlarges a 255 × 347 character image to 1020 × 1388.
 
-> **Note:** Written using ComfyUI Desktop 0.39.2 (frontend v1.53.10, templates v0.11.78) on Windows 11 with an RTX 3070 (8 GB). Node names and menus can differ in other versions — check **Settings** → **About**.
+> **Note:** Written using Comfy Desktop 0.39.2 (frontend v1.53.10, templates v0.11.78) on Windows 11 with an RTX 3070 (8 GB). Node names and menus can differ in other versions — check **Settings** → **About**.
 >
 > ![ComfyUI Settings, About page, showing ComfyUI 0.39.2, frontend v1.53.10, templates v0.11.78, an RTX 3070 with 8 GB VRAM](img/upscale-image-4x-in-comfyui-01.png)
 

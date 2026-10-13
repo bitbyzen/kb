@@ -40,7 +40,7 @@ The prompt text scales with the graph's zoom level, so zooming in on the node ma
 
 ![Canvas zoomed in further, with the prompt text even larger](img/enlarge-prompt-text-in-comfyui-07.png)
 
-> **Note:** `Ctrl++` / `Ctrl+-` should zoom the entire ComfyUI Desktop window, similar to a browser. This comes from the app's Electron base, not from a ComfyUI setting.
+> **Note:** `Ctrl++` / `Ctrl+-` should zoom the entire Comfy Desktop window, similar to a browser. This comes from the app's Electron base, not from a ComfyUI setting.
 
 ## Reference
 

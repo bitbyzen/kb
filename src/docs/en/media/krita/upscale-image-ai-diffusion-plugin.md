@@ -8,7 +8,7 @@ Install the Krita AI Diffusion plugin with its own local server, then use its Up
 
 ## What You Need
 
-The plugin adds an **AI Image Generation** panel to Krita. Its Upscale mode runs super-resolution models on a local server that the plugin installs for you. That server is separate from ComfyUI Desktop, so your ComfyUI setup isn't touched.
+The plugin adds an **AI Image Generation** panel to Krita. Its Upscale mode runs super-resolution models on a local server that the plugin installs for you. That server is separate from Comfy Desktop, so your ComfyUI setup isn't touched.
 
 | Item | Used Here |
 |---|---|
