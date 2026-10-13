@@ -238,6 +238,7 @@ nav:
     - Krita:
       - media/krita/install-krita-on-windows.md
       - media/krita/remove-objects-smart-patch-tool.md
+      - media/krita/replace-hair-with-layers.md
       - media/krita/reshape-object-with-liquify.md
       - media/krita/upscale-image-ai-diffusion-plugin.md
     - PicPick:
