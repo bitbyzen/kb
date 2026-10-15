@@ -241,6 +241,9 @@ nav:
       - media/gimp/update-gimp-to-latest-version.md
     - Krita:
       - media/krita/center-canvas-with-fit-to-view.md
+      - media/krita/change-hair-color.md
+      - media/krita/close-hair-line-with-curve.md
+      - media/krita/cut-out-hair.md
       - media/krita/install-krita-on-windows.md
       - media/krita/remove-objects-smart-patch-tool.md
       - media/krita/replace-hair-with-layers.md

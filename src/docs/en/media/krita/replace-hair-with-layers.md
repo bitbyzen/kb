@@ -226,6 +226,8 @@ Blonde hair on Ranza, both eyes and both ears drawn. Rough, but it shows what la
 
 ## Notes and Limits
 
+> **Note:** See [Changing Hair Color](change-hair-color.md), [Cutting Out Hair](cut-out-hair.md), and [Closing the Hair Line with a Curve](close-hair-line-with-curve.md) for further work continuing on this same file.
+
 > **Note:** The transparency mask hid the unwanted parts without deleting them, so every change could still be undone. A mirrored copy filled in an eye and an ear that were never drawn.
 
 > **Warning:** The final image has a few faint pale marks on the left edge of the jaw and along the neckline, and a few loose pale strands around the blonde hair. The hair also comes from a different image, so its line weight and head angle don't fully match. This was a first try, not a finished piece.
